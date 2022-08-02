@@ -9,6 +9,6 @@ content_html: '<iframe id="haWidget" allowtransparency="true" scrolling="auto" s
 menu:
   header:
     identifier: Boutique
-    weight: 2
+    weight: 5
 
 ---
