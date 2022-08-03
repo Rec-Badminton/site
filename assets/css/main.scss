@@ -24,7 +24,8 @@ $content-width:    1200px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+// Navbar
+$height-navbar:    65px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -46,3 +47,70 @@ $on-laptop:        800px;
         "base",
         "layout"
 ;
+
+header {
+    padding: 0px !important;
+}
+
+.wrapper-content {
+    margin-top: 100px;
+}
+
+nav {
+    height: $height-navbar;
+    width: 100%;
+    padding: 0px !important;
+
+    .col {
+        height: 100%;
+        padding: 0px;
+    }
+
+    .navbar-nav {
+        height: $height-navbar;
+        padding: 0px !important;
+
+        .logo {
+            $border: 1px;
+
+            width: auto;
+            height: 50px;
+            transform: translate(0px, 40px) scale(3.2);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0px !important;
+            border: solid 1px transparent;
+            border-radius: 50%;
+            background-image: linear-gradient(#f8f9fa, #f8f9fa),
+                            linear-gradient(to bottom, transparent 48.75%, $brand-color 48.75%);
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media(min-width:992px) {
+            a {
+                border-bottom: solid $brand-color;
+            }
+        }
+    }
+
+    .navbar-brand {
+        .logo {
+            width: auto;
+            height: 50px;
+            transform: scale(1.5);
+        }
+    }
+
+}
+
+
+
+
