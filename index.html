@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Accueil
 menu:
   header:
     identifier: ACCUEIL
@@ -9,7 +10,10 @@ menu:
 <div class="home">
 
   {% include carroussel.html %}
-  {% include facebook_feed.html %}
-  {% include instagram_feed.html %}
+
+  {% if jekyll.environment != "development" %}
+    {% include facebook_feed.html %}
+    {% include instagram_feed.html %}
+  {% endif %}
 
 </div>
