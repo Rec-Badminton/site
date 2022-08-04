@@ -3,8 +3,6 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -44,6 +42,7 @@ $height-navbar:    65px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "fonts",
         "base",
         "layout"
 ;
@@ -54,6 +53,14 @@ header {
 
 .wrapper-content {
     margin-top: 100px;
+}
+
+.brand-color {
+    color: $brand-color;
+}
+
+.background-color {
+    color: $background-color;
 }
 
 nav {
@@ -111,6 +118,71 @@ nav {
 
 }
 
+.main-title-social {
+    font-size: 80px;
+    font-family: BadScript;
+}
 
+.secondary-title-social {
+    font-size: 60px;
+    font-family: BebasNeue Bold;
+    font-weight: bold;
+}
 
+.instagram-block {
+    background-color: $text-color;
+    line-height: 1;
+    padding: 10px;
+    padding-top: 15%;
+}
+
+.facebook-block {
+    line-height: 1;
+    padding: 10px;
+    color: $text-color;
+}
+
+.volant-img {
+    height: 50px;
+}
+
+.insta-shuttle {
+    margin-top: -40px;
+}
+
+.facebook-shuttle {
+    margin-top: -20px;
+}
+
+.page-header {
+    background-color: $brand-color;
+    height: 10rem;
+    @media(min-width:992px) {
+        .page-title {
+            height: 20rem;
+            font-size: 80px;
+        }
+
+        > div {
+            padding-top: 10rem;
+        }
+        height: 20rem;
+    }
+
+    > div {
+        padding-top: 5.5rem;
+    }
+
+    .page-title {
+        height: 5rem;
+        font-size: 40px;
+        font-family:'BebasNeue Bold';
+        font-weight: bold;
+        color: #fdfdfd;
+        padding: 0 5%;
+    }
+    .rotate-minus-90 {
+        transform: rotate(-90deg);
+    }
+}
 
