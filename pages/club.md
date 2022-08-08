@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Le club
-keyword: Rec Badminton Club
-description: 'Toutes les infos club du Rec Badminton'
+title: Créneaux
+keyword: Créneaux du Rec Badminton Club
+description: 'Toutes les infos créneaux du Rec Badminton'
 author: Rec Badminton
-permalink: "/club/"
+permalink: "/creneaux/"
 content: 'Descriptiona ajouter ici'
 menu:
   header:
-    identifier: LE CLUB
+    identifier: CRENEAUX
     weight: 2
 
 ---
