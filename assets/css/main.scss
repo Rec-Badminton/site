@@ -195,3 +195,27 @@ nav {
     }
 }
 
+.creneaux {
+    .table-bordered {
+        thead > tr {
+            background-color: $brand-color;
+            color: $background-color;
+        }
+        border: 1px solid $text-color;
+        vertical-align: middle;
+        text-align: center;
+    }
+    img {
+        height: 25px;
+    }
+    .legend {
+        border: 1px solid $text-color;
+        padding: 10px;
+        font-size: small;
+        text-align: justify;
+    }
+    iframe {
+        margin: 0 auto;
+        display: block;
+    }
+}
