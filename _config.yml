@@ -17,7 +17,7 @@ url: "https://recbadminton.fr" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-exclude: ["README.md"]
+exclude: [vendor, "README.md"]
 
 plugins_dir:
   - jekyll-menus
