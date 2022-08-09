@@ -14,7 +14,7 @@ menu:
 ---
 <div class="contact">
   Une question ? Écris-nous et nous te répondrons au plus vite !<br/><br/>
-  Mail : <b>recbad35@gmail.com</b><br/>
-  Messenger : <b>REC Badminton</b><br/><br/>
+  Mail : <b>{{ site.data.email }}</b><br/>
+  Messenger : <b>{{ site.data.messenger }}</b><br/><br/>
   On espère te croiser sur le terrain ou lors de nos évènements ! ;)
 </div>
