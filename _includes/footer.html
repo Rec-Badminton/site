@@ -1,50 +1,19 @@
-<!-- Footer -->
-
-<footer class="col">
-  <div class="container footer-container">
-    <div class="row">
-      <div class="col-lg-12 footer-content">
-        <div class="row">
-          <div class="col-sm-5 offset-sm-1 col-md-4 offset-md-1">
-            <div class="title-footer">
-              <h3>CONTACT</h3>
-              <hr/>
-            </div>
-            <div class="contact-item">
-              <img src="/assets/img/icone-mail.png" alt="Email"/> <span>{{ site.data.contacts.email }}</span>
-            </div>
-          </div>
-          <div class="col-sm-5 offset-sm-1 col-md-4 offset-md-2">
-            <div class="title-footer">
-              <h3>SUIVEZ-NOUS</h3>
-              <hr/>
-            </div>
-            <ul class="social-icons">
-              {% for social in site.data.socials %}
-                <li class="social-icon">
-                  <a href="{{ social.url }}" target="_blank"><img src="{{ social.img }}" alt="{{ social.name }}"/></a>
-                </li>
-              {% endfor %}
-            </ul>
-            <div class="copyright">
-              @{{ site.annee }} Rec Badminton <br/>
-              Tous droits réservés <br/>
-              <a href="/mentions-legales/">Mentions légales</a>
-              <a data-cc="c-settings">Politique de données</a>
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-12 footer-content-mobile text-center">
-        <div class="text-center">
-          <div class="copyright">
-            @{{ site.annee }} Rec Badminton - Tous droits réservés<br/>
-            <a href="mentions-legales">Mentions légales</a>
-            <a data-cc="c-settings">Politique de données</a>
-          </div>
-        </div>
-      </div>
-    </div>
+<footer class="container-fluid mt-auto">
+  <div class="row first">
+    <div class="col-lg order-lg-2"><img src="{{ site.baseurl }}/assets/img/logo_recbadminton.png" alt="logo"></div>
+    <a class="col-lg order-lg-1" href="mailto:{{ site.data.contacts.email }}">{{site.data.contacts.email}}</a>
+    <p class="col-lg order-lg-3">#RECBadminton</p>
+  </div>
+  <div class="middle d-flex flex-column flex-lg-row justify-content-center">
+    {% for sponsor in site.data.sponsors %}
+      <a class="text-center" href="{{ sponsor.url }}" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/sponsors/{{ sponsor.fileName }}" alt="{{ sponsor.fileName }}" />
+      </a>
+    {% endfor %}
+  </div>
+  <div class="row last">
+    <p class="col-lg text-lg-end text-center">@{{ site.time | date: '%Y' }} REC Badminton</p>
+    <p class="col-lg text-center">Tous droits réservés</p>
+    <a class="col-lg text-lg-start text-center" data-cc="c-settings">Mentions légales</a>
   </div>
 </footer>

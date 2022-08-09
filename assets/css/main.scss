@@ -43,8 +43,7 @@ $height-navbar:    65px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "fonts",
-        "base",
-        "layout"
+        "base"
 ;
 
 header {
@@ -217,5 +216,74 @@ nav {
     iframe {
         margin: 0 auto;
         display: block;
+    }
+}
+
+footer {
+    background-color: $text-color;
+    color: $background-color;
+    border-top: solid 3px $brand-color;
+
+    .first {
+        margin-bottom: 20px;
+
+        div {
+            height: 120px;
+            padding: 0 !important;
+        }
+
+        img {
+            filter: grayscale(1) invert(1);
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin: auto;
+        }
+
+        p,a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 !important;
+            color: $background-color !important;
+        }
+
+        @media(min-width:992px) {
+            a {
+                padding-left: 20%;
+            }
+
+            p {
+                padding-right: 20%;
+            }
+        }
+    }
+
+    .middle {
+
+        img {
+            height: 50px;
+            width: auto !important;
+            padding: 0 !important;
+            margin-bottom: 10px;
+        }
+
+        @media(min-width:992px) {
+            img {
+                margin-left: 3px;
+                margin-right: 3px;
+            }
+        }
+
+    }
+
+    .last {
+        margin-top: 20px;
+
+        a,p {
+            margin: 0 !important;
+            padding: 0 !important;
+            color: $background-color !important;
+        }
     }
 }
