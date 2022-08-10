@@ -287,3 +287,127 @@ footer {
         }
     }
 }
+
+.inscription {
+
+    @media(min-width:992px) { 
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .div1 { grid-area: 1 / 1 / 2 / 2; }
+        .div2 { grid-area: 1 / 2 / 2 / 3; }
+    }
+
+    @media(max-width:992px) {
+        .parent {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .div1 { grid-area: 1 / 1 / 2 / 2; }
+        .div2 { grid-area: 2 / 1 / 3 / 2; }
+    }
+
+    .parent {
+        .materiel {
+            transform: scale(0.8);
+        }
+
+        .qrcode {
+            left: 20%;
+        }
+    }
+
+    .align {
+        text-align: justify;
+    }
+
+    ul.dash {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 1em;
+    }
+
+    ul.dash > li:before {
+        display: inline-block;
+        content: "-";
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    table {
+        width: 60%;
+        font-size: 25px;
+    }
+
+    td {
+        border: solid 3px black;
+        text-align: center;
+    }
+
+    .plume {
+        height: 40px;
+        width: auto;
+    }
+
+    ul#description {
+        list-style-type: none;
+    }
+
+    #description li#minibad:before {
+        background-image:url('{{ site.baseurl }}/assets/img/plumes/Plume_jaune.png');
+        background-size: 20px 20px;
+        display: inline-block;
+        width: 20px; 
+        height: 20px;
+        content:"";
+    }
+
+    #description li#jeune:before {
+        background-image:url('{{ site.baseurl }}/assets/img/plumes/Plume_verte.png');
+        background-size: 20px 20px;
+        display: inline-block;
+        width: 20px; 
+        height: 20px;
+        content:"";
+    }
+
+    #description li#adulte:before {
+        background-image:url('{{ site.baseurl }}/assets/img/plumes/Plume_bleue.png');
+        background-size: 20px 20px;
+        display: inline-block;
+        width: 20px; 
+        height: 20px;
+        content:"";
+    }
+
+    #description li#competiteur:before {
+        background-image:url('{{ site.baseurl }}/assets/img/plumes/Plume_rouge.png');
+        background-size: 20px 20px;
+        display: inline-block;
+        width: 20px; 
+        height: 20px;
+        content:"";
+    }
+
+    section {
+        margin-top: 50px;
+    }
+
+    table {
+        margin-bottom: 20px;
+    }
+
+    .creneau {
+        width: max-content;
+        display: inline;
+    }
+}
