@@ -219,6 +219,16 @@ nav {
     }
 }
 
+.main-page {
+    .main-carousel {
+        height: 600px;
+    }
+    .carousel-inner {
+        border-bottom: solid 3px $brand-color;
+        height: inherit;
+    }
+}
+
 footer {
     background-color: $text-color;
     color: $background-color;
