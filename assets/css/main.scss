@@ -301,7 +301,7 @@ footer {
 
 .inscription {
 
-    @media(min-width:992px) { 
+    @media(min-width:992px) {
         .parent {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -377,7 +377,7 @@ footer {
         background-image:url('{{ site.baseurl }}/assets/img/plumes/Plume_jaune.png');
         background-size: 20px 20px;
         display: inline-block;
-        width: 20px; 
+        width: 20px;
         height: 20px;
         content:"";
     }
@@ -386,7 +386,7 @@ footer {
         background-image:url('{{ site.baseurl }}/assets/img/plumes/Plume_verte.png');
         background-size: 20px 20px;
         display: inline-block;
-        width: 20px; 
+        width: 20px;
         height: 20px;
         content:"";
     }
@@ -395,7 +395,7 @@ footer {
         background-image:url('{{ site.baseurl }}/assets/img/plumes/Plume_bleue.png');
         background-size: 20px 20px;
         display: inline-block;
-        width: 20px; 
+        width: 20px;
         height: 20px;
         content:"";
     }
@@ -404,7 +404,7 @@ footer {
         background-image:url('{{ site.baseurl }}/assets/img/plumes/Plume_rouge.png');
         background-size: 20px 20px;
         display: inline-block;
-        width: 20px; 
+        width: 20px;
         height: 20px;
         content:"";
     }
