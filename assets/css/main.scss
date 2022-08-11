@@ -213,6 +213,11 @@ nav {
         font-size: small;
         text-align: justify;
     }
+    @media(max-width:992px) {
+        iframe, .table-responsive {
+            width: 95%;
+        }
+    }
     iframe {
         margin: 0 auto;
         display: block;
