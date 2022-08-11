@@ -20,8 +20,17 @@ menu:
     <div class="div2">
       <img class="d-block m-auto" src="/assets/img/qrcode.png">
       <h2>SÉANCE D'ESSAI</h2>
-      <p class="align">Tu hésites et préfères participer à un entrainement avant de t'inscrire ? Pas de problème ! Deux séances d'essais sont acceptées. Lors de chaque séance, il est impératif de te présenter à un memebre du bureau présent sur le créneau, et de remplir le petit formulaire en flashant cs QR Code ci-contre.</p>
+      <p class="align">Tu hésites et préfères participer à un entrainement avant de t'inscrire ? Pas de problème ! Deux séances d'essais sont acceptées.</p>
+      <p>Lors de chaque séance, il est impératif de :</p>
+      <ul class="dash">
+        <li>Prévenir en amont de ta venue en envoyant un mail au bureau du club: <a class="col-lg order-lg-1" href="mailto:{{ site.data.contacts.email }}">{{site.data.contacts.email}}</a>. Ils pourront également te guider pour trouver le créneau le plus adapté à tes envies</li>
+        <li>Te présenter à un membre du bureau présent sur le créneau</li>
+        <li>Remplir le petit formulaire en flashant ce QR Code ci-contre</li>
+      </ul>
     </div>
+  </div>
+  <div>
+    <img class="d-block m-auto" src="/assets/img/terrain/terrain.svg">
   </div> 
   <div>
     <section>
@@ -42,29 +51,29 @@ menu:
           <th class="text-center">Compétiteur</th>
         </thead>
         <tbody>
-          <td>
+          <td class="prix">
             {{ site.data.prix.minibad }} €
             <img class="plume" src="/assets/img/plumes/Plume_jaune.png">
           </td>
-          <td>
+          <td class="prix">
             {{ site.data.prix.jeune }} €
             <img class="plume" src="/assets/img/plumes/Plume_verte.png">
           </td>
-          <td>
+          <td class="prix">
             {{ site.data.prix.loisir }} €
             <img class="plume" src="/assets/img/plumes/Plume_bleue.png">
           </td>
-          <td>
+          <td class="prix">
             {{ site.data.prix.competiteur }} €
             <img class="plume" src="/assets/img/plumes/Plume_rouge.png">
           </td>
         </tbody>
       </table>
       <ul id="description">
-        <li id="minibad">Minibad : ayant 7 ans ou moins dans l'année de début de saison</li>
-        <li id="jeune">Jeune : ayant entre 8 et 17 ans dans l'année de début de saison</li>
-        <li id="adulte">Adultes : ayant 18 ans ou plus dans l'année de début de saison</li>
-        <li id="competiteur">La formule compétiteur donne accès aux entrainenement compétiteurs et au remboursement de 6 tableaux offerts par le club. Attention ! Les places compétiteurs étant limitées, et afin que l'encadrement soit le plus adapté, les entraîneurs se réservent le droit de demander à un joueur de basculer sur l'entraînement loisir, s'ils jugent son niveau insuffisant pour participer à l'entraînement.</li>
+        <li id="minibad">Minibad : jeunes  nés en 2015 et après</li>
+        <li id="jeune">Jeune : jeunes  nés  entre 2014 et 2005</li>
+        <li id="adulte">Adultes Loisir</li>
+        <li id="competiteur">Adultes Compétiteur : La formule Compétiteurs permet de participer aux  interclubs et facilite l'accès pour l’inscription aux tournois avec le club, via le forum 6 tableaux offerts). Attention ! Les entraînements  compétiteurs du mardi et jeudi  sont réservés aux licenciés ayant un niveau confirmé ou avancé. Les  joueurs compétiteurs débutants sont  incités à pratiquer le cours du lundi à 20h30.</li>
       </ul>
     </section>
     <section>
@@ -74,7 +83,7 @@ menu:
     </section>
     <section>
       <h2>BESOIN DE S'ÉQUIPER ?</h2>
-      <p class="creneau">Retrouve nos conseils dédiés à l'équipement <a href="{{ site.baseurl }}/boutique">ici</a></p>
+      <p class="creneau">Retrouve nos conseils dédiés à <a href="{{ site.baseurl }}/boutique">l'équipement ici</a></p>
     </section>
   </div>
 </div>

@@ -13,9 +13,11 @@ menu:
 ---
 
 <div class="creneaux">
+<h2 class="text-center">CALENDRIER DE LA SAISON</h2>
 <iframe src="https://calendar.google.com/calendar/embed?height=440&wkst=2&bgcolor=%23D50000&ctz=Europe%2FParis&mode=WEEK&showNav=1&showDate=1&showPrint=0&showTabs=0&showTz=0&showCalendars=0&src=MG11ajhyZXZvb2lxODRzb2p1djNiZzI1ZG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23D50000" style="border-width:0" width="800" height="440" frameborder="0" scrolling="no"></iframe>
 <br/>
 <br/>
+<h2 class="text-center">INFORMATIONS CRÉNEAUX</h2>
 <table class="table table-bordered">
   <thead>
     <tr>
@@ -120,9 +122,11 @@ menu:
 <div class="legend">
  <img src="/assets/img/plume_jaune.png" alt="Minibad"/> <b>Minibad</b> : né en 2015 et après<br/>
   <img src="/assets/img/plume_verte.png" alt="Jeunes"/> <b>Jeunes</b> : né entre 2014 et 2005<br/>
-  <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/> <b>Adultes Loisirs</b> : né en 2006 et avant<br/><br/>
-
-  <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/> La formule <b>Adultes Compétiteurs</b> donne accès aux entraînements compétiteurs, offre la possibilité d’être dans une équipe d’interclubs selon les places disponibles et permet le remboursement par le club de 6 tableaux, soit environ 70 €, lors d’inscription à des tournois.
-  Attention ! Les entraînements  compétiteurs du mardi et jeudi  sont réservés aux licenciés ayant un niveau confirmé ou avancé. Les coachs  se réservent le droit de demander à un joueur  de changer de créneau s’ils jugent leur niveau insuffisant pour suivre le cours. En effet, les joueurs compétiteurs débutants sont vivement incités à pratiquer le cours du lundi à 20h30.
-  </div>
+  <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/> <b>Adultes Loisirs</b><br/>
+  <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/> <b>Adultes Compétiteurs</b>
+  <p>Les entraînements adultes sont séparés par niveau :</p>
+  <ul>
+    <li>le <u>lundi</u> à 20h30 pour les adultes loisirs et compétiteurs <b>débutants</b></li>
+    <li>le <u>mardi</u> et le <u>jeudi</u> pour les adultes compétiteurs classés et <b>confirmés</b></li>
+  </ul>
 </div>
