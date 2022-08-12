@@ -39,8 +39,10 @@ menu:
           <p class="align">L’inscription se fait dorénavant exclusivement en ligne sur :<br/>
             <a href="https://adherer.ffbad.club/rec35">https://adherer.ffbad.club/rec35</a><br/><br/>
 
-              Si tu as perdu tes accès, le lien d’adhésion à gauche est aussi valable pour un renouvellement.<br/>
-              Il te faudra fournir un certificat médical de la FFbad, si le dernier fourni date de plus de 3 ans ou si tu n’étais pas déjà licencié au REC la saison dernière.
+              Il te sera nécessaire de fournir un certificat médical de la FFBad, rempli par ton médecin. Ce certificat doit obligatoirement être daté de moins d’un an ! Il sera ensuite valable 3 ans au sein du club. <br/><br/>
+
+              N’hésite pas à nous envoyer un mail pour que nous puissions te guider à choisir les plus créneaux les plus adaptés à ton niveau et à tes envies ou à venir faire une séance d'essai.
+
           </p>
         </div>
       </div>
@@ -49,11 +51,15 @@ menu:
       <div class="card">
         <h2 class="card-header">RENOUVELLEMENT DE LICENCE</h2>
         <div class="card-body">
-          <p class="align">L’inscription se fait dorénavant exclusivement en ligne sur :<br/>
-            <a href="https://adherer.ffbad.club/rec35">https://adherer.ffbad.club/rec35</a><br/><br/>
+          <p class="align">Ancien du REC, renouvelle ta licence plus rapidement sur ton espace licencié : <br/>
+            <a href="http://www.myffbad.fr">http://www.myffbad.fr</a><br/><br/>
 
-            Si tu as perdu tes accès, le lien d’adhésion à gauche est aussi valable pour un renouvellement.<br/>
-            Il te faudra fournir un certificat médical de la FFbad, si le dernier fourni date de plus de 3 ans ou si tu n’étais pas déjà licencié au REC la saison dernière.</p>
+              Déjà licencié auparavant et tu veux rejoindre le REC cette saison, retrouve ton numéro de licence et inscrit toi en ligne sur :<br/>
+              <a href="https://adherer.ffbad.club/rec35">https://adherer.ffbad.club/rec35</a><br/><br/>
+
+              Il te faudra fournir un certificat médical de la FFbad, si le dernier fourni date de plus de 3 ans ou si tu n’étais pas déjà licencié au REC la saison dernière.
+
+            </p>
         </div>
       </div>
     </div>
