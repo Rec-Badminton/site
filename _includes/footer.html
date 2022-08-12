@@ -1,38 +1,19 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
+<footer class="row">
+  <div class="row first">
+    <div class="col-lg order-lg-2"><img src="{{ site.baseurl }}/assets/img/logo_recbadminton.png" alt="logo"></div>
+    <a class="col-lg order-lg-1" href="mailto:{{ site.data.contacts.email }}">{{site.data.contacts.email}}</a>
+    <p class="col-lg order-lg-3">#RECBadminton</p>
   </div>
-
+  <div class="middle d-flex flex-column flex-lg-row justify-content-center">
+    {% for sponsor in site.data.sponsors %}
+      <a class="text-center" href="{{ sponsor.url }}" target="_blank">
+        <img src="{{ site.baseurl }}/assets/img/sponsors/{{ sponsor.fileName }}" alt="{{ sponsor.fileName }}" />
+      </a>
+    {% endfor %}
+  </div>
+  <div class="row last">
+    <p class="col-lg text-lg-end text-center">@{{ site.time | date: '%Y' }} REC Badminton</p>
+    <p class="col-lg text-center">Tous droits réservés</p>
+    <a class="col-lg text-lg-start text-center" data-cc="c-settings">Politique de données</a>
+  </div>
 </footer>

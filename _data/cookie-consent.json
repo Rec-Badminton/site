@@ -1,0 +1,49 @@
+{
+  "principal-titre": "Nous utilisons des cookies !",
+  "principal-description": "Hey you, ce site utilise des cookies essentiels à son bon fonctionnement. L'utilisation de ces cookies sera effectif uniquement après votre consentement. <button type=\"button\" data-cc=\"c-settings\" class=\"cc-link\">Je veux en savoir plus</button>",
+  "principal-description-lien": "Je veux en savoir plus",
+  "principal-bouton-accepte": "J'accepte",
+  "principal-bouton-refus": "Je refuse",
+  "parametres-titre": "Rec Badminton - Gestion des cookies",
+  "parametres-button-sauvegarder": "Sauvegarder",
+  "parametres-bouton-accepte": "J'accepte",
+  "parametres-bouton-refus": "Je refuse",
+  "parametres-bouton-fermer": "Fermer",
+  "blocks": [
+    {
+      "titre": "Usages des cookies 📢",
+      "description": "Nous ne collectons pas de données directement. Néanmoins, des applications tierces décrites ci-dessous le réalise."
+    },
+    {
+      "titre": "Curator.io",
+      "description": "Ces cookies sont utilisés par une application tiers pour afficher les flux Facebook et instagram: Curator.io",
+      "toggle": {
+        "value": "social",
+        "enabled": true,
+        "readonly": false
+      }
+    },
+    {
+      "titre": "FFbad",
+      "description": "Ces cookies sont utilisés par la fédération de badminton (FFBAD) pour l'inscription",
+      "toggle": {
+        "value": "ffbad",
+        "enabled": true,
+        "readonly": false
+      }
+    },
+    {
+      "titre": "Usages des cookies 📢",
+      "description": "Nous ne collectons pas de données directement. Néanmoins, des applications tierces décrites ci-dessous le réalise.",
+       "toggle": {
+        "value": "helloasso",
+        "enabled": true,
+        "readonly": false
+      }
+    },
+    {
+      "titre": "Plus d'information",
+      "description": "Pour plus d'informations à propos de la collecte de vos données <a class=\"cc-link\" href=\"mailto:recbad35@gmail.com\">contactez nous (recbad35@gmail.com)</a>."
+    }
+  ]
+}

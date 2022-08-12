@@ -1,0 +1,443 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #1f2421;
+$background-color: #fdfdfd; //#ffffff ?
+$brand-color:      #da3124;
+
+// Width of the content area
+$content-width:    1200px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Navbar
+$height-navbar:    65px;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "fonts",
+        "base"
+;
+
+header {
+    padding: 0px !important;
+}
+
+.wrapper-content {
+    margin-top: 100px;
+}
+
+.brand-color {
+    color: $brand-color;
+}
+
+.background-color {
+    color: $background-color;
+}
+
+nav {
+    height: $height-navbar;
+    width: 100%;
+    padding: 0px !important;
+
+    .col {
+        height: 100%;
+        padding: 0px;
+    }
+
+    .navbar-nav {
+        height: $height-navbar;
+        padding: 0px !important;
+
+        .logo {
+            $border: 1px;
+
+            width: auto;
+            height: 50px;
+            transform: translate(0px, 40px) scale(3.2);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0px !important;
+            border: solid 1px transparent;
+            border-radius: 50%;
+            background-image: linear-gradient(#f8f9fa, #f8f9fa),
+                            linear-gradient(to bottom, transparent 48.75%, $brand-color 48.75%);
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media(min-width:992px) {
+            a {
+                border-bottom: solid $brand-color;
+            }
+        }
+    }
+
+    .navbar-brand {
+        .logo {
+            width: auto;
+            height: 50px;
+            transform: scale(1.5);
+        }
+    }
+
+}
+
+.main-title-social {
+    font-size: 80px;
+}
+
+.secondary-title-social {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.instagram-block {
+    background-color: $text-color;
+    line-height: 1;
+    padding: 10px;
+    padding-top: 15%;
+}
+
+.facebook-block {
+    line-height: 1;
+    padding: 10px;
+    color: $text-color;
+}
+
+.volant-img {
+    height: 50px;
+}
+
+.insta-shuttle {
+    margin-top: -40px;
+}
+
+.facebook-shuttle {
+    margin-top: -20px;
+}
+
+.home {
+    margin-bottom: 5rem;
+}
+
+.page-header {
+    background-color: $brand-color;
+    @media(min-width:992px) {
+        .page-title {
+            height: 20rem;
+            font-size: 80px;
+        }
+
+        > div {
+            padding-top: 10rem;
+        }
+        height: 20rem;
+    }
+
+    @media(max-width:992px) {
+        .page-title {
+            height: 5rem;
+            font-size: 40px;
+        }
+
+        > div {
+            padding-top: 5.5rem;
+        }
+        height: 10rem;
+    }
+
+    .page-title {
+        font-weight: bold;
+        color: $background-color;
+        padding: 0 5%;
+    }
+    .rotate-minus-90 {
+        transform: rotate(-90deg);
+    }
+}
+
+.creneaux {
+    .table-bordered {
+        thead > tr {
+            background-color: $brand-color;
+            color: $background-color;
+        }
+        border: 1px solid $text-color;
+        vertical-align: middle;
+    }
+    img {
+        height: 25px;
+    }
+    .legend {
+        border: 1px solid $text-color;
+        padding: 10px;
+        font-size: small;
+        text-align: justify;
+    }
+    @media(max-width:992px) {
+        iframe, .table-responsive {
+            width: 95%;
+        }
+    }
+    iframe {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.main-page {
+    .main-carousel {
+        height: 600px;
+    }
+    .carousel-inner {
+        border-bottom: solid 3px $brand-color;
+        height: inherit;
+    }
+}
+
+footer {
+    margin-top: 5rem !important;
+    background-color: $text-color;
+    color: $background-color;
+    border-top: solid 3px $brand-color;
+
+    .first {
+        margin-bottom: 20px;
+
+        div {
+            height: 120px;
+            padding: 0 !important;
+        }
+
+        img {
+            filter: grayscale(1) invert(1);
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin: auto;
+        }
+
+        p,a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 !important;
+            color: $background-color !important;
+        }
+
+        @media(min-width:992px) {
+            a {
+                padding-left: 20%;
+            }
+
+            p {
+                padding-right: 20%;
+            }
+        }
+    }
+
+    .middle {
+
+        img {
+            height: 50px;
+            width: auto !important;
+            padding: 0 !important;
+            margin-bottom: 10px;
+        }
+
+        @media(min-width:992px) {
+            img {
+                margin-left: 3px;
+                margin-right: 3px;
+            }
+        }
+
+    }
+
+    .last {
+        margin-top: 20px;
+
+        a,p {
+            margin: 0 !important;
+            padding: 0 !important;
+            color: $background-color !important;
+        }
+    }
+}
+
+.inscription {
+
+    @media(min-width:992px) {
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .div1 { grid-area: 1 / 1 / 2 / 2; }
+        .div2 { grid-area: 1 / 2 / 2 / 3; }
+    }
+
+    @media(max-width:992px) {
+        .parent {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .div1 { grid-area: 1 / 1 / 2 / 2; }
+        .div2 { grid-area: 2 / 1 / 3 / 2; }
+    }
+
+    .parent {
+        .materiel {
+            transform: scale(0.8);
+        }
+
+        .qrcode {
+            left: 20%;
+        }
+    }
+
+    .align {
+        text-align: justify;
+    }
+
+    ul.dash {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 1em;
+    }
+
+    ul.dash > li:before {
+        display: inline-block;
+        content: "-";
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    table {
+        width: 60%;
+        font-size: 120%;
+    }
+
+    td {
+        border: solid 3px black;
+        text-align: center;
+    }
+
+    .plume {
+        height: 40px;
+        width: auto;
+    }
+
+    ul#description {
+        list-style-type: none;
+    }
+
+    #description li#minibad:before {
+        background-image:url('{{ site.baseurl }}/assets/img/plumes/Plume_jaune.png');
+        background-size: 20px 20px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        content:"";
+    }
+
+    #description li#jeune:before {
+        background-image:url('{{ site.baseurl }}/assets/img/plumes/Plume_verte.png');
+        background-size: 20px 20px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        content:"";
+    }
+
+    #description li#adulte:before {
+        background-image:url('{{ site.baseurl }}/assets/img/plumes/Plume_bleue.png');
+        background-size: 20px 20px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        content:"";
+    }
+
+    #description li#competiteur:before {
+        background-image:url('{{ site.baseurl }}/assets/img/plumes/Plume_rouge.png');
+        background-size: 20px 20px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        content:"";
+    }
+
+    section {
+        margin-top: 50px;
+    }
+
+    table {
+        margin-bottom: 20px;
+        table-layout: fixed;
+    }
+
+    .creneau {
+        width: max-content;
+        display: inline;
+    }
+
+    .card-header {
+        background-color: $brand-color;
+        color: $background-color;
+    }
+}
+
+h1 {
+    font-family: 'Bad Script';
+}
+
+h2 {
+    font-family: 'Bebas Neue';
+}
+
+* {
+    font-family: 'Lato';
+}

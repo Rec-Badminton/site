@@ -1,0 +1,49 @@
+<script type="text/javascript">
+    const cookieConsent = () => {
+	const cc = initCookieConsent();
+	cc.run({
+		current_lang : 'fr',
+		page_scripts: true,
+		force_consent: true,
+        hide_from_bots: true,
+        onFirstAction: function(user_preferences, cookie){
+            if (user_preferences.rejected_categories.length > 0) {
+                clearCookies();
+                redirectFFbad();
+            }
+        },
+		languages: {
+        'fr': {
+            consent_modal: {
+                title: '{{ site.data.cookie-consent.principal-titre }}',
+                description: '{{ site.data.cookie-consent.principal-description }}',
+                primary_btn: {
+                    text: '{{ site.data.cookie-consent.principal-bouton-accepte }}',
+                    role: 'accept_all'              // 'accept_selected' or 'accept_all'
+                },
+                secondary_btn: {
+                    text: '{{ site.data.cookie-consent.principal-bouton-refus }}',
+                    role: 'accept_necessary'        // 'settings' or 'accept_necessary'
+                }
+            },
+            settings_modal: {
+                title: '{{ site.data.cookie-consent.parametres-titre }}',
+                save_settings_btn: '{{ site.data.cookie-consent.parametres-button-sauvegarder }}',
+                accept_all_btn: '{{ site.data.cookie-consent.parametres-button-accepte }}',
+                reject_all_btn: '{{ site.data.cookie-consent.parametres-button-refus }}',
+                close_btn_label: '{{ site.data.cookie-consent.parametres-button-fermer }}',
+                cookie_table_headers: [
+                    {col1: 'Nom'},
+                    {col2: 'Domaine'},
+                    {col3: 'Expiration'},
+                    {col4: 'Description'}
+                ],
+                blocks: site.data.cookie-consent.blocks
+            }
+        }
+        }
+        });
+    }
+    window.onload = cookieConsent;
+
+</script>
