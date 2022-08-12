@@ -30,8 +30,33 @@ menu:
     </div>
   </div>
   <div>
-    <img class="d-block m-auto" src="/assets/img/terrain/terrain.svg">
-  </div> 
+  <br/>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <h2 class="card-header">NOUVELLE ADHESION</h2>
+        <div class="card-body">
+          <p class="align">L’inscription se fait dorénavant exclusivement en ligne sur :<br/>
+            <a href="https://adherer.ffbad.club/rec35">https://adherer.ffbad.club/rec35</a><br/><br/>
+
+              Si tu as perdu tes accès, le lien d’adhésion à gauche est aussi valable pour un renouvellement.<br/>
+              Il te faudra fournir un certificat médical de la FFbad, si le dernier fourni date de plus de 3 ans ou si tu n’étais pas déjà licencié au REC la saison dernière.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <h2 class="card-header">RENOUVELLEMENT DE LICENCE</h2>
+        <div class="card-body">
+          <p class="align">L’inscription se fait dorénavant exclusivement en ligne sur :<br/>
+            <a href="https://adherer.ffbad.club/rec35">https://adherer.ffbad.club/rec35</a><br/><br/>
+
+            Si tu as perdu tes accès, le lien d’adhésion à gauche est aussi valable pour un renouvellement.<br/>
+            Il te faudra fournir un certificat médical de la FFbad, si le dernier fourni date de plus de 3 ans ou si tu n’étais pas déjà licencié au REC la saison dernière.</p>
+        </div>
+      </div>
+    </div>
   <div>
     <section>
       <h2>LES TARIFS</h2>
