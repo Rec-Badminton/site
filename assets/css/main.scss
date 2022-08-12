@@ -183,7 +183,7 @@ nav {
 
     .page-title {
         font-weight: bold;
-        color: #fdfdfd;
+        color: $background-color;
         padding: 0 5%;
     }
     .rotate-minus-90 {
@@ -422,6 +422,11 @@ footer {
     .creneau {
         width: max-content;
         display: inline;
+    }
+
+    .card-header {
+        background-color: $brand-color;
+        color: $background-color;
     }
 }
 
