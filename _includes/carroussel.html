@@ -1,0 +1,26 @@
+<div id="carouselRec" class="carousel slide main-carousel" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        {% assign i = 0 %}
+        {% for photo in site.data.carrousel_photos %}
+            <li data-bs-target="#carouselRec" data-bs-slide-to="{{i}}" class="{% if i == 0 %}active{% endif %}"></li>
+            {% assign i = i | plus:1 %}
+        {% endfor %}
+    </ol>
+    <div class="carousel-inner">
+        {% assign i = 0 %}
+        {% for photo in site.data.carrousel_photos %}
+            <div class="carousel-item {% if i == 0 %}active{% endif %}">
+                <img class="d-block w-100" src="{{ photo.src }}" alt="{{ photo.alt }}">
+            </div>
+            {% assign i = i | plus:1 %}
+        {% endfor %}
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRec" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselRec" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+  </div>

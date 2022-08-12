@@ -1,0 +1,2 @@
+Sitemap: https://recbadminton.fr/sitemap.xml
+User-agent:*
