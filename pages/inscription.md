@@ -15,10 +15,10 @@ menu:
     <div class="div1">
       <h2>ENVIE DE NOUS REJOINDRE ?</h2>
       <p class="align">Si tu veux rejoindre le REC, tu es au bon endroit ! Toutes les informations concernant les modalités d'inscription ainsi que les bons plans sont présentés ci-dessous. Que ce soit pour une nouvelle adhésion ou un renouvellement de license, tu es le bienvenu au club du REC Badminton !</p>
-      <img class="materiel" src="/assets/img/materiel.png">
+      <img class="materiel" src="/assets/img/materiel.png" alt="matériel">
     </div>
     <div class="div2">
-      <img class="d-block m-auto" src="/assets/img/qrcode.png">
+      <img class="d-block m-auto" src="/assets/img/qrcode.png" alt="qrcode">
       <h2>SÉANCE D'ESSAI</h2>
       <p class="align">Tu hésites et préfères participer à un entrainement avant de t'inscrire ? Pas de problème ! Deux séances d'essais sont acceptées.</p>
       <p>Lors de chaque séance, il est impératif de :</p>
@@ -53,32 +53,32 @@ menu:
         <tbody>
           <td class="prix">
             {{ site.data.prix.minibad }} €
-            <img class="plume" src="/assets/img/plumes/Plume_jaune.png">
+            <img class="plume" src="/assets/img/plumes/Plume_jaune.png" alt="minibad">
           </td>
           <td class="prix">
             {{ site.data.prix.jeune }} €
-            <img class="plume" src="/assets/img/plumes/Plume_verte.png">
+            <img class="plume" src="/assets/img/plumes/Plume_verte.png" alt="jeune">
           </td>
           <td class="prix">
             {{ site.data.prix.loisir }} €
-            <img class="plume" src="/assets/img/plumes/Plume_bleue.png">
+            <img class="plume" src="/assets/img/plumes/Plume_bleue.png" alt="loisir">
           </td>
           <td class="prix">
             {{ site.data.prix.competiteur }} €
-            <img class="plume" src="/assets/img/plumes/Plume_rouge.png">
+            <img class="plume" src="/assets/img/plumes/Plume_rouge.png" alt="compétiteur">
           </td>
         </tbody>
       </table>
       <ul id="description">
-        <li id="minibad">Minibad : jeunes  nés en 2015 et après</li>
-        <li id="jeune">Jeune : jeunes  nés  entre 2014 et 2005</li>
-        <li id="adulte">Adultes Loisir</li>
-        <li id="competiteur">Adultes Compétiteur : La formule Compétiteurs permet de participer aux  interclubs et facilite l'accès pour l’inscription aux tournois avec le club, via le forum 6 tableaux offerts). Attention ! Les entraînements  compétiteurs du mardi et jeudi  sont réservés aux licenciés ayant un niveau confirmé ou avancé. Les  joueurs compétiteurs débutants sont  incités à pratiquer le cours du lundi à 20h30.</li>
+        <li id="minibad">Minibad : jeunes nés en 2015 et après</li>
+        <li id="jeune">Jeune : jeunes nés entre 2014 et 2005</li>
+        <li id="adulte">Adultes Loisirs</li>
+        <li id="competiteur">Adultes Compétiteurs : La formule Compétiteurs permet de participer aux interclubs et facilite l'accès pour l’inscription aux tournois avec le club, via le forum 6 tableaux offerts. Attention ! Les entraînements compétiteurs du mardi et jeudi sont réservés aux licenciés ayant un niveau confirmé ou avancé. Les joueurs compétiteurs débutants sont incités à pratiquer le cours du lundi à 20h30.</li>
       </ul>
     </section>
     <section>
       <h2>LES CRÉNEAUX</h2>
-      <img class="plume" src="/assets/img/heure.jpg">
+      <img class="plume" src="/assets/img/heure.jpg" alt="créneaux">
       <p class="creneau">Retrouve la <a href="{{ site.baseurl }}/creneaux">liste des créneaux ici</a></p>
     </section>
     <section>

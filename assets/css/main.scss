@@ -202,7 +202,6 @@ nav {
         }
         border: 1px solid $text-color;
         vertical-align: middle;
-        text-align: center;
     }
     img {
         height: 25px;
@@ -374,10 +373,6 @@ footer {
         width: auto;
     }
 
-    .prix {
-        width: 100px !important;
-    }
-
     ul#description {
         list-style-type: none;
     }
@@ -424,6 +419,7 @@ footer {
 
     table {
         margin-bottom: 20px;
+        table-layout: fixed;
     }
 
     .creneau {
