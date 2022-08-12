@@ -51,19 +51,19 @@ menu:
           <th class="text-center">Compétiteur</th>
         </thead>
         <tbody>
-          <td class="prix">
+          <td>
             {{ site.data.prix.minibad }} €
             <img class="plume" src="/assets/img/plumes/Plume_jaune.png" alt="minibad">
           </td>
-          <td class="prix">
+          <td>
             {{ site.data.prix.jeune }} €
             <img class="plume" src="/assets/img/plumes/Plume_verte.png" alt="jeune">
           </td>
-          <td class="prix">
+          <td>
             {{ site.data.prix.loisir }} €
             <img class="plume" src="/assets/img/plumes/Plume_bleue.png" alt="loisir">
           </td>
-          <td class="prix">
+          <td>
             {{ site.data.prix.competiteur }} €
             <img class="plume" src="/assets/img/plumes/Plume_rouge.png" alt="compétiteur">
           </td>
