@@ -119,12 +119,10 @@ nav {
 
 .main-title-social {
     font-size: 80px;
-    font-family: BadScript;
 }
 
 .secondary-title-social {
     font-size: 60px;
-    font-family: BebasNeue Bold;
     font-weight: bold;
 }
 
@@ -184,7 +182,6 @@ nav {
     }
 
     .page-title {
-        font-family:'BebasNeue Bold';
         font-weight: bold;
         color: #fdfdfd;
         padding: 0 5%;
@@ -426,4 +423,16 @@ footer {
         width: max-content;
         display: inline;
     }
+}
+
+h1 {
+    font-family: 'Bad Script';
+}
+
+h2 {
+    font-family: 'Bebas Neue';
+}
+
+* {
+    font-family: 'Lato';
 }
