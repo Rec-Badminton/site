@@ -18,7 +18,7 @@ menu:
       <img class="materiel" src="/assets/img/materiel.png" alt="matériel">
     </div>
     <div class="div2">
-      <img class="d-block m-auto" src="/assets/img/qrcode.png" alt="qrcode">
+      <img class="d-block m-auto" src="/assets/img/qrcode_arrow.png" alt="qrcode">
       <h2>SÉANCE D'ESSAI</h2>
       <p class="align">Tu hésites et préfères participer à un entrainement avant de t'inscrire ? Pas de problème ! Deux séances d'essais sont acceptées.</p>
       <p>Lors de chaque séance, il est impératif de :</p>
@@ -84,19 +84,19 @@ menu:
         <tbody>
           <td>
             {{ site.data.prix.minibad }} €
-            <img class="plume" src="/assets/img/plumes/Plume_jaune.png" alt="minibad">
+            <img class="plume" src="/assets/img/plumes/plume_jaune.png" alt="minibad">
           </td>
           <td>
             {{ site.data.prix.jeune }} €
-            <img class="plume" src="/assets/img/plumes/Plume_verte.png" alt="jeune">
+            <img class="plume" src="/assets/img/plumes/plume_verte.png" alt="jeune">
           </td>
           <td>
             {{ site.data.prix.loisir }} €
-            <img class="plume" src="/assets/img/plumes/Plume_bleue.png" alt="loisir">
+            <img class="plume" src="/assets/img/plumes/plume_bleue.png" alt="loisir">
           </td>
           <td>
             {{ site.data.prix.competiteur }} €
-            <img class="plume" src="/assets/img/plumes/Plume_rouge.png" alt="compétiteur">
+            <img class="plume" src="/assets/img/plumes/plume_rouge.png" alt="compétiteur">
           </td>
         </tbody>
       </table>
