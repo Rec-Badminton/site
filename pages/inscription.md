@@ -84,19 +84,19 @@ menu:
         <tbody>
           <td>
             {{ site.data.prix.minibad }} €
-            <img class="plume" src="/assets/img/plumes/plume_jaune.png" alt="minibad">
+            <img class="plume" src="/assets/img/plume_jaune.png" alt="minibad">
           </td>
           <td>
             {{ site.data.prix.jeune }} €
-            <img class="plume" src="/assets/img/plumes/plume_verte.png" alt="jeune">
+            <img class="plume" src="/assets/img/plume_verte.png" alt="jeune">
           </td>
           <td>
             {{ site.data.prix.loisir }} €
-            <img class="plume" src="/assets/img/plumes/plume_bleue.png" alt="loisir">
+            <img class="plume" src="/assets/img/plume_bleue.png" alt="loisir">
           </td>
           <td>
             {{ site.data.prix.competiteur }} €
-            <img class="plume" src="/assets/img/plumes/plume_rouge.png" alt="compétiteur">
+            <img class="plume" src="/assets/img/plume_rouge.png" alt="compétiteur">
           </td>
         </tbody>
       </table>
