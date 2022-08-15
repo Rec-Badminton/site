@@ -62,6 +62,13 @@ header {
     color: $background-color;
 }
 
+.row {
+    --bs-gutter-x: 0;
+}
+.container-fluid {
+    padding-right: 0;
+}
+
 nav {
     height: $height-navbar;
     width: 100%;
