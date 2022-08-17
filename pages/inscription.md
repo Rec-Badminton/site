@@ -14,7 +14,7 @@ menu:
   <div class="parent">
     <div class="div1">
       <h2>ENVIE DE NOUS REJOINDRE ?</h2>
-      <p class="align">Si tu veux rejoindre le REC, tu es au bon endroit ! Toutes les informations concernant les modalités d'inscription ainsi que les bons plans sont présentés ci-dessous. Que ce soit pour une nouvelle adhésion ou un renouvellement de license, tu es le bienvenu au club du REC Badminton !</p>
+      <p class="align">Si tu veux rejoindre le REC, tu es au bon endroit ! Toutes les informations concernant les modalités d'inscription ainsi que les bons plans sont présentés ci-dessous. Que ce soit pour une nouvelle adhésion ou un renouvellement de licence, tu es le bienvenu au club du REC Badminton !</p>
       <img class="materiel" src="/assets/img/materiel.png" alt="matériel">
     </div>
     <div class="div2">
@@ -69,7 +69,7 @@ menu:
       <p>La cotisation au REC Badminton comprend :</p>
       <ul class="dash">
         <li>L'adhésion au club</li>
-        <li>La license fédérale incluant une assurance</li>
+        <li>La licence fédérale incluant une assurance</li>
         <li>L'accès aux entrainements (hors vacances) et créneaux de jeu libre</li>
         <li>L'accès aux événements organisés par le club</li>
         <li>L'accès à la boutique et aux tarifs avantageux chez nos partenaires</li>
