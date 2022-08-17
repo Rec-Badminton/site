@@ -235,6 +235,9 @@ nav {
     .carousel-inner {
         border-bottom: solid 3px $brand-color;
         height: inherit;
+        display: flex;
+        align-items: center;
+        padding-top: 250px;
     }
 }
 
