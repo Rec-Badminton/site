@@ -210,15 +210,20 @@ nav {
         }
         border: 1px solid $text-color;
         vertical-align: middle;
-    }
-    img {
-        height: 25px;
+
+        img {
+            height: 25px;
+        }
     }
     .legend {
         border: 1px solid $text-color;
         padding: 10px;
         font-size: small;
         text-align: justify;
+
+        img {
+            height: 25px;
+        }
     }
     @media(max-width:992px) {
         iframe, .table-responsive {
@@ -228,6 +233,9 @@ nav {
     iframe {
         margin: 0 auto;
         display: block;
+    }
+    .arena {
+        margin-top: 5%;
     }
 }
 

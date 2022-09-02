@@ -15,17 +15,17 @@ menu:
     <div class="div1">
       <h2>ENVIE DE NOUS REJOINDRE ?</h2>
       <p class="align">Si tu veux rejoindre le REC, tu es au bon endroit ! Toutes les informations concernant les modalités d'inscription ainsi que les bons plans sont présentés ci-dessous. Que ce soit pour une nouvelle adhésion ou un renouvellement de licence, tu es le bienvenu au club du REC Badminton !</p>
-      <img class="materiel" src="/assets/img/materiel.png" alt="matériel">
+      <a href="https://www.plusdebad.com/" target="_blank"><img class="materiel" src="/assets/img/materiel.png" alt="matériel"></a>
     </div>
     <div class="div2">
-      <img class="d-block m-auto" src="/assets/img/qrcode_arrow.png" alt="qrcode">
+      <a href="https://poona.ffbad.org//page.php?P=fo/menu/public/accueil/operation_promo_participant&k=NjE2QDIw" target="_blank"><img class="d-block m-auto" src="/assets/img/qrcode_arrow.png" alt="qrcode"></a>
       <h2>SÉANCE D'ESSAI</h2>
       <p class="align">Tu hésites et préfères participer à un entrainement avant de t'inscrire ? Pas de problème ! Deux séances d'essais sont acceptées.</p>
       <p>Lors de chaque séance, il est impératif de :</p>
       <ul class="dash">
-        <li>Prévenir en amont de ta venue en envoyant un mail au bureau du club: <a class="col-lg order-lg-1" href="mailto:{{ site.data.contacts.email }}">{{site.data.contacts.email}}</a>. Ils pourront également te guider pour trouver le créneau le plus adapté à tes envies</li>
         <li>Te présenter à un membre du bureau présent sur le créneau</li>
-        <li>Remplir le petit formulaire en flashant ce QR Code ci-contre</li>
+        <li>Remplir le petit formulaire en flashant ou cliquant sur le QR Code ci-contre. Ce formulaire te permet d’être assuré pendant 24h pour la pratique du badminton</li>
+        <li>Prévenir en amont de ta venue en envoyant un mail au bureau du club: <a class="col-lg order-lg-1" href="mailto:{{ site.data.contacts.email }}">{{site.data.contacts.email}}</a>. Ils pourront également te guider pour trouver le créneau le plus adapté à tes envies</li>
       </ul>
     </div>
   </div>
