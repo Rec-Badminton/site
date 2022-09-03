@@ -18,7 +18,7 @@ menu:
       <a href="https://www.plusdebad.com/" target="_blank"><img class="materiel" src="/assets/img/materiel.png" alt="matériel"></a>
     </div>
     <div class="div2">
-      <a href="https://poona.ffbad.org//page.php?P=fo/menu/public/accueil/operation_promo_participant&k=NjE2QDIw" target="_blank"><img class="d-block m-auto" src="/assets/img/qrcode_arrow.png" alt="qrcode"></a>
+      <a href="https://poona.ffbad.org//page.php?P=fo/menu/public/accueil/operation_promo_participant&k=NjE2QDIw" target="_blank"><img class="d-block m-auto qrcode" src="/assets/img/qrcode.png" alt="qrcode"></a>
       <h2>SÉANCE D'ESSAI</h2>
       <p class="align">Tu hésites et préfères participer à un entrainement avant de t'inscrire ? Pas de problème ! Deux séances d'essais sont acceptées.</p>
       <p>Lors de chaque séance, il est impératif de :</p>
