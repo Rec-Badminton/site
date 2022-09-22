@@ -23,7 +23,7 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 // Navbar
-$height-navbar:    65px;
+$height-navbar:    85px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -45,6 +45,18 @@ $height-navbar:    65px;
         "fonts",
         "base"
 ;
+
+.bandeau {
+    background-color: $brand-color;
+    color: $background-color;
+    font-style: italic;
+    font-family: 'LATO';
+    height: 2.5rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+}
 
 header {
     padding: 0px !important;
@@ -70,6 +82,10 @@ header {
     padding-left: 0;
 }
 
+.navbar-with-bandeau {
+    top: 2.5rem !important;
+}
+
 nav {
     height: $height-navbar;
     width: 100%;
@@ -89,7 +105,7 @@ nav {
 
             width: auto;
             height: 50px;
-            transform: translate(0px, 40px) scale(3.2);
+            transform: translate(0px, 59px) scale(3.2);
             display: block;
             margin-left: auto;
             margin-right: auto;

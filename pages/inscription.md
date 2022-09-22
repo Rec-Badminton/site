@@ -15,7 +15,7 @@ menu:
     <div class="div1">
       <h2>ENVIE DE NOUS REJOINDRE ?</h2>
       <p class="align">Si tu veux rejoindre le REC, tu es au bon endroit ! Toutes les informations concernant les modalités d'inscription ainsi que les bons plans sont présentés ci-dessous. Que ce soit pour une nouvelle adhésion ou un renouvellement de licence, tu es le bienvenu au club du REC Badminton !</p>
-      <a href="https://www.plusdebad.com/" target="_blank"><img class="materiel" src="/assets/img/materiel.png" alt="matériel"></a>
+      <a href="https://www.plusdebad.com/" target="_blank"><img class="materiel" src="/assets/img/materiel.jpg" alt="matériel"></a>
     </div>
     <div class="div2">
       <a href="https://poona.ffbad.org//page.php?P=fo/menu/public/accueil/operation_promo_participant&k=NjE2QDIw" target="_blank"><img class="d-block m-auto qrcode" src="/assets/img/qrcode_2223.png" alt="qrcode"></a>
