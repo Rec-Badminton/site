@@ -59,6 +59,20 @@ $height-navbar:    85px;
     font-weight: var(--bs-nav-link-font-weight);
 }
 
+@media(max-width:992px) {
+    .bandeau {
+        height: 4.5rem;
+    }
+    .navbar-with-bandeau {
+        top: 4.5rem;
+    }
+}
+@media(min-width:992px) {
+    .navbar-with-bandeau {
+        top: 2.5rem;
+    }
+}
+
 header {
     padding: 0px !important;
 }
@@ -81,10 +95,6 @@ header {
 .container-fluid {
     padding-right: 0;
     padding-left: 0;
-}
-
-.navbar-with-bandeau {
-    top: 2.5rem !important;
 }
 
 nav {
@@ -186,14 +196,14 @@ nav {
     background-color: $brand-color;
     @media(min-width:992px) {
         .page-title {
-            height: 16rem;
+            height: 24rem;
             font-size: 80px;
         }
 
         > div {
-            padding-top: 9rem;
+            padding-top: 14rem;
         }
-        height: 16rem;
+        height: 24rem;
     }
 
     @media(max-width:992px) {
@@ -203,7 +213,10 @@ nav {
         }
 
         > div {
-            padding-top: 5.5rem;
+            padding-top: 7.5rem;
+        }
+        &.with-bandeau > div {
+            padding-top: 11.5rem !important;
         }
         height: 16rem;
     }
@@ -267,7 +280,7 @@ nav {
     @media(max-width:992px) {
         .main-carousel {
             height: 250px;
-            margin-top: 25px;
+            margin-top: 8.5rem;
         }
     }
 .carousel-inner {
