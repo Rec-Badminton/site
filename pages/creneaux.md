@@ -141,7 +141,8 @@ menu:
     </ul>
   </div>
   <div class="arena">
-    <h2 class="text-center">JOUER A L'ARENA</h2>
+    <h2 class="text-center">JOUER A LA +2BAD ARENA</h2>
+    <p>Envie de jouer en dehors des créneaux ? Va à la Arena de +2bad et profite des prix préférentiels du REC ! Attention : ces tarifs sont réservés aux licenciés du REC Badminton.</p>
     <img src="/assets/img/arena.jpg" alt="Arena +2Bad"/>
   </div>
 </div>
