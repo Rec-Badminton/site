@@ -27,7 +27,7 @@ menu:
 
   <p>Pour toutes questions, la FAQ officielle des CDF23 est disponible ici : <a href="https://badfrance2023.fr/billetterie/">badfrance2023.fr/billetterie</a></p>
 
-  <!--<p>Le plan de la Glaz Arena est visible ici : <a>badfrance2023.fr/plan</a></p>-->
+  <p>Le plan de la Glaz Arena est visible <a href="/assets/img/glaz.jpg" target="_blank">ici</a>.</p>
 
   <p>Attention, cette billetterie n'est valable que jusqu'au <b>31 octobre 2022</b> ! Vous recevrez ensuite vos places par mail d'ici la fin d'année. Pour information, au-delà du 31 octobre, la billetterie grand public des CDF23 s'ouvrira, mais vous n'aurez plus accès aux tarifs avantageux du REC.</p>
 
