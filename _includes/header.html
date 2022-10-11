@@ -16,7 +16,9 @@
 					{% for item in site.menus.header %}
 					  {% if i == 3 %}
 	      			<a class="col d-none d-lg-block" href="/">
-					  		<img class="logo nav-link bg-light" src="{{site.baseurl}}/assets/img/logo_recbadminton.png">
+								<div class="logo-wrap">
+									<img class="nav-link bg-light" src="{{site.baseurl}}/assets/img/logo_recbadminton.png">
+								</div>
 					  	</a>
 	      		{% endif %}
       			<a class="col text-center nav-link bg-light" href="{{ item.url }}"> {{ item.title | upcase }}</a>

@@ -111,22 +111,34 @@ nav {
         height: $height-navbar;
         padding: 0px !important;
 
-        .logo {
-            $border: 1px;
+        .logo-wrap {
+            $img-size: 160px;
+            $circle-border-radius: 80px;
 
-            width: auto;
-            height: 50px;
-            transform: translate(0px, 59px) scale(3.2);
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 0px !important;
-            border: solid 1px transparent;
-            border-radius: 50%;
-            background-image: linear-gradient(#f8f9fa, #f8f9fa),
-                            linear-gradient(to bottom, transparent 48.75%, $brand-color 48.75%);
-            background-origin: border-box;
-            background-clip: content-box, border-box;
+            width: $img-size;
+            height: $img-size;
+            position: relative;
+            margin: 0 auto;
+            padding: 3px;
+            margin-top: 4px;
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: calc(50%);
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: $brand-color;
+                border-bottom-right-radius: $circle-border-radius; 
+                border-bottom-left-radius: $circle-border-radius;
+                z-index: -1;
+            }
+
+            img {
+                border-radius: 50%;
+                padding: 0px !important;
+            }
         }
 
         a {
