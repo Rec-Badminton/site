@@ -13,7 +13,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #1f2421;
-$background-color: #fdfdfd; //#ffffff ?
+$background-color: #faf8f5; //#ffffff ?
 $brand-color:      #da3124;
 
 // Width of the content area
@@ -280,7 +280,10 @@ nav {
         margin-top: 5%;
 
         img {
-            transform: scale(0.9);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
         }
     }
 }
@@ -322,7 +325,6 @@ footer {
         }
 
         img {
-            filter: grayscale(1) invert(1);
             max-width: 100%;
             max-height: 100%;
             display: block;
@@ -373,6 +375,7 @@ footer {
             margin: 0 !important;
             padding: 0 !important;
             color: $background-color !important;
+            font-size: 10px;
         }
     }
 }
@@ -528,6 +531,17 @@ h2 {
 }
 
 .boutique {
+    .logo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+
+        img {
+            transform: scale(0.65);
+        }
+    }
+
     @media(min-width:992px) {
         .parent {
             display: grid;
@@ -541,7 +555,7 @@ h2 {
 
         .div1 { 
             grid-area: 1 / 1 / 2 / 2;
-            transform: scale(0.8); 
+            transform: scale(0.9); 
         }
         .div2 { 
             grid-area: 1 / 2 / 2 / 3;

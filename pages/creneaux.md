@@ -45,7 +45,7 @@ menu:
         </tr>
         <tr>
           <td class="text-center">20h00 - 22h00</td>
-          <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Salle%20de%20la%20binquenais%2C%2030%20Bd%20Pierre%20le%20Moine%2C%2035200%20Rennes" target="_blank">Salle de la Binquenais</a></td>
+          <td class="text-center"><a href="https://goo.gl/maps/6kAg7uT85GiW3E386" target="_blank">Salle de la Binquenais</a></td>
           <td class="text-center">/</td>
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
