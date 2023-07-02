@@ -306,6 +306,12 @@ nav {
             margin-top: 8.5rem;
         }
     }
+
+    .main-carousel {
+        img {
+            width: 100%;
+        }
+    }
 .carousel-inner {
     border-bottom: solid 3px $brand-color;
     height: inherit;
