@@ -593,3 +593,9 @@ h2 {
         }
     }
 }
+
+.btn-primary, .btn-primary:hover {
+    background-color: $brand-color;
+    border: none;
+    text-decoration: none;
+}
