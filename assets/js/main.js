@@ -1,13 +1,7 @@
 const cookieConsentAndPwa = () => {
+    console.log(window.location.href);
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/assets/js/serviceWorker.js')
-          .then(function(registration) {
-            // Registration was successful
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-          }).catch(function(err) {
-            // registration failed :(
-            console.log('ServiceWorker registration failed: ', err);
-          });
+        navigator.serviceWorker.register('/serviceWorker.js');
     }
 	const cc = initCookieConsent();
 	cc.run({
