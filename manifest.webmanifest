@@ -3,8 +3,8 @@
   "name": "Rec Badminton",
   "icons": [
     {
-      "src": "/assets/img/logo-recbadminton.jpg",
-      "type": "image/jpg",
+      "src": "/img/logo-recbadminton.png",
+      "type": "image/png",
       "sizes": "192x192"
     }
   ],
