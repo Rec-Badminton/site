@@ -20,16 +20,16 @@ menu:
 >
 <br/>
  <div class="form-group">
-    <label for="name" class="form-label">Votre nom/prénom :</label>
-    <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Veuillez indiquer votre nom et prénom">
+    <label for="name" required class="form-label">Votre nom/prénom :</label>
+    <input type="name" required class="form-control" id="name" aria-describedby="nameHelp" placeholder="Veuillez indiquer votre nom et prénom">
   </div><br/>
   <div class="form-group">
     <label for="email" class="form-label">Email :</label>
-    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Entrez votre email">
+    <input type="email" name="email" required class="form-control" id="email" aria-describedby="emailHelp" placeholder="Entrez votre email">
   </div><br/>
    <div class="form-group">
     <label for="message" class="form-label">Votre message :</label>
-    <textarea class="form-control" id="message" rows="5"></textarea>
+    <textarea class="form-control" name="message" required id="message" rows="5"></textarea>
   </div><br/>
     <button type="submit" class="btn btn-primary float-end">Envoyer</button>
 </form>
