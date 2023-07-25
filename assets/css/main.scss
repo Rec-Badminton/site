@@ -104,7 +104,14 @@ nav {
 
     .col {
         height: 100%;
-        padding: 1rem;
+        padding: 0px;
+    }
+
+    @media(max-width:992px) {
+        .col {
+            height: 100%;
+            padding: 1rem;
+        }
     }
 
     .navbar-nav {
