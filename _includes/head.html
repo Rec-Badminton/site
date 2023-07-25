@@ -7,6 +7,9 @@
   <meta name="keywords" content="{{ page.keyword | default: site.keywords | strip_html | normalize_whitespace | escape }}">
 	<meta name="revisit-after" content="2 days">
 	<meta name="theme-color" content="white">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="msapplication-starturl" content="/">
   <meta property="og:url" content="https://recbadminton.fr{{page.url}}"/>
   <meta property="og:image" content="https://recbadminton.fr/assets/img/logo_recbadminton.png">
 	<meta property="og:image:width" content="192">
@@ -15,7 +18,6 @@
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="https://recbadminton.fr{{page.url}}"/>
 	<meta property="og:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"/>
-
   <title>Rec Badminton - {% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
