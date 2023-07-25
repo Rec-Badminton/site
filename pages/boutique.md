@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Boutique
-keyword: Rec Badminton Volants Pull
+keyword: Rec Badminton Volants Pull Rennes
 description: Merch Rec Badminton
 author: Rec Badminton
 permalink: "/boutique/"
@@ -12,7 +12,7 @@ menu:
 
 ---
 
-<div class="boutique">
+<section class="boutique">
   <h2>BIENVENUE DANS LA BOUTIQUE DU REC !</h2>
 
   <p>Cette boutique est réservée aux licenciés du REC Badminton.</p>
@@ -31,5 +31,5 @@ menu:
     </div>
   </div>
 
-  <img src="/assets/img/plus2.png"/>
-</div>
+  <img src="/assets/img/plus2.png" alt="+ 2 bad partenaire"/>
+</section>

@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Competition
-keyword: Rec Badminton Competition
-description: Compeition Badminton
+keyword: Rec Badminton Compétition Rennes
+description: Compétition Badminton
 author: Rec Badminton
 permalink: "/competition/"
-content: Description a ajouter
+content:
 
 ---

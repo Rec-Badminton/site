@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Inscription
-keyword: Rec Badminton Inscription
+keyword: Rec Badminton Inscription Rennes
 description: Inscription Badminton
 author: Rec Badminton
 permalink: "/inscription/"

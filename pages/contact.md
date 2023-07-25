@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Contact
-keyword: Rec Badminton Contact
-description: Contact Rec Badminton
+keyword: Rec Badminton Contact Rennes
+description: Contact Rec Badminton Rennes
 author: Rec Badminton
 permalink: "/contact/"
 content: 'Contactez nous via facebook ou email: recbad35@gmail.com'
@@ -12,7 +12,7 @@ menu:
     weight: 6
 
 ---
-<div class="contact">
+<section class="contact">
   Une question ? Écris-nous et nous te répondrons au plus vite !<br/>
   <form
   action="https://formspree.io/f/mgejedpl"
@@ -65,4 +65,4 @@ menu:
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
-</div>
+</section>
