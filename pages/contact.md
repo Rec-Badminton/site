@@ -15,7 +15,6 @@ menu:
 <div class="contact">
   Une question ? Écris-nous et nous te répondrons au plus vite !<br/>
   <form
-  target="_blank"
   action="https://formspree.io/f/mgejedpl"
   method="POST"
 >
