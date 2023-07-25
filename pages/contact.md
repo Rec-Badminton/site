@@ -21,7 +21,7 @@ menu:
 <br/>
  <div class="form-group">
     <label for="name" required class="form-label">Votre nom/prénom :</label>
-    <input type="name" required class="form-control" id="name" aria-describedby="nameHelp" placeholder="Veuillez indiquer votre nom et prénom">
+    <input type="name" required class="form-control" id="name" aria-describedby="nameHelp" name="name" placeholder="Veuillez indiquer votre nom et prénom">
   </div><br/>
   <div class="form-group">
     <label for="email" class="form-label">Email :</label>
