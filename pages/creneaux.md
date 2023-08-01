@@ -44,6 +44,16 @@ menu:
           </td>
         </tr>
         <tr>
+          <td class="text-center">19h00 - 22h00</td>
+          <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20de%20Beaulieu%2C%20campus%20de%20Beaulieu%2C%20Universit%C3%A9%20de%20Rennes%201%2C%20263%20Av.%20G%C3%A9n%C3%A9ral%20Leclerc%2C%2035700%20Rennes%2C%20France" target="_blank">Beaulieu Salle du SIUAPS</a></td>
+          <td class="text-center">/</td>
+          <td>
+            <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
+            <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
+            Jeu libre adultes (créneau partagé avec le RUC)
+          </td>
+        </tr>
+        <tr>
           <td class="text-center">20h00 - 22h00</td>
           <td class="text-center"><a href="https://goo.gl/maps/6kAg7uT85GiW3E386" target="_blank">Salle de la Binquenais</a></td>
           <td class="text-center">/</td>
@@ -107,10 +117,19 @@ menu:
           <th scope="row" class="text-center">Jeudi</th>
           <td class="text-center">20h00 - 22h00</td>
           <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20Montbarrot%2C%2014%20Rue%20de%20Gascogne%2C%2035000%20Rennes%2C%20France" target="_blank">Gymnase Montbarrot</a></td>
-          <td class="text-center">Loris DUFAY & François ECOBICHON</td>
+          <td class="text-center">Loris DUFAY</td>
           <td>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Encadrement adultes compétiteurs confirmés ou avancés (pas de demi-licence)
+            Encadrement adultes compétiteurs élites (joueurs de niveau R et N)
+          </td>
+        </tr>
+        <tr class="table-active">
+          <td class="text-center">20h30 - 23h00</td>
+          <td class="text-center"><a href="https://goo.gl/maps/mLV8usnxVtrHfWyv6" target="_blank">Salle de la Seiche (Vern)</a></td>
+          <td class="text-center">François ECOBICHON</td>
+          <td>
+            <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
+            Encadrement adultes compétiteurs confirmés (créneau partagé avec Vern)
           </td>
         </tr>
         <tr>
