@@ -149,8 +149,8 @@ menu:
     </table>
   </div>
   <div class="legend">
-    <img src="/assets/img/plume_jaune.png" alt="Minibad"/> <b>Minibad</b> : né en 2015 et après<br/>
-    <img src="/assets/img/plume_verte.png" alt="Jeunes"/> <b>Jeunes</b> : né entre 2014 et 2005<br/>
+    <img src="/assets/img/plume_jaune.png" alt="Minibad"/> <b>Minibad</b> : né en 2016 et après<br/>
+    <img src="/assets/img/plume_verte.png" alt="Jeunes"/> <b>Jeunes</b> : né entre 2015 et 2006<br/>
     <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/> <b>Adultes Loisirs</b><br/>
     <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/> <b>Adultes Compétiteurs</b>
     <p>Les entraînements adultes sont séparés par niveau :</p>
