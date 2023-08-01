@@ -31,7 +31,7 @@ menu:
       </thead>
       <tbody>
         <tr>
-          <th scope="row" rowspan="3" class="text-center">Lundi</th>
+          <th scope="row" rowspan="4" class="text-center">Lundi</th>
           <td class="text-center">18h00 - 20h00</td>
           <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Halle%20Sportives%20Des%20Gayeulles%2C%208%20Av.%20des%20Gayeulles%2C%2035700%20Rennes%2C%20France" target="_blank">Halle sportives des Gayeulles</a></td>
           <td class="text-center">/</td>
@@ -114,7 +114,7 @@ menu:
           </td>
         </tr>
         <tr class="table-active">
-          <th scope="row" class="text-center">Jeudi</th>
+          <th scope="row" rowspan="2" class="text-center">Jeudi</th>
           <td class="text-center">20h00 - 22h00</td>
           <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20Montbarrot%2C%2014%20Rue%20de%20Gascogne%2C%2035000%20Rennes%2C%20France" target="_blank">Gymnase Montbarrot</a></td>
           <td class="text-center">Loris DUFAY</td>
