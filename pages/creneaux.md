@@ -129,7 +129,7 @@ menu:
           <td class="text-center">François ECOBICHON</td>
           <td>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Encadrement adultes compétiteurs confirmés (créneau partagé avec Vern)
+            Encadrement adultes compétiteurs confirmés (Minimum D8 - créneau partagé avec Vern)
           </td>
         </tr>
         <tr>
