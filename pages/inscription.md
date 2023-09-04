@@ -25,7 +25,7 @@ menu:
       </ul>
     </div>
     <div class="div2">
-      <a href="https://poona.ffbad.org//page.php?P=fo/menu/public/accueil/operation_promo_participant&k=NjE2QDIw" target="_blank"><img class="d-block m-auto qrcode" src="/assets/img/qrcode_2324.PNG" alt="qrcode"></a>
+      <a href="https://poona.ffbad.org//page.php?P=fo/menu/public/accueil/operation_promo_participant&k=MjgxNkAyMQ==" target="_blank"><img class="d-block m-auto qrcode" src="/assets/img/qrcode_2324.PNG" alt="qrcode"></a>
     </div>
   </div>
   <div>
