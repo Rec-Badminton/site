@@ -91,7 +91,7 @@ menu:
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre adultes - <b style="color:red;">COMPLET</b>
+            Jeu libre adultes
           </td>
         </tr>
         <tr>
@@ -110,7 +110,7 @@ menu:
           <td class="text-center">/</td>
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
-            Jeu libre adultes loisirs
+            Jeu libre adultes loisirs - <b style="color:red;">COMPLET</b>
           </td>
         </tr>
         <tr class="table-active">
