@@ -50,7 +50,7 @@ menu:
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre adultes (créneau partagé avec le RUC)
+            Jeu libre adultes (créneau partagé avec le RUC) - <b style="color:red;">COMPLET</b>
           </td>
         </tr>
         <tr>
@@ -60,7 +60,7 @@ menu:
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre adultes
+            Jeu libre adultes - <b style="color:red;">COMPLET</b>
           </td>
         </tr>
         <tr>
@@ -91,7 +91,7 @@ menu:
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre adultes
+            Jeu libre adultes - <b style="color:red;">COMPLET</b>
           </td>
         </tr>
         <tr>
@@ -129,7 +129,7 @@ menu:
           <td class="text-center">François ECOBICHON</td>
           <td>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Encadrement adultes compétiteurs confirmés (Minimum D8 - créneau partagé avec Vern)
+            Encadrement adultes compétiteurs confirmés (Minimum D8 - créneau partagé avec Vern) - <b style="color:red;">COMPLET</b>
           </td>
         </tr>
         <tr>
@@ -142,7 +142,7 @@ menu:
             <img src="/assets/img/plume_verte.png" alt="Jeunes"/>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre pour tous
+            Jeu libre pour tous - <b style="color:red;">COMPLET</b>
           </td>
         </tr>
       </tbody>
