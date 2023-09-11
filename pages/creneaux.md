@@ -70,7 +70,7 @@ menu:
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Encadrement adultes loisirs et compétiteurs débutants
+            Encadrement adultes loisirs et compétiteurs débutants - <b style="color:red;">COMPLET</b>
           </td>
         </tr>
         <tr class="table-active">
