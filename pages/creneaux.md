@@ -80,7 +80,7 @@ menu:
           <td class="text-center">Loris DUFAY & François ECOBICHON</td>
           <td>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Encadrement adultes compétiteurs confirmés
+            Encadrement adultes compétiteurs confirmés - <b style="color:red;">COMPLET</b>
           </td>
         </tr>
         <tr>
