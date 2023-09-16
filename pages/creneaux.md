@@ -120,7 +120,7 @@ menu:
           <td class="text-center">Loris DUFAY</td>
           <td>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Encadrement adultes compétiteurs élites (joueurs de niveau R et N)
+            Encadrement adultes compétiteurs élites (joueurs de niveau R et N) - <b style="color:red;">COMPLET</b>
           </td>
         </tr>
         <tr class="table-active">
