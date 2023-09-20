@@ -40,7 +40,7 @@ menu:
             <img src="/assets/img/plume_verte.png" alt="Jeunes"/>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre pour tous
+            Jeu libre pour tous  - <b style="color:red;">COMPLET</b>
           </td>
         </tr>
         <tr>
