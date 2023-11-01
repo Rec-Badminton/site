@@ -19,17 +19,33 @@ menu:
 
   <iframe id="haWidget" allowtransparency="true" src="https://www.helloasso.com/associations/rennes-etudiants-club-badminton/boutiques/boutique-2rec/widget" style="width: 100%; height: 750px; border: none;"></iframe>
 
-  <h2 class="mt-5">LE PARTENARIAT AVEC +2bad</h2>
-    <a href="https://www.plusdebad.com/" target="_blank" class="logo"><img src="/assets/img/logo_plusdebad.png" alt="Plus de Bad"><div>+2Bad Rennes - Magasin de badminton</div></a>
-    <p>Le Club est fier de vous annoncer un partenariat avec Plusdebad.</p>
-    <p>L’enseigne plusdebad, est une enseigne dédiée au badminton. Vous y trouverez : raquettes, chaussures, volants. De plus, vous bénéficierez d’une <b>remise de -20%</b> sur les prix de ventes catalogues (hors volants) et d’un prix sur <b>le cordage à 20 € !</b></p>
-    <p>N’hésitez pas à vous rendre à la boutique, l'équipe Plusdebad Rennes saura vous conseiller au mieux selon vos besoins. Vous retrouverez également un large choix de raquette de badminton, bagagerie, chaussures de badminton sur leur site web. Pense à utiliser le <b>code promo de rentrée</b> : PDBREN22</p>
-  <div class="parent">
-    <div class="div1"><a href="https://www.plusdebad.com/" target="_blank"><img class="materiel" src="/assets/img/materiel.jpg" alt="matériel"></a></div>
-    <div class="div2">
-      <p>L’équipe PlusdeBad Rennes vous attend au <a href="https://goo.gl/maps/XRJX18C5VqDrWF8b9" target="_blank">7C rue de Charmilles 35510 Cesson Sévigné</a><br><br>Vous souhaitez découvrir les actualités de votre magasin spécialiste du badminton ?<br><br><a href="https://www.facebook.com/plusdebadrennes" target="_blank">Facebook +2Bad Rennes</a><br><a href="https://www.instagram.com/plus2badrennes/" target="_blank">Instagram Plusdebad</a><br><a href="https://www.plusdebad.com/" target="_blank">Site Marchand</a><br><br>Contact : 02 99 51 68 38<br>rennes@plusdebad.com</p>
-    </div>
-  </div>
+  <h2 class="mt-5">LA BOUTIQUE DU CORDAGE DU REC</h2>
+	Prix préférentiels pour les licenciés du REC Badminton, en partenariat avec LardeSports.<br/><br/>
+    <iframe id="haWidget" allowtransparency="true" scrolling="auto" src="https://www.helloasso.com/associations/rennes-etudiants-club-badminton/boutiques/la-boutique-du-cordage-du-rec/widget" style="width: 100%; height: 750px; border: none;"></iframe>
+	
+	<h2 class="mt-2">NOTRE PARTENARIAT AVEC LARDESPORTS :</h2>
 
-  <img src="/assets/img/plus2.png" alt="+ 2 bad partenaire"/>
+	<a href="https://www.lardesports.com/" target="_blank" class="logo"><img src="/assets/img/lardesport/logo.png" alt="LardeSports"></a>
+    <p><b>Larde Sports</b> est le spécialiste des sports de raquette en France. Avec un univers dédié pour le badminton, le tennis, le squash et le padel, vous trouverez une grande offre de matériels ! De plus, en tant que licencié partenaire, vous bénéficierez des avantages suivants : </p>
+    <ul>
+	<li><b>Remise de 30 %</b> sur les " Prix Publics Conseillés " sur les marques RSL et FORZA</li>
+	<li><b>Remise de 20 %</b> sur les " Prix Publics Conseillés " sur les autres marques</li>
+	</ul>
+	<i>
+	(Hors volants/balles, matériels club/court, articles en promotion, soldes ou déstockage) Offres valable via votre magasin partenaire Larde Sports :<br/>
+	   - achats en magasin à Nantes-Vertou, Rennes Noyal-Châtillon sur Seiche ou Vannes- Séné<br/>
+	   - achats par téléphone (avec paiement CB et livraison à domicile possibles)<br/>
+	   - achats par mail (avec paiement CB et livraison à domicile possibles)<br/>
+	   - achats sur les stands Larde Sports de Bretagne, Loire-Atlantique et Vendée<br/>
+	</i><br/>
+	<div class="d-flex">
+	<img src="/assets/img/lardesport/coordonnees.jpg" class="w-50" alt="Coordonnées LardeSports">
+	<div class="p-3 mt-5">
+	N’hésitez pas à vous rendre à la boutique, située<br/> <a href="https://maps.app.goo.gl/CyRMHhmvnek1nYdZ8">4, rue des Potiers – 35230 NOYAL CHATILLON SUR SEICHE.</a><br/><br/> L'équipe Larde Sports saura vous conseiller au mieux selon vos besoins.
+	</div>
+	<br/>
+	</div><br/><br/>
+
+	<img src="/assets/img/lardesport/reduc.jpg" class="w-75 mx-auto d-block" alt="Réductions LardeSports"><br/>
+	<img src="/assets/img/lardesport/commande.jpg" class="w-75 mx-auto d-block" alt="Commande LardeSports">
 </section>
