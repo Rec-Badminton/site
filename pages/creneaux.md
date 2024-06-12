@@ -40,7 +40,7 @@ menu:
             <img src="/assets/img/plume_verte.png" alt="Jeunes"/>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre pour tous  - <b style="color:red;">COMPLET</b>
+            Jeu libre pour tous 
           </td>
         </tr>
         <tr>
@@ -50,7 +50,7 @@ menu:
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre adultes (créneau partagé avec le RUC) - <b style="color:red;">COMPLET</b>
+            Jeu libre adultes (créneau partagé avec le RUC)
           </td>
         </tr>
         <tr>
@@ -60,7 +60,7 @@ menu:
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre adultes - <b style="color:red;">COMPLET</b>
+            Jeu libre adultes
           </td>
         </tr>
         <tr>
@@ -70,7 +70,7 @@ menu:
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Encadrement adultes loisirs et compétiteurs débutants - <b style="color:red;">COMPLET</b>
+            Encadrement adultes loisirs et compétiteurs débutants
           </td>
         </tr>
         <tr class="table-active">
@@ -80,7 +80,7 @@ menu:
           <td class="text-center">Loris DUFAY & François ECOBICHON</td>
           <td>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Encadrement adultes compétiteurs confirmés - <b style="color:red;">COMPLET</b>
+            Encadrement adultes compétiteurs confirmés
           </td>
         </tr>
         <tr>
@@ -110,7 +110,7 @@ menu:
           <td class="text-center">/</td>
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
-            Jeu libre adultes loisirs - <b style="color:red;">COMPLET</b>
+            Jeu libre adultes loisirs
           </td>
         </tr>
         <tr class="table-active">
@@ -120,7 +120,7 @@ menu:
           <td class="text-center">Loris DUFAY</td>
           <td>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Encadrement adultes compétiteurs élites (joueurs de niveau R et N) - <b style="color:red;">COMPLET</b>
+            Encadrement adultes compétiteurs élites (joueurs de niveau R et N)
           </td>
         </tr>
         <tr class="table-active">
@@ -129,7 +129,7 @@ menu:
           <td class="text-center">François ECOBICHON</td>
           <td>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Encadrement adultes compétiteurs confirmés (Minimum D8 - créneau partagé avec Vern) - <b style="color:red;">COMPLET</b>
+            Encadrement adultes compétiteurs confirmés (Minimum D8 - créneau partagé avec Vern)
           </td>
         </tr>
         <tr>
@@ -142,7 +142,7 @@ menu:
             <img src="/assets/img/plume_verte.png" alt="Jeunes"/>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre pour tous - <b style="color:red;">COMPLET</b>
+            Jeu libre pour tous
           </td>
         </tr>
       </tbody>
