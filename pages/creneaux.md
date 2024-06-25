@@ -26,7 +26,7 @@ menu:
           <th scope="col" class="text-center">HORAIRES</th>
           <th scope="col" class="text-center">LIEU</th>
           <th scope="col" class="text-center">ENTRAINEUR</th>
-          <th scope="col" class="text-center">NIVEAU</th>
+          <th scope="col" class="text-center">DESCRIPTION</th>
         </tr>
       </thead>
       <tbody>
@@ -149,19 +149,14 @@ menu:
     </table>
   </div>
   <div class="legend">
-    <img src="/assets/img/plume_jaune.png" alt="Minibad"/> <b>Minibad</b> : né en 2016 et après<br/>
-    <img src="/assets/img/plume_verte.png" alt="Jeunes"/> <b>Jeunes</b> : né entre 2015 et 2006<br/>
-    <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/> <b>Adultes Loisirs</b><br/>
-    <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/> <b>Adultes Compétiteurs</b>
+    <img src="/assets/img/plume_jaune.png" alt="Minibad"/> <b>Minibad</b> : né en 2017 et après<br/>
+    <img src="/assets/img/plume_verte.png" alt="Jeunes"/> <b>Jeunes</b> : né entre 2016 et 2007<br/>
+    <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/> <b>Adultes jeu libre</b><br/>
+    <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/> <b>Adultes encadrés</b><br/><br/>
     <p>Les entraînements adultes sont séparés par niveau :</p>
     <ul>
-      <li>le <u>lundi</u> à 20h30 pour les adultes loisirs et compétiteurs <b>débutants</b></li>
+      <li>le <u>lundi</u> à 20h30 pour les compétiteurs <b>débutants</b></li>
       <li>le <u>mardi</u> et le <u>jeudi</u> pour les adultes compétiteurs classés et <b>confirmés</b></li>
     </ul>
-  </div>
-  <div class="arena">
-    <h2 class="text-center">JOUER A LA +2BAD ARENA</h2>
-    <p>Envie de jouer en dehors des créneaux ? Va à la Arena de +2bad et profite des prix préférentiels du REC ! Attention : ces tarifs sont réservés aux licenciés du REC Badminton.</p>
-    <img src="/assets/img/arena.jpg" alt="Arena +2Bad"/>
   </div>
 </section>
