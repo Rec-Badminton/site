@@ -21,7 +21,9 @@ menu:
       <ul class="dash">
         <li>Te présenter à un membre du bureau présent sur le créneau</li>
         <li>Remplir le petit formulaire en flashant ou cliquant sur le QR Code ci-contre. Ce formulaire te permet d’être assuré pendant 24h pour la pratique du badminton</li>
-        <li>Prévenir en amont de ta venue en envoyant un mail au bureau du club: <a class="col-lg order-lg-1" href="mailto:{{ site.data.contacts.email }}">{{site.data.contacts.email}}</a>. Ils pourront également te guider pour trouver le créneau le plus adapté à tes envies</li>
+        <li>Prévenir en amont de ta venue en envoyant un mail au bureau du club: <a class="col-lg order-lg-1" href="mailto:{{ site.data.contacts.email }}">{{site.data.contacts.email}}</a>. Ils pourront également te guider pour trouver le créneau le plus adapté à tes envies.<br/>
+        Attention, les places et la disponibilité des créneaux peuvent très vite partir en début de saison !</li>
+        <li>Séances d'essai du 2 au 13 septembre. Ouverture des inscriptions à partir du 14 septembre. Seuls les dossiers complets seront acceptés. Places limitées, merci d'anticiper votre certificat médical. Pas de réservation possible.</li>
       </ul>
     </div>
     <div class="div2">
