@@ -66,15 +66,17 @@ menu:
         <li>L'adhésion au club</li>
         <li>La licence fédérale incluant une assurance</li>
         <li>L'accès aux entrainements (hors vacances) et créneaux de jeu libre</li>
+        <li>L'équivalent de 6 tableaux de tournois offerts en passant par l'interface web du club</li>
         <li>L'accès aux événements organisés par le club</li>
         <li>L'accès à la boutique et aux tarifs avantageux chez nos partenaires</li>
       </ul>
       <table align="center">
         <thead>
           <th class="text-center">Minibad</th>
-          <th class="text-center">Jeune</th>
-          <th class="text-center">Loisir</th>
-          <th class="text-center">Compétiteur</th>
+          <th class="text-center">Jeunes</th>
+          <th class="text-center">Adultes Jeu Libre</th>
+          <th class="text-center">Adultes Encadrés</th>
+          <th class="text-center">Demi-Licences</th>
         </thead>
         <tbody>
           <td>
@@ -83,24 +85,32 @@ menu:
           </td>
           <td>
             {{ site.data.prix.jeune }} €
-            <img class="plume" src="/assets/img/plume_verte.png" alt="jeune">
+            <img class="plume" src="/assets/img/plume_verte.png" alt="jeunes">
           </td>
           <td>
             {{ site.data.prix.loisir }} €
-            <img class="plume" src="/assets/img/plume_bleue.png" alt="loisir">
+            <img class="plume" src="/assets/img/plume_bleue.png" alt="Adultes Jeu Libre">
           </td>
           <td>
             {{ site.data.prix.competiteur }} €
-            <img class="plume" src="/assets/img/plume_rouge.png" alt="compétiteur">
+            <img class="plume" src="/assets/img/plume_rouge.png" alt="Adultes Encadrés">
+          </td>
+          <td>
+            {{ site.data.prix.demi }} €
+            <img class="plume" src="/assets/img/plume_violette.png" alt="Demi-Licences">
           </td>
         </tbody>
       </table>
       <ul id="description">
-        <li id="minibad">Minibad : jeunes nés en 2015 et après</li>
-        <li id="jeune">Jeune : jeunes nés entre 2014 et 2005</li>
-        <li id="adulte">Adultes Loisirs</li>
-        <li id="competiteur">Adultes Compétiteurs : La formule Compétiteurs permet de participer aux interclubs et facilite l'accès pour l’inscription aux tournois avec le club, via le forum 6 tableaux offerts. Attention ! Les entraînements compétiteurs du mardi et jeudi sont réservés aux licenciés ayant un niveau confirmé ou avancé. Les joueurs compétiteurs débutants sont incités à pratiquer le cours du lundi à 20h30.</li>
+        <li id="minibad">Minibad : jeunes nés en 2017 et après</li>
+        <li id="jeune">Jeune : jeunes nés entre 2016 et 2007</li>
+        <li id="adulte">Adultes jeu libre : accès à au moins 1 créneau de jeu libre</li>
+        <li id="competiteur">Adultes encadrés : accès à au moins 1 créneau encadré par un entraîneur</li>
+        <li id="demi">Demi Licence : accès à l'entraînement du mardi à la Harpe et à 1 créneau de jeu libre</li>
       </ul>
+      <p><b>Réduction de 15€</b> pour les <b>étudiants</b> sur les inscriptions Adultes, sur présentation d'un justificatif.</p>
+      <p>L'inscription comprend la possibilité de participer à 2 créneaux durant la semaine à choisir lors de l'inscription en fonction des disponibilités. Avec un créneau supplémentaire de jeu libre pour tous le vendredi.</p>
+      <p>Attention ! Les entraînements compétiteurs du mardi et jeudi sont réservés aux licenciés ayant un niveau confirmé ou avancé. Les joueurs compétiteurs débutants seront orientés vers le cours du lundi à 20h30.</p>
     </section>
     <section>
       <h2>LES CRÉNEAUX</h2>
