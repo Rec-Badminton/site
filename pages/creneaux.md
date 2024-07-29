@@ -170,14 +170,14 @@ menu:
     </table>
   </div>
   <div class="legend">
-    <img src="/assets/img/plume_jaune.png" alt="Minibad"/> <b>Minibad</b> : né en 2017 et après<br/>
-    <img src="/assets/img/plume_verte.png" alt="Jeunes"/> <b>Jeunes</b> : né entre 2016 et 2007<br/>
+    <img src="/assets/img/plume_jaune.png" alt="Minibad"/> <b>Minibad</b> : né en 2018 et après<br/>
+    <img src="/assets/img/plume_verte.png" alt="Jeunes"/> <b>Jeunes</b> : né entre 2017 et 2008<br/>
     <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/> <b>Adultes jeu libre</b><br/>
     <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/> <b>Adultes encadrés</b><br/><br/>
     <p>Les entraînements adultes sont séparés par niveau :</p>
     <ul>
-      <li>le <u>lundi</u> à 20h30 pour les compétiteurs <b>débutants</b></li>
-      <li>le <u>mardi</u> et le <u>jeudi</u> pour les adultes compétiteurs classés et <b>confirmés</b></li>
+      <li>le <u>lundi</u> à 20h30 pour les compétiteurs <b>débutants </b>( jusqu'au classement P)</li>
+      <li>le <u>mardi</u> et le <u>jeudi</u> pour les adultes compétiteurs classés et <b>confirmés</b> (à partir du classement D)</li>
     </ul>
   </div>
 </section>
