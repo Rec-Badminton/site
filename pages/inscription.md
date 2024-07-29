@@ -23,11 +23,12 @@ menu:
         <li>Remplir le petit formulaire en flashant ou cliquant sur le QR Code ci-contre. Ce formulaire te permet d’être assuré pendant 24h pour la pratique du badminton</li>
         <li>Prévenir en amont de ta venue en envoyant un mail au bureau du club: <a class="col-lg order-lg-1" href="mailto:{{ site.data.contacts.email }}">{{site.data.contacts.email}}</a>. Ils pourront également te guider pour trouver le créneau le plus adapté à tes envies.<br/>
         Attention, les places et la disponibilité des créneaux peuvent très vite partir en début de saison !</li>
-        <li>Séances d'essai du 2 au 13 septembre. Ouverture des inscriptions à partir du 14 septembre. Seuls les dossiers complets seront acceptés. Places limitées, merci d'anticiper votre certificat médical. Pas de réservation possible.</li>
+        <li><b>Séances d'essai du 2 au 13 septembre. Ouverture des inscriptions le 14 septembre.</b> Seuls les dossiers complets seront acceptés. Places limitées, <b>pas de réservation d’inscription possible.</b></li>
       </ul>
     </div>
     <div class="div2">
-      <a href="https://poona.ffbad.org//page.php?P=fo/menu/public/accueil/operation_promo_participant&k=MjgxNkAyMQ==" target="_blank"><img class="d-block m-auto qrcode" src="/assets/img/qrcode_2324.PNG" alt="qrcode"></a>
+      <a href="https://poona.ffbad.org//page.php?P=fo/menu/public/accueil/operation_promo_participant&k=MjgxNkAyMQ==" target="_blank"><img class="d-block m-auto qrcode" src="/assets/img/qrcode_2324.PNG" alt="qrcode"></a><br/>
+      <i>QR à compléter le jour même de la séance</i>
     </div>
   </div>
   <div>
@@ -39,7 +40,7 @@ menu:
         <div class="card-body">
           <p class="align">L’inscription se fait dorénavant exclusivement en ligne sur :<br/>
             <a href="https://adherer.ffbad.club/rec35">https://adherer.ffbad.club/rec35</a><br/><br/>
-              Il te sera nécessaire de fournir le <a href="{{ site.data.ffbad.certificat }}" target="_blank">certificat officiel de la FFBad</a>, rempli par ton médecin. Ce certificat doit obligatoirement être daté de moins d’un an ! Il sera ensuite valable 3 ans au sein du club. <br/><br/>
+              Plus besoin du certificat médical obligatoire, mais questionnaire de santé à remplir directement lors de l’inscription en ligne. Si l’une des questions donne lieu à une réponse positive, un certificat médical datant de moins de 6 mois devra être fourni avec la demande de licence.  <br/><br/>
               N’hésite pas à nous envoyer un mail pour que nous puissions te guider à choisir les plus créneaux les plus adaptés à ton niveau et à tes envies ou à venir faire une séance d'essai.
           </p>
         </div>
@@ -53,7 +54,7 @@ menu:
             <a href="http://www.myffbad.fr">http://www.myffbad.fr</a><br/><br/>
               Déjà licencié auparavant et tu veux rejoindre le REC cette saison, retrouve ton numéro de licence et inscrit toi en ligne sur :<br/>
               <a href="https://adherer.ffbad.club/rec35">https://adherer.ffbad.club/rec35</a><br/><br/>
-              Il te faudra fournir le <a href="{{ site.data.ffbad.certificat }}" target="_blank">certificat officiel de la FFBad</a>, si le dernier fourni date de plus de 3 ans ou si tu n’étais pas déjà licencié au REC la saison dernière.
+              Plus besoin du certificat médical obligatoire, mais questionnaire de santé à remplir directement lors de l’inscription en ligne. Si l’une des questions donne lieu à une réponse positive, un certificat médical datant de moins de 6 mois devra être fourni avec la demande de licence.
             </p>
         </div>
       </div>
@@ -108,8 +109,12 @@ menu:
         <li id="competiteur">Adultes encadrés : accès à au moins 1 créneau encadré par un entraîneur</li>
         <li id="demi">Demi Licence : accès à l'entraînement du mardi à la Harpe et à 1 créneau de jeu libre</li>
       </ul>
-      <p><b>Réduction de 15€</b> pour les <b>étudiants</b> sur les inscriptions Adultes, sur présentation d'un justificatif.</p>
-      <p>L'inscription comprend la possibilité de participer à 2 créneaux durant la semaine à choisir lors de l'inscription en fonction des disponibilités. Avec un créneau supplémentaire de jeu libre pour tous le vendredi.</p>
+      <p><b>Réduction de 15€</b> pour les <b>étudiants</b> à joindre obligatoirement lors de l’inscription en ligne.
+<b>Réduction Pass’sport</b> sur présentation d’un justificatif lors de l’inscription en ligne. 
+Possibilité de payer par <b>Chèques Vacances ANCV</b> en choisissant “autres moyens de paiement.  
+<b>Aucun remboursement</b> ne pourra être demandé après l’inscription validée par le club.
+</p>
+      <p>L'inscription comprend la possibilité de participer à 2 créneaux durant la semaine à choisir lors de l'inscription en fonction des disponibilités. Avec un créneau supplémentaire de jeu libre pour tous le vendredi et/ou le dimanche.</p>
       <p>Attention ! Les entraînements compétiteurs du mardi et jeudi sont réservés aux licenciés ayant un niveau confirmé ou avancé. Les joueurs compétiteurs débutants seront orientés vers le cours du lundi à 20h30.</p>
     </section>
     <section>
