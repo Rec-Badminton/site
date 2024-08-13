@@ -27,7 +27,7 @@ menu:
       </ul>
     </div>
     <div class="div2">
-      <a href="https://poona.ffbad.org//page.php?P=fo/menu/public/accueil/operation_promo_participant&k=MjgxNkAyMQ==" target="_blank"><img class="d-block m-auto qrcode" src="/assets/img/qrcode_2324.PNG" alt="qrcode">
+      <a href="https://poona.ffbad.org//page.php?P=fo/menu/public/accueil/operation_promo_participant&k=MjgxNkAyMQ==" target="_blank"><img class="d-block m-auto qrcode" src="/assets/img/qrcode_2425.PNG" alt="qrcode">
             <i>QR à compléter le jour même de la séance</i>
 </a><br/>
     </div>
