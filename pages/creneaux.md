@@ -156,7 +156,7 @@ menu:
         <tr>
           <th scope="row" class="text-center">Dimanche</th>
           <td class="text-center">16h00 - 18h00</td>
-          <td class="text-center"><a href="https://goo.gl/maps/6kAg7uT85GiW3E386" target="_blank">Salle de la Binquenais</a></td>
+          <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20Montbarrot%2C%2014%20Rue%20de%20Gascogne%2C%2035000%20Rennes%2C%20France" target="_blank">Gymnase Montbarrot</a></td>
           <td class="text-center">/</td>
           <td>
             <img src="/assets/img/plume_jaune.png" alt="Minibad"/>
