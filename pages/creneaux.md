@@ -105,13 +105,13 @@ menu:
           </td>
         </tr>
         <tr>
-          <td class="text-center">20h30 - 22h15 <b>COMPLET</b></td>
+          <td class="text-center">20h30 - 22h15 <b class="brand-color">COMPLET</b></td>
           <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20Jean-Prouff%2C%205%20Place%20Paul%20Ricoeur%2C%2035000%20Rennes%2C%20France" target="_blank">Gymnase Jean-Prouff</a></td>
           <td class="text-center">/</td>
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre adultes loisirs et compétiteurs <b>COMPLET</b>
+            Jeu libre adultes loisirs et compétiteurs <b class="brand-color">COMPLET</b>
           </td>
         </tr>
         <tr class="table-active">
