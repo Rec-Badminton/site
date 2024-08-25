@@ -112,11 +112,11 @@ menu:
       </ul>
       <ul>
       <li id="description"><b>* Réduction de 15€</b> pour les <b>étudiants</b> à joindre obligatoirement lors de l’inscription en ligne.</li>
-<li><b>* Réduction Pass’sport</b> sur présentation d’un justificatif lors de l’inscription en ligne. </li>
+<li>* Réduction Pass’sport</b> sur présentation d’un justificatif lors de l’inscription en ligne. </li>
 <li>* Possibilité de payer par <b>Chèques Vacances ANCV</b> en choisissant “autres moyens de paiement. </li>
-<li><b>* Aucun remboursement</b> ne pourra être demandé après l’inscription validée par le club.</li>
+<li>* Aucun remboursement</b> ne pourra être demandé après l’inscription validée par le club.</li>
 </ul>
-      <p>L'inscription comprend la possibilité de participer à <b>2 créneaux maximum</b> durant la semaine à choisir lors de l'inscription en fonction des disponibilités. Avec un créneau supplémentaire de jeu libre pour tous le vendredi et/ou le dimanche.</p><br/>
+      <p>L'inscription comprend la possibilité de participer à <span class="brand-color"><b>2 créneaux maximum</b></span> durant la semaine à choisir lors de l'inscription en fonction des disponibilités. Avec un créneau supplémentaire de jeu libre pour tous le vendredi et/ou le dimanche.</p><br/>
       <p>Attention ! Les entraînements compétiteurs du mardi et jeudi sont réservés aux licenciés ayant un niveau confirmé ou avancé. Les joueurs compétiteurs débutants seront orientés vers le cours du lundi à 20h30.</p>
     </section>
     <section>
