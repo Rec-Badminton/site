@@ -44,13 +44,13 @@ menu:
           </td>
         </tr>
         <tr>
-          <td class="text-center">19h00 - 22h00 <b class="brand-color">COMPLET</b> </td>
+          <td class="text-center">19h00 - 22h00 <span class="brand-color"><b>COMPLET</b></span> </td>
           <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20de%20Beaulieu%2C%20campus%20de%20Beaulieu%2C%20Universit%C3%A9%20de%20Rennes%201%2C%20263%20Av.%20G%C3%A9n%C3%A9ral%20Leclerc%2C%2035700%20Rennes%2C%20France" target="_blank">Beaulieu Salle du SIUAPS</a></td>
           <td class="text-center">/</td>
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre adultes (créneau partagé avec le RUC) <b class="brand-color">COMPLET</b>
+            Jeu libre adultes (créneau partagé avec le RUC) <span class="brand-color"><b>COMPLET</b></span>
           </td>
         </tr>
         <tr>
@@ -105,13 +105,13 @@ menu:
           </td>
         </tr>
         <tr>
-          <td class="text-center">20h30 - 22h15 <b class="brand-color">COMPLET</b></td>
+          <td class="text-center">20h30 - 22h15 <span class="brand-color"><b>COMPLET</b></span></td>
           <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20Jean-Prouff%2C%205%20Place%20Paul%20Ricoeur%2C%2035000%20Rennes%2C%20France" target="_blank">Gymnase Jean-Prouff</a></td>
           <td class="text-center">/</td>
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre adultes loisirs et compétiteurs <b class="brand-color">COMPLET</b>
+            Jeu libre adultes loisirs et compétiteurs <span class="brand-color"><b>COMPLET</b></span>
           </td>
         </tr>
         <tr class="table-active">
