@@ -72,7 +72,6 @@ menu:
         <li>L'accès aux événements organisés par le club</li>
         <li>L'accès à la boutique et aux tarifs avantageux chez nos partenaires</li>
       </ul>
-      <b class="red">2 CRÉNEAUX MAXIMUM</b>
       <table align="center">
         <thead>
           <th class="text-center">Minibad</th>
@@ -110,8 +109,7 @@ menu:
         <li id="adulte">Adultes jeu libre : accès à au moins 1 créneau de jeu libre</li>
         <li id="competiteur">Adultes encadrés : accès à au moins 1 créneau encadré par un entraîneur</li>
         <li id="demi">Demi Licence : accès à l'entraînement du mardi à la Harpe et à 1 créneau de jeu libre</li>
-      </ul> <b/>
-      <b/>
+      </ul>
       <ul>
       <li id="description"><b>* Réduction de 15€</b> pour les <b>étudiants</b> à joindre obligatoirement lors de l’inscription en ligne.</li>
 <li><b>* Réduction Pass’sport</b> sur présentation d’un justificatif lors de l’inscription en ligne. </li>
