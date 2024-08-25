@@ -72,6 +72,7 @@ menu:
         <li>L'accès aux événements organisés par le club</li>
         <li>L'accès à la boutique et aux tarifs avantageux chez nos partenaires</li>
       </ul>
+      <b class="red">2 CRÉNEAUX MAXIMUM<b/>
       <table align="center">
         <thead>
           <th class="text-center">Minibad</th>
@@ -109,13 +110,15 @@ menu:
         <li id="adulte">Adultes jeu libre : accès à au moins 1 créneau de jeu libre</li>
         <li id="competiteur">Adultes encadrés : accès à au moins 1 créneau encadré par un entraîneur</li>
         <li id="demi">Demi Licence : accès à l'entraînement du mardi à la Harpe et à 1 créneau de jeu libre</li>
-      </ul>
-      <p><b>Réduction de 15€</b> pour les <b>étudiants</b> à joindre obligatoirement lors de l’inscription en ligne.
-<b>Réduction Pass’sport</b> sur présentation d’un justificatif lors de l’inscription en ligne. 
-Possibilité de payer par <b>Chèques Vacances ANCV</b> en choisissant “autres moyens de paiement.  
-<b>Aucun remboursement</b> ne pourra être demandé après l’inscription validée par le club.
-</p>
-      <p>L'inscription comprend la possibilité de participer à 2 créneaux durant la semaine à choisir lors de l'inscription en fonction des disponibilités. Avec un créneau supplémentaire de jeu libre pour tous le vendredi et/ou le dimanche.</p>
+      </ul> <b/>
+      <b/>
+      <ul>
+      <li id="description"><b>* Réduction de 15€</b> pour les <b>étudiants</b> à joindre obligatoirement lors de l’inscription en ligne.</li>
+<li><b>* Réduction Pass’sport</b> sur présentation d’un justificatif lors de l’inscription en ligne. </li>
+<li>* Possibilité de payer par <b>Chèques Vacances ANCV</b> en choisissant “autres moyens de paiement. </li>
+<li><b>* Aucun remboursement</b> ne pourra être demandé après l’inscription validée par le club.</li>
+</ul>
+      <p>L'inscription comprend la possibilité de participer à <b>2 créneaux maximum</b> durant la semaine à choisir lors de l'inscription en fonction des disponibilités. Avec un créneau supplémentaire de jeu libre pour tous le vendredi et/ou le dimanche.</p><br/>
       <p>Attention ! Les entraînements compétiteurs du mardi et jeudi sont réservés aux licenciés ayant un niveau confirmé ou avancé. Les joueurs compétiteurs débutants seront orientés vers le cours du lundi à 20h30.</p>
     </section>
     <section>
