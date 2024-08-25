@@ -44,13 +44,13 @@ menu:
           </td>
         </tr>
         <tr>
-          <td class="text-center">19h00 - 22h00</td>
+          <td class="text-center">19h00 - 22h00 <b>COMPLET</b> </td>
           <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20de%20Beaulieu%2C%20campus%20de%20Beaulieu%2C%20Universit%C3%A9%20de%20Rennes%201%2C%20263%20Av.%20G%C3%A9n%C3%A9ral%20Leclerc%2C%2035700%20Rennes%2C%20France" target="_blank">Beaulieu Salle du SIUAPS</a></td>
           <td class="text-center">/</td>
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre adultes (créneau partagé avec le RUC)
+            Jeu libre adultes (créneau partagé avec le RUC) <b>COMPLET</b>
           </td>
         </tr>
         <tr>
@@ -68,7 +68,6 @@ menu:
           <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Complexe%20Sportif%20de%20la%20Harpe%2C%20Av.%20Charles%20et%20Raymonde%20Tillon%2C%2035000%20Rennes%2C%20France" target="_blank">La Harpe Gymnase C</a></td>
           <td class="text-center">Wilfried BOSTON</td>
           <td>
-            <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
             Entrainement adultes pour les joueurs débutants et intermédiaires (jusqu'au classement P)
           </td>
@@ -101,16 +100,18 @@ menu:
           <td>
             <img src="/assets/img/plume_jaune.png" alt="Minibad"/>
             <img src="/assets/img/plume_verte.png" alt="Jeunes"/>
-              Entraînement jeunes (de 7 à 17 ans)
+            <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
+              Entraînement jeunes (de 7 à 17 ans) et Adultes Débutants et Intermédiaires
           </td>
         </tr>
         <tr>
-          <td class="text-center">20h30 - 22h15</td>
+          <td class="text-center">20h30 - 22h15 <b>COMPLET</b></td>
           <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20Jean-Prouff%2C%205%20Place%20Paul%20Ricoeur%2C%2035000%20Rennes%2C%20France" target="_blank">Gymnase Jean-Prouff</a></td>
           <td class="text-center">/</td>
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
-            Jeu libre adultes loisirs
+            <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
+            Jeu libre adultes loisirs et compétiteurs <b>COMPLET</b>
           </td>
         </tr>
         <tr class="table-active">
@@ -176,7 +177,7 @@ menu:
     <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/> <b>Adultes encadrés</b><br/><br/>
     <p>Les entraînements adultes sont séparés par niveau :</p>
     <ul>
-      <li>le <u>lundi</u> à 20h30 pour les compétiteurs <b>débutants </b>( jusqu'au classement P)</li>
+      <li>le <u>lundi</u> à 20h30 et le  <u>mercredi</u> à 17h30 pour les compétiteurs <b>débutants</b> (jusqu'au classement P)</li>
       <li>le <u>mardi</u> et le <u>jeudi</u> pour les adultes compétiteurs classés et <b>confirmés</b> (à partir du classement D)</li>
     </ul>
   </div>
