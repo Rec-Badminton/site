@@ -72,7 +72,7 @@ menu:
         <li>L'accès aux événements organisés par le club</li>
         <li>L'accès à la boutique et aux tarifs avantageux chez nos partenaires</li>
       </ul>
-      <b class="red">2 CRÉNEAUX MAXIMUM<b/>
+      <b class="red">2 CRÉNEAUX MAXIMUM</b>
       <table align="center">
         <thead>
           <th class="text-center">Minibad</th>
