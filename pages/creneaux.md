@@ -44,13 +44,13 @@ menu:
           </td>
         </tr>
         <tr>
-          <td class="text-center">19h00 - 22h00 <b>COMPLET</b> </td>
+          <td class="text-center">19h00 - 22h00 <b class="brand-color">COMPLET</b> </td>
           <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20de%20Beaulieu%2C%20campus%20de%20Beaulieu%2C%20Universit%C3%A9%20de%20Rennes%201%2C%20263%20Av.%20G%C3%A9n%C3%A9ral%20Leclerc%2C%2035700%20Rennes%2C%20France" target="_blank">Beaulieu Salle du SIUAPS</a></td>
           <td class="text-center">/</td>
           <td>
             <img src="/assets/img/plume_bleue.png" alt="Joueurs Loisirs"/>
             <img src="/assets/img/plume_rouge.png" alt="Joueurs Compétiteurs"/>
-            Jeu libre adultes (créneau partagé avec le RUC) <b>COMPLET</b>
+            Jeu libre adultes (créneau partagé avec le RUC) <b class="brand-color">COMPLET</b>
           </td>
         </tr>
         <tr>
