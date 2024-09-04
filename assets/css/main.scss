@@ -354,6 +354,14 @@ footer {
             align-items: center;
             margin: 0 !important;
             color: $background-color !important;
+
+            .social {
+              padding: 0;
+
+              svg {
+                color: $background-color;
+              }
+            }
         }
 
         @media(min-width:992px) {
