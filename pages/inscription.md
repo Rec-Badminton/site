@@ -83,23 +83,23 @@ menu:
         <tbody>
           <td>
             {{ site.data.prix.minibad }} €
-            <img class="plume" src="/assets/img/plume_jaune.png" alt="minibad">
+            <img class="plume" src="/assets/img/plumes/plume_jaune.png" alt="minibad">
           </td>
           <td>
             {{ site.data.prix.jeune }} €
-            <img class="plume" src="/assets/img/plume_verte.png" alt="jeunes">
+            <img class="plume" src="/assets/img/plumes/plume_verte.png" alt="jeunes">
           </td>
           <td>
             {{ site.data.prix.loisir }} €
-            <img class="plume" src="/assets/img/plume_bleue.png" alt="Adultes Jeu Libre">
+            <img class="plume" src="/assets/img/plumes/plume_bleue.png" alt="Adultes Jeu Libre">
           </td>
           <td>
             {{ site.data.prix.competiteur }} €
-            <img class="plume" src="/assets/img/plume_rouge.png" alt="Adultes Encadrés">
+            <img class="plume" src="/assets/img/plumes/plume_rouge.png" alt="Adultes Encadrés">
           </td>
           <td>
             {{ site.data.prix.demi }} €
-            <img class="plume" src="/assets/img/plume_violette.png" alt="Demi-Licences">
+            <img class="plume" src="/assets/img/plumes/plume_violette.png" alt="Demi-Licences">
           </td>
         </tbody>
       </table>
@@ -121,7 +121,6 @@ menu:
     </section>
     <section>
       <h2>LES CRÉNEAUX</h2>
-      <img class="plume" src="/assets/img/heure.jpg" alt="créneaux">
       <p class="creneau">Retrouve la <a href="{{ site.baseurl }}/creneaux">liste des créneaux ici</a></p>
     </section>
     <section>
