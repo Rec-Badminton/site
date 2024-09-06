@@ -1,8 +1,16 @@
 <footer class="row">
   <div class="row first">
     <div class="col-lg order-lg-2"><img src="{{ site.baseurl }}/assets/img/logo_recbadminton_blanc_fond_noir.png" alt="logo"></div>
-    <a class="col-lg order-lg-1" href="mailto:{{ site.data.contacts.email }}">{{site.data.contacts.email}}</a>
-    <p class="col-lg order-lg-3">#RECBadminton</p>
+    <a class="col-lg order-lg-1" href="mailto:{{ site.data.rec.email }}">{{ site.data.rec.email }}</a>
+    <p class="col-lg order-lg-3">
+      {% assign i = 0 %}
+        {% for social in site.data.socials %}
+            <a href="{{ social.url }}" target=”_blank” class="social">
+              {{ social.logo_svg }}
+            </a>
+            {% assign i = i | plus:1 %}
+        {% endfor %}
+    </p>
   </div>
   <div class="middle d-flex flex-column flex-lg-row justify-content-center">
     {% for sponsor in site.data.sponsors %}

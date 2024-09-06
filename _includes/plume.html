@@ -1,0 +1,6 @@
+{% assign cat = site.data.categories | where_exp: "item", "item.code == include.code" | first %}
+<img
+  class="{{ include.class }}"
+  src="{{ site.baseurl }}/assets/img/plumes/{{ cat.img }}"
+  alt="{{ cat.titre }}"
+  title="{{ cat.titre }}">

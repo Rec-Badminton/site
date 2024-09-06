@@ -354,6 +354,14 @@ footer {
             align-items: center;
             margin: 0 !important;
             color: $background-color !important;
+
+            .social {
+              padding: 0;
+
+              svg {
+                color: $background-color;
+              }
+            }
         }
 
         @media(min-width:992px) {
@@ -473,49 +481,9 @@ footer {
         list-style-type: none;
     }
 
-    #description li#minibad:before {
-        background-image:url('{{ site.baseurl }}/assets/img/plume_jaune.png');
-        background-size: 20px 20px;
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        content:"";
-    }
-
-    #description li#jeune:before {
-        background-image:url('{{ site.baseurl }}/assets/img/plume_verte.png');
-        background-size: 20px 20px;
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        content:"";
-    }
-
-    #description li#adulte:before {
-        background-image:url('{{ site.baseurl }}/assets/img/plume_bleue.png');
-        background-size: 20px 20px;
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        content:"";
-    }
-
-    #description li#competiteur:before {
-        background-image:url('{{ site.baseurl }}/assets/img/plume_rouge.png');
-        background-size: 20px 20px;
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        content:"";
-    }
-
-    #description li#demi:before {
-        background-image:url('{{ site.baseurl }}/assets/img/plume_violette.png');
-        background-size: 20px 20px;
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        content:"";
+    #description li img {
+        width: 25px;
+        height: 25px;
     }
 
     section {
@@ -543,6 +511,52 @@ footer {
 
     .div2 h2 {
         margin-top: 5%;
+    }
+
+    .livret {
+      .link-container {
+        position: relative;
+        display: inline-block;
+        padding: 12px 25px;
+        text-decoration: none;
+        color: $background-color;
+        background-color: $brand-color;
+        font-weight: bold;
+        font-family: Bebas Neue;
+        font-size: 20px;
+      }
+
+      .link-container::before,
+      .link-container::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          width: 0;
+          height: 0;
+      }
+
+      .link-container::before {
+          left: -40px;
+          bottom: -10px;
+          border-top: 20px solid $brand-color;
+          border-right: 20px solid $brand-color;
+          border-bottom: 20px solid $brand-color;
+          border-left: 20px solid transparent;
+      }
+
+      .link-container::after {
+          right: -40px;
+          bottom: -10px;
+          border-top: 20px solid $brand-color;
+          border-right: 20px solid transparent;
+          border-bottom: 20px solid $brand-color;
+          border-left: 20px solid $brand-color;
+      }
+
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      margin-top: 50px;
     }
 }
 
