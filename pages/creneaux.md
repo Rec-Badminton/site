@@ -126,7 +126,7 @@ menu:
           </td>
         </tr>
         <tr class="table-active">
-          <td class="text-center">20h30 - 23h00 <span class="brand-color"><b>LISTE D'ATTENTE</b></span></td>
+          <td class="text-center">20h00 - 23h00 <span class="brand-color"><b>LISTE D'ATTENTE</b></span></td>
           <td class="text-center"><a href="https://goo.gl/maps/mLV8usnxVtrHfWyv6" target="_blank">Salle de la Seiche (Vern)</a></td>
           <td class="text-center">François ECOBICHON</td>
           <td>
