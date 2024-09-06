@@ -21,9 +21,10 @@ menu:
       <ul class="dash">
         <li>Te présenter à un membre du bureau présent sur le créneau</li>
         <li>Remplir le petit formulaire en flashant ou cliquant sur le QR Code ci-contre. Ce formulaire te permet d’être assuré pendant 24h pour la pratique du badminton</li>
-        <li>Prévenir en amont de ta venue en envoyant un mail au bureau du club: <a class="col-lg order-lg-1" href="mailto:{{ site.data.contacts.email }}">{{site.data.contacts.email}}</a>. Ils pourront également te guider pour trouver le créneau le plus adapté à tes envies.<br/>
+        <li>Prévenir en amont de ta venue en envoyant un mail au bureau du club: <a class="col-lg order-lg-1" href="mailto:{{ site.data.rec.email }}">{{site.data.rec.email}}</a>. Ils pourront également te guider pour trouver le créneau le plus adapté à tes envies.<br/>
         Attention, les places et la disponibilité des créneaux peuvent très vite partir en début de saison !</li>
         <li><b>Séances d'essai du 2 au 13 septembre. Ouverture des inscriptions le 14 septembre.</b> Seuls les dossiers complets seront acceptés. Places limitées, <b>pas de réservation d’inscription possible.</b></li>
+        <li>Dates des reprises <a target="_blank" href="/assets/img/reprise.png">à consulter ici</a></li>
       </ul>
     </div>
     <div class="div2">
@@ -40,7 +41,7 @@ menu:
         <h2 class="card-header">NOUVELLE ADHESION</h2>
         <div class="card-body">
           <p class="align">L’inscription se fait dorénavant exclusivement en ligne sur :<br/>
-            <a href="https://adherer.ffbad.club/rec35">https://adherer.ffbad.club/rec35</a><br/><br/>
+            <a href="{{ site.data.ffbad.licence }}">{{ site.data.ffbad.licence }}</a><br/><br/>
               Plus besoin du certificat médical obligatoire, mais questionnaire de santé à remplir directement lors de l’inscription en ligne. Si l’une des questions donne lieu à une réponse positive, un certificat médical datant de moins de 6 mois devra être fourni avec la demande de licence.  <br/><br/>
               N’hésite pas à nous envoyer un mail pour que nous puissions te guider à choisir les plus créneaux les plus adaptés à ton niveau et à tes envies ou à venir faire une séance d'essai.
           </p>
@@ -52,14 +53,17 @@ menu:
         <h2 class="card-header">RENOUVELLEMENT DE LICENCE</h2>
         <div class="card-body">
           <p class="align">Ancien du REC, renouvelle ta licence plus rapidement sur ton espace licencié : <br/>
-            <a href="http://www.myffbad.fr">http://www.myffbad.fr</a><br/><br/>
+            <a href="{{ site.data.ffbad.site }}">{{ site.data.ffbad.site }}</a><br/><br/>
               Déjà licencié auparavant et tu veux rejoindre le REC cette saison, retrouve ton numéro de licence et inscrit toi en ligne sur :<br/>
-              <a href="https://adherer.ffbad.club/rec35">https://adherer.ffbad.club/rec35</a><br/><br/>
+              <a href="{{ site.data.ffbad.licence }}">{{ site.data.ffbad.licence }}</a><br/><br/>
               Plus besoin du certificat médical obligatoire, mais questionnaire de santé à remplir directement lors de l’inscription en ligne. Si l’une des questions donne lieu à une réponse positive, un certificat médical datant de moins de 6 mois devra être fourni avec la demande de licence.
             </p>
         </div>
       </div>
     </div>
+  <div class="livret">
+    <a class="link-container" target="_blank" href="/assets/LIVRET_BIENVENUE AU REC.pdf">A LIRE : LIVRET D'ACCUEIL</a>
+  </div>
   <div>
     <section>
       <h2>LES TARIFS</h2>

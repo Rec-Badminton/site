@@ -512,6 +512,52 @@ footer {
     .div2 h2 {
         margin-top: 5%;
     }
+
+    .livret {
+      .link-container {
+        position: relative;
+        display: inline-block;
+        padding: 12px 25px;
+        text-decoration: none;
+        color: $background-color;
+        background-color: $brand-color;
+        font-weight: bold;
+        font-family: Bebas Neue;
+        font-size: 20px;
+      }
+
+      .link-container::before,
+      .link-container::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          width: 0;
+          height: 0;
+      }
+
+      .link-container::before {
+          left: -40px;
+          bottom: -10px;
+          border-top: 20px solid $brand-color;
+          border-right: 20px solid $brand-color;
+          border-bottom: 20px solid $brand-color;
+          border-left: 20px solid transparent;
+      }
+
+      .link-container::after {
+          right: -40px;
+          bottom: -10px;
+          border-top: 20px solid $brand-color;
+          border-right: 20px solid transparent;
+          border-bottom: 20px solid $brand-color;
+          border-left: 20px solid $brand-color;
+      }
+
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      margin-top: 50px;
+    }
 }
 
 h1 {

@@ -11,12 +11,12 @@
   prix: 60
 - code: JEU_LIBRE
   img: plume_bleue.png
-  titre: Adultes jeu libre
+  titre: Adulte jeu libre
   description: accès à au moins 1 créneau de jeu libre
   prix: 120
 - code: ENCADRE
   img: plume_rouge.png
-  titre: Adultes encadrés
+  titre: Adulte encadré
   description: accès à au moins 1 créneau encadré par un entraîneur
   prix: 140
 - code: DEMI
