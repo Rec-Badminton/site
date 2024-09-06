@@ -24,7 +24,7 @@ menu:
         <li>Prévenir en amont de ta venue en envoyant un mail au bureau du club: <a class="col-lg order-lg-1" href="mailto:{{ site.data.rec.email }}">{{site.data.rec.email}}</a>. Ils pourront également te guider pour trouver le créneau le plus adapté à tes envies.<br/>
         Attention, les places et la disponibilité des créneaux peuvent très vite partir en début de saison !</li>
         <li><b>Séances d'essai du 2 au 13 septembre. Ouverture des inscriptions le 14 septembre.</b> Seuls les dossiers complets seront acceptés. Places limitées, <b>pas de réservation d’inscription possible.</b></li>
-        <li>Dates des reprises <a target="_blank" href="/assets/img/reprise.png">à consulter ici</a></li>
+        <li>Dates des reprises <a target="_blank" href="/assets/img/reprise.jpg">à consulter ici</a></li>
       </ul>
     </div>
     <div class="div2">
