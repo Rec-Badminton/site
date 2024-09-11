@@ -1,0 +1,29 @@
+---
+- code: GAYEULLES
+  titre: Halle sportives des Gayeulles
+  location: https://maps.google.com/maps?hl=fr&q=Halle%20Sportives%20Des%20Gayeulles%2C%208%20Av.%20des%20Gayeulles%2C%2035700%20Rennes%2C%20France
+- code: BEAULIEU
+  titre: Beaulieu Salle du SIUAPS
+  location: https://maps.google.com/maps?hl=fr&q=Gymnase%20de%20Beaulieu%2C%20campus%20de%20Beaulieu%2C%20Universit%C3%A9%20de%20Rennes%201%2C%20263%20Av.%20G%C3%A9n%C3%A9ral%20Leclerc%2C%2035700%20Rennes%2C%20France
+- code: BINQUENAIS
+  titre: Salle de la Binquenais
+  location: https://goo.gl/maps/6kAg7uT85GiW3E386
+- code: HARPE_C
+  titre: La Harpe Gymnase C
+  location: https://maps.google.com/maps?hl=fr&q=Complexe%20Sportif%20de%20la%20Harpe%2C%20Av.%20Charles%20et%20Raymonde%20Tillon%2C%2035000%20Rennes%2C%20France
+- code: HARPE
+  titre: Halle de la Harpe
+  location: https://maps.google.com/maps?hl=fr&q=Complexe%20Sportif%20de%20la%20Harpe%2C%20Av.%20Charles%20et%20Raymonde%20Tillon%2C%2035000%20Rennes%2C%20France
+- code: PROUFF
+  titre: Gymnase Jean-Prouff
+  location: https://maps.google.com/maps?hl=fr&q=Gymnase%20Jean-Prouff%2C%205%20Place%20Paul%20Ricoeur%2C%2035000%20Rennes%2C%20France
+- code: MONTBARROT
+  titre: Gymnase Montbarrot
+  location: https://maps.google.com/maps?hl=fr&q=Gymnase%20Montbarrot%2C%2014%20Rue%20de%20Gascogne%2C%2035000%20Rennes%2C%20France
+- code: VERN
+  titre: Salle de la Seiche (Vern)
+  location: https://goo.gl/maps/mLV8usnxVtrHfWyv6
+- code:
+  titre:
+  location:
+

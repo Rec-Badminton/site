@@ -33,7 +33,7 @@ menu:
         <tr>
           <th scope="row" rowspan="4" class="text-center">Lundi</th>
           <td class="text-center">18h00 - 20h00 <span class="brand-color"><b>LISTE D'ATTENTE</b></span></td>
-          <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Halle%20Sportives%20Des%20Gayeulles%2C%208%20Av.%20des%20Gayeulles%2C%2035700%20Rennes%2C%20France" target="_blank">Halle sportives des Gayeulles</a></td>
+          <td class="text-center">{% include salle.html code='GAYEULLES' %}</td>
           <td class="text-center">/</td>
           <td>
             {% include plume.html code='MINIBAD' %}
@@ -45,7 +45,7 @@ menu:
         </tr>
         <tr>
           <td class="text-center">19h00 - 22h00 <span class="brand-color"><b>LISTE D'ATTENTE</b></span></td>
-          <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20de%20Beaulieu%2C%20campus%20de%20Beaulieu%2C%20Universit%C3%A9%20de%20Rennes%201%2C%20263%20Av.%20G%C3%A9n%C3%A9ral%20Leclerc%2C%2035700%20Rennes%2C%20France" target="_blank">Beaulieu Salle du SIUAPS</a></td>
+          <td class="text-center">{% include salle.html code='BEAULIEU' %}</td>
           <td class="text-center">/</td>
           <td>
             {% include plume.html code='JEU_LIBRE' %}
@@ -55,7 +55,7 @@ menu:
         </tr>
         <tr>
           <td class="text-center">20h00 - 22h00 <span class="brand-color"><b>COMPLET</b></span></td>
-          <td class="text-center"><a href="https://goo.gl/maps/6kAg7uT85GiW3E386" target="_blank">Salle de la Binquenais</a></td>
+          <td class="text-center">{% include salle.html code='BINQUENAIS' %}</td>
           <td class="text-center">/</td>
           <td>
             {% include plume.html code='JEU_LIBRE' %}
@@ -65,7 +65,7 @@ menu:
         </tr>
         <tr>
           <td class="text-center">20h30 - 22h00 <span class="brand-color"><b>LISTE D'ATTENTE</b></span></td>
-          <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Complexe%20Sportif%20de%20la%20Harpe%2C%20Av.%20Charles%20et%20Raymonde%20Tillon%2C%2035000%20Rennes%2C%20France" target="_blank">La Harpe Gymnase C</a></td>
+          <td class="text-center">{% include salle.html code='HARPE_C' %}</td>
           <td class="text-center">Wilfried BOSTON</td>
           <td>
             {% include plume.html code='ENCADRE' %}
@@ -73,9 +73,9 @@ menu:
           </td>
         </tr>
         <tr class="table-active">
-          <th scope="row" class="text-center">Mardi</th>
+          <th scope="row" rowspan="2" class="text-center">Mardi</th>
           <td class="text-center">20h00 - 22h00 <span class="brand-color"><b>LISTE D'ATTENTE</b></span></td>
-          <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Complexe%20Sportif%20de%20la%20Harpe%2C%20Av.%20Charles%20et%20Raymonde%20Tillon%2C%2035000%20Rennes%2C%20France" target="_blank">Halle de la Harpe</a></td>
+          <td class="text-center">{% include salle.html code='HARPE' %}</td>
           <td class="text-center">Loris DUFAY & François ECOBICHON</td>
           <td>
             {% include plume.html code='ENCADRE' %}
@@ -83,10 +83,19 @@ menu:
             Entrainement adultes pour les compétiteurs confirmés (à partir du classement D)
           </td>
         </tr>
+        <tr class="table-active">
+          <td class="text-center">20h30 - 22h00</td>
+          <td class="text-center">{% include salle.html code='HARPE_C' %}</td>
+          <td class="text-center">/</td>
+          <td>
+            {% include plume.html code='JEU_LIBRE' %}
+            Jeu libre adultes loisirs
+          </td>
+        </tr>
         <tr>
           <th scope="row" rowspan="3" class="text-center">Mercredi</th>
           <td class="text-center">12h00 - 13h00</td>
-          <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20Jean-Prouff%2C%205%20Place%20Paul%20Ricoeur%2C%2035000%20Rennes%2C%20France" target="_blank">Gymnase Jean-Prouff</a></td>
+          <td class="text-center">{% include salle.html code='PROUFF' %}</td>
           <td class="text-center">/</td>
           <td>
             {% include plume.html code='JEU_LIBRE' %}
@@ -96,7 +105,7 @@ menu:
         </tr>
         <tr>
         <td class="text-center">17h00 - 18h30</td>
-          <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20de%20Beaulieu%2C%20campus%20de%20Beaulieu%2C%20Universit%C3%A9%20de%20Rennes%201%2C%20263%20Av.%20G%C3%A9n%C3%A9ral%20Leclerc%2C%2035700%20Rennes%2C%20France" target="_blank">Beaulieu Salle du SIUAPS</a></td>
+          <td class="text-center">{% include salle.html code='BEAULIEU' %}</td>
           <td class="text-center">Wilfried BOSTON</td>
           <td>
             {% include plume.html code='MINIBAD' %}
@@ -107,7 +116,7 @@ menu:
         </tr>
         <tr>
           <td class="text-center">20h30 - 22h15 <span class="brand-color"><b>COMPLET</b></span></td>
-          <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20Jean-Prouff%2C%205%20Place%20Paul%20Ricoeur%2C%2035000%20Rennes%2C%20France" target="_blank">Gymnase Jean-Prouff</a></td>
+          <td class="text-center">{% include salle.html code='PROUFF' %}</td>
           <td class="text-center">/</td>
           <td>
             {% include plume.html code='JEU_LIBRE' %}
@@ -118,7 +127,7 @@ menu:
         <tr class="table-active">
           <th scope="row" rowspan="2" class="text-center">Jeudi</th>
           <td class="text-center">20h00 - 22h00 <span class="brand-color"><b>LISTE D'ATTENTE</b></span></td>
-          <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20Montbarrot%2C%2014%20Rue%20de%20Gascogne%2C%2035000%20Rennes%2C%20France" target="_blank">Gymnase Montbarrot</a></td>
+          <td class="text-center">{% include salle.html code='MONTBARROT' %}</td>
           <td class="text-center">Loris DUFAY</td>
           <td>
             {% include plume.html code='ENCADRE' %}
@@ -127,7 +136,7 @@ menu:
         </tr>
         <tr class="table-active">
           <td class="text-center">20h00 - 23h00 <span class="brand-color"><b>LISTE D'ATTENTE</b></span></td>
-          <td class="text-center"><a href="https://goo.gl/maps/mLV8usnxVtrHfWyv6" target="_blank">Salle de la Seiche (Vern)</a></td>
+          <td class="text-center">{% include salle.html code='VERN' %}</td>
           <td class="text-center">François ECOBICHON</td>
           <td>
             {% include plume.html code='ENCADRE' %}
@@ -137,7 +146,7 @@ menu:
         <tr>
           <th scope="row" class="text-center">Vendredi</th>
           <td class="text-center">18h00 - 22h00 <span class="brand-color"><b>COMPLET</b></span></td>
-          <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20de%20Beaulieu%2C%20campus%20de%20Beaulieu%2C%20Universit%C3%A9%20de%20Rennes%201%2C%20263%20Av.%20G%C3%A9n%C3%A9ral%20Leclerc%2C%2035700%20Rennes%2C%20France" target="_blank">Beaulieu Salle du SIUAPS</a></td>
+          <td class="text-center">{% include salle.html code='BEAULIEU' %}</td>
           <td class="text-center">/</td>
           <td>
             {% include plume.html code='MINIBAD' %}
@@ -159,7 +168,7 @@ menu:
         <tr>
           <th scope="row" class="text-center">Dimanche</th>
           <td class="text-center">16h00 - 18h00</td>
-          <td class="text-center"><a href="https://maps.google.com/maps?hl=fr&q=Gymnase%20Montbarrot%2C%2014%20Rue%20de%20Gascogne%2C%2035000%20Rennes%2C%20France" target="_blank">Gymnase Montbarrot</a></td>
+          <td class="text-center">{% include salle.html code='MONTBARROT' %}</td>
           <td class="text-center">/</td>
           <td>
             {% include plume.html code='MINIBAD' %}

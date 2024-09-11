@@ -1,0 +1,6 @@
+{% assign salle = site.data.salles | where_exp: "item", "item.code == include.code" | first %}
+<a
+  href="{{ salle.location }}"
+  target="_blank">
+  {{ salle.titre }}
+</a>
