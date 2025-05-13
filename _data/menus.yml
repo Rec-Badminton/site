@@ -1,5 +1,14 @@
 ---
 header:
-- url: https://tournois.recbadminton.fr/
-  weight: 4
-  title: Compétition
+  - title: Accueil
+    url: /
+  - title: Créneaux
+    url: /creneaux
+  - title: Inscription
+    url: /inscription
+  - title: Compétition
+    url: https://tournois.recbadminton.fr/
+  - title: Boutique
+    url: /boutique
+  - title: Contact
+    url: /contact
