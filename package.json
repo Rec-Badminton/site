@@ -1,0 +1,28 @@
+{
+  "name": "recbadminton-v2",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "serviceWorker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/s.lesaicherre/recbadminton-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://gitlab.com/s.lesaicherre/recbadminton-v2/issues"
+  },
+  "homepage": "https://gitlab.com/s.lesaicherre/recbadminton-v2#readme",
+  "dependencies": {
+    "tinacms": "^2.7.7"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.9.7",
+    "@types/node": "^22.15.18"
+  }
+}

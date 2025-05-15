@@ -5,3 +5,6 @@ public/
 Gemfile.lock
 .ruby-version
 node_modules/
+
+node_modules
+.env
