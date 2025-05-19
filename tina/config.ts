@@ -30,22 +30,54 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        format: "md",
-        label: "Données",
-        name: "donn_es",
+        format: "yml",
+        label: "Bandeau infos",
+        name: "bandeau_info",
         path: "_data",
         match: {
-          include: "**/*",
+          include: "bandeau_info",
         },
         fields: [
           {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
+            type: "string",
+            name: "message",
+            label: "Informations à afficher dans le bandeau",
             isBody: true,
           },
         ],
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+      },
+      {
+        format: "yml",
+        label: "REC",
+        name: "rec",
+        path: "_data",
+        match: {
+          include: "rec",
+        },
+        fields: [
+          {
+            type: "string",
+            name: "email",
+            label: "Adresse email du club",
+          },
+          {
+            type: "string",
+            name: "liste_attente",
+            label: "URL vers la liste d'attente",
+          },
+        ],
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
       },
     ],
   },
