@@ -107,6 +107,38 @@ export default defineConfig({
           },
         },
       },
+      {
+        format: "yml",
+        label: "FFBad",
+        name: "ffbad",
+        path: "_data",
+        match: {
+          include: "ffbad",
+        },
+        fields: [
+          {
+            type: "string",
+            name: "site",
+            label: "Lien vers le site de la FFBad",
+          },
+          {
+            type: "string",
+            name: "licence",
+            label: "Lien pour adhérer au REC",
+          },
+          {
+            type: "string",
+            name: "certificat",
+            label: "Lien vers le certificat médical",
+          },
+        ],
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+      },
     ],
   },
 });
