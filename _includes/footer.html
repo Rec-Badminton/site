@@ -4,7 +4,7 @@
     <a class="col-lg order-lg-1" href="mailto:{{ site.data.rec.email }}">{{ site.data.rec.email }}</a>
     <p class="col-lg order-lg-3">
       {% assign i = 0 %}
-        {% for social in site.data.socials %}
+        {% for social in site.data.rec.socials %}
             <a href="{{ social.url }}" target=”_blank” class="social">
               {{ social.logo_svg }}
             </a>

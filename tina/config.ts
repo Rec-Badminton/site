@@ -71,6 +71,34 @@ export default defineConfig({
             name: "liste_attente",
             label: "URL vers la liste d'attente",
           },
+          {
+            label: "Réseaux sociaux",
+            name: "socials",
+            type: "object",
+            list: true,
+            ui: {
+              itemProps: (item) => ({
+                label: item?.name || "Réseau social"
+              }),
+            },
+            fields: [
+              {
+                label: "Nom du réseau",
+                name: "name",
+                type: "string",
+              },
+              {
+                label: "Lien du réseau",
+                name: "url",
+                type: "string",
+              },
+              {
+                label: "Logo du réseau",
+                name: "logo_svg",
+                type: "string",
+              },
+            ],
+          },
         ],
         ui: {
           allowedActions: {
