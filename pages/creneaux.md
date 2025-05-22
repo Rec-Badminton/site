@@ -14,7 +14,7 @@ menu:
 
 <section class="creneaux">
   <h2 class="text-center">CALENDRIER DE LA SAISON</h2>
-  <iframe src="https://calendar.google.com/calendar/embed?height=440&wkst=2&bgcolor=%23D50000&ctz=Europe%2FParis&mode=WEEK&showNav=1&showDate=1&showPrint=0&showTabs=0&showTz=0&showCalendars=0&src=MG11ajhyZXZvb2lxODRzb2p1djNiZzI1ZG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23D50000" style="border-width:0" width="800" height="440" frameborder="0" scrolling="no"></iframe>
+  <iframe src="{{ site.data.rec.calendar }}" style="border-width:0" width="800" height="440" frameborder="0" scrolling="no"></iframe>
   <br/>
   <br/>
   <div class="table-responsive">

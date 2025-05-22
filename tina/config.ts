@@ -23,7 +23,7 @@ export default defineConfig({
   media: {
     tina: {
       mediaRoot: "",
-      publicFolder: "assets",
+      publicFolder: "assets/data",
     },
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
@@ -70,6 +70,11 @@ export default defineConfig({
             type: "string",
             name: "liste_attente",
             label: "URL vers la liste d'attente",
+          },
+          {
+            type: "string",
+            name: "calendar",
+            label: "URL vers le calendrier",
           },
           {
             label: "Réseaux sociaux",

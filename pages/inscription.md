@@ -62,7 +62,7 @@ menu:
       </div>
     </div>
   <div class="livret">
-    <a class="link-container" target="_blank" href="/assets/LIVRET_BIENVENUE AU REC.pdf">A LIRE : LIVRET D'ACCUEIL</a>
+    <a class="link-container" target="_blank" href="/assets/data/LIVRET_BIENVENUE AU REC.pdf">A LIRE : LIVRET D'ACCUEIL</a>
   </div>
   <div>
     <section>
