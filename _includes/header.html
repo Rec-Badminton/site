@@ -1,8 +1,8 @@
-{% if site.data.content.message != nil %}
+{% if site.data.content.message != nil and site.data.content.message != '' %}
 	<div class="bandeau fixed-top">{{ site.data.content.message }}</div>
 {% endif %}
 <header>
-  <nav class="navbar fixed-top navbar-expand-lg bg-light {% if site.data.content.message != nil %}navbar-with-bandeau{% endif %}">
+  <nav class="navbar fixed-top navbar-expand-lg bg-light {% if site.data.content.message != nil and site.data.content.message != '' %}navbar-with-bandeau{% endif %}">
 	  <div class="container-fluid">
 	  	<a class="navbar-brand d-lg-none" href="/">
 	  		<img class="logo" src="{{site.baseurl}}/assets/img/logo_recbadminton.png" alt="Logo"/>
