@@ -31,11 +31,11 @@ export default defineConfig({
     collections: [
       {
         format: "yml",
-        label: "Bandeau infos",
-        name: "bandeau_info",
+        label: "Contenu",
+        name: "content",
         path: "_data",
         match: {
-          include: "bandeau_info",
+          include: "content",
         },
         fields: [
           {
