@@ -1,0 +1,143 @@
+creneaux:
+  - jour: Lundi
+    start: 18h00
+    end: 20h00
+    salle: _data/salles/Halle-sportives-des-Gayeulles.yml
+    niveaux:
+      - niveaux: _data/niveaux/Minibad.yml
+      - niveaux: _data/niveaux/Jeune.yml
+      - niveaux: _data/niveaux/Adulte-jeu-libre.yml
+      - niveaux: _data/niveaux/Adulte-encadr.yml
+    description: Jeu libre pour tous
+    isWaitingList: true
+  - jour: Lundi
+    start: 19h00
+    end: 22h00
+    salle: _data/salles/Beaulieu-Salle-du-SIUAPS.yml
+    niveaux:
+      - niveaux: _data/niveaux/Adulte-jeu-libre.yml
+      - niveaux: _data/niveaux/Adulte-encadr.yml
+    description: 'Jeu libre adultes (créneau partagé avec le RUC) '
+    isFull: false
+    isWaitingList: true
+  - jour: Lundi
+    start: 20h00
+    end: 22h00
+    salle: _data/salles/Salle-de-la-Binquenais.yml
+    niveaux:
+      - niveaux: _data/niveaux/Adulte-jeu-libre.yml
+      - niveaux: _data/niveaux/Adulte-encadr.yml
+    description: Jeu libre adultes
+    isFull: true
+  - jour: Lundi
+    start: 20h30
+    end: 22h00
+    salle: _data/salles/La-Harpe-Gymnase-C.yml
+    entraineurs:
+      - entraineurs: _data/entraineurs/Wilfried-BOSTON.yml
+    niveaux:
+      - niveaux: _data/niveaux/Adulte-encadr.yml
+    description: >-
+      Entrainement adultes pour les joueurs débutants et intermédiaires
+      (jusqu'au classement P)
+    isFull: true
+  - jour: Mardi
+    start: 20h00
+    end: 22h00
+    salle: _data/salles/Halle-de-la-Harpe.yml
+    entraineurs:
+      - entraineurs: _data/entraineurs/Loris-DUFAY.yml
+      - entraineurs: _data/entraineurs/Francois-ECOBICHON.yml
+    niveaux:
+      - niveaux: _data/niveaux/Adulte-encadr.yml
+      - niveaux: _data/niveaux/Demi-licence.yml
+    description: >-
+      Entrainement adultes pour les compétiteurs confirmés (à partir du
+      classement D) 
+    isFull: true
+  - jour: Mardi
+    start: 20h30
+    end: 22h00
+    salle: _data/salles/La-Harpe-Gymnase-C.yml
+    niveaux:
+      - niveaux: _data/niveaux/Adulte-jeu-libre.yml
+    description: 'Jeu libre adultes loisirs '
+    isFull: true
+  - jour: Mercredi
+    start: 12h00
+    end: 13h00
+    salle: _data/salles/Gymnase-Jean-Prouff.yml
+    niveaux:
+      - niveaux: _data/niveaux/Adulte-jeu-libre.yml
+      - niveaux: _data/niveaux/Adulte-encadr.yml
+    description: Jeu libre adultes
+    isWaitingList: true
+  - jour: Mercredi
+    start: 17h00
+    end: 18h30
+    salle: _data/salles/Beaulieu-Salle-du-SIUAPS.yml
+    entraineurs:
+      - entraineurs: _data/entraineurs/Wilfried-BOSTON.yml
+    niveaux:
+      - niveaux: _data/niveaux/Minibad.yml
+      - niveaux: _data/niveaux/Jeune.yml
+      - niveaux: _data/niveaux/Adulte-encadr.yml
+    description: Entraînement jeunes (de 7 à 17 ans) et Adultes Débutants et Intermédiaires
+    isFull: true
+  - jour: Mercredi
+    start: 20h30
+    end: 22h15
+    salle: _data/salles/Gymnase-Jean-Prouff.yml
+    niveaux:
+      - niveaux: _data/niveaux/Adulte-jeu-libre.yml
+      - niveaux: _data/niveaux/Adulte-encadr.yml
+    description: 'Jeu libre adultes loisirs et compétiteurs '
+    isFull: true
+  - jour: Jeudi
+    start: 20h00
+    end: 22h00
+    salle: _data/salles/Gymnase-Montbarrot.yml
+    entraineurs:
+      - entraineurs: _data/entraineurs/Loris-DUFAY.yml
+    niveaux:
+      - niveaux: _data/niveaux/Adulte-encadr.yml
+    description: 'Entrainement adultes compétiteurs élites (joueurs de niveau R et N) '
+    isFull: true
+  - jour: Jeudi
+    start: 20h00
+    end: 23h00
+    salle: _data/salles/Salle-de-la-Seiche-Vern.yml
+    entraineurs:
+      - entraineurs: _data/entraineurs/Francois-ECOBICHON.yml
+    niveaux:
+      - niveaux: _data/niveaux/Adulte-encadr.yml
+    description: >-
+      Entrainement adultes compétiteurs confirmés (Minimum D8 - créneau partagé
+      avec Vern)
+    isFull: true
+  - jour: Vendredi
+    start: 18h00
+    end: 22h00
+    salle: _data/salles/Beaulieu-Salle-du-SIUAPS.yml
+    niveaux:
+      - niveaux: _data/niveaux/Minibad.yml
+      - niveaux: _data/niveaux/Jeune.yml
+      - niveaux: _data/niveaux/Adulte-jeu-libre.yml
+      - niveaux: _data/niveaux/Adulte-encadr.yml
+      - niveaux: _data/niveaux/Demi-licence.yml
+    description: ' Jeu libre pour tous '
+    membersOnly: true
+  - jour: Samedi
+    salle: ''
+  - jour: Dimanche
+    start: 14h00
+    end: 17h00
+    salle: _data/salles/Gymnase-Montbarrot.yml
+    niveaux:
+      - niveaux: _data/niveaux/Minibad.yml
+      - niveaux: _data/niveaux/Jeune.yml
+      - niveaux: _data/niveaux/Adulte-jeu-libre.yml
+      - niveaux: _data/niveaux/Adulte-encadr.yml
+      - niveaux: _data/niveaux/Demi-licence.yml
+    description: 'Jeu libre pour tous '
+    membersOnly: true

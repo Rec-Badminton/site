@@ -144,6 +144,213 @@ export default defineConfig({
           },
         },
       },
+      {
+        format: "yml",
+        label: "Salles",
+        name: "salles",
+        path: "_data/salles",
+        fields: [
+          {
+            label: "Nom de la salle",
+            name: "titre",
+            type: "string",
+            isTitle: true,
+            required: true
+          },
+          {
+            label: "Localisation de la salle",
+            name: "location",
+            type: "string",
+          },
+        ],
+      },
+      {
+        format: "yml",
+        label: "Entraîneurs",
+        name: "entraineurs",
+        path: "_data/entraineurs",
+        fields: [
+          {
+            label: "Nom de l'entraîneur",
+            name: "titre",
+            type: "string",
+            isTitle: true,
+            required: true
+          },
+        ],
+      },
+      {
+        format: "yml",
+        label: "Niveaux",
+        name: "niveaux",
+        path: "_data/niveaux",
+        fields: [
+          {
+            label: "Titre",
+            name: "titre",
+            type: "string",
+            isTitle: true,
+            required: true
+          },
+          {
+            label: "Description",
+            name: "description",
+            type: "string",
+          },
+          {
+            label: "Tarif",
+            name: "tarif",
+            type: "number",
+          },
+          {
+            type: 'image',
+            label: 'Logo',
+            name: 'logo',
+            required: true
+          },
+        ],
+      },
+      {
+        format: "yml",
+        label: "Créneaux",
+        name: "creneaux",
+        path: "_data",
+        match: {
+          include: "creneaux",
+        },
+        fields: [
+          {
+            label: "Créneaux",
+            name: "creneaux",
+            type: "object",
+            list: true,
+            ui: {
+              itemProps: (item) => ({
+                label: `${item?.jour} / ${item?.start}-${item?.end} / ${item.salle}`
+              }),
+            },
+            fields: [
+              {
+                type: "string",
+                name: "jour",
+                label: "Jour",
+                options: [
+                  { value: "Lundi", label: "Lundi" },
+                  { value: "Mardi", label: "Mardi" },
+                  { value: "Mercredi", label: "Mercredi" },
+                  { value: "Jeudi", label: "Jeudi" },
+                  { value: "Vendredi", label: "Vendredi" },
+                  { value: "Samedi", label: "Samedi" },
+                  { value: "Dimanche", label: "Dimanche" },
+                ],
+                ui: {
+                  component: "select",
+                },
+                required: true,
+              },
+              {
+                name: "start",
+                label: "Heure de début",
+                type: "string",
+                ui: {
+                  validate: (value: string) => {
+                    return /^([01]\d|2[0-3])h([0-5]\d)$/.test(value)
+                      ? undefined
+                      : "Format attendu : HHhmm (ex : 09h30)";
+                  }
+                },
+                required: true,
+              },
+              {
+                name: "end",
+                label: "Heure de fin",
+                type: "string",
+                ui: {
+                  validate: (value: string) => {
+                    return /^([01]\d|2[0-3])h([0-5]\d)$/.test(value)
+                      ? undefined
+                      : "Format attendu : HHhmm (ex : 09h30)";
+                  }
+                },
+                required: true,
+              },
+              {
+                type: "reference",
+                name: "salle",
+                label: "Salle",
+                collections: ["salles"],
+                required: true
+              },
+              {
+                type: "object",
+                name: "entraineurs",
+                label: "Entraîneurs",
+                list: true,
+                ui: {
+                  itemProps: (item) => ({
+                    label: `${item?.entraineurs}`
+                  }),
+                },
+                fields: [
+                  {
+                    type: "reference",
+                    name: "entraineurs",
+                    label: "Entraîneurs",
+                    collections: ["entraineurs"],
+                    required: true
+                  }
+                ],
+              },
+              {
+                type: "object",
+                name: "niveaux",
+                label: "Niveaux",
+                list: true,
+                ui: {
+                  itemProps: (item) => ({
+                    label: `${item?.niveaux}`
+                  }),
+                },
+                fields: [
+                  {
+                    type: "reference",
+                    name: "niveaux",
+                    label: "Niveaux",
+                    collections: ["niveaux"],
+                    required: true
+                  }
+                ],
+              },
+              {
+                name: "description",
+                label: "Description",
+                type: "string",
+              },
+              {
+                type: 'boolean',
+                name: 'isFull',
+                label: 'Créneau complet ?'
+              },
+              {
+                type: 'boolean',
+                name: 'isWaitingList',
+                label: 'Inscription sur la liste d\'attente possible ?'
+              },
+              {
+                type: 'boolean',
+                name: 'membersOnly',
+                label: 'Réservé aux licenciés ?'
+              }
+            ],
+          },
+        ],
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+      },
     ],
   },
 });
