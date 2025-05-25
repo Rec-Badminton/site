@@ -83,17 +83,39 @@ menu:
           {% endfor %}
         </thead>
         <tbody>
-          {% for cat in site.data.categories %}
+          {% assign niveaux_list = "" | split: "" %}
+          {% for item in site.data.niveaux %}
+            {% assign niveau = item[1] %}
+            {% assign niveaux_list = niveaux_list | push: niveau %}
+          {% endfor %}
+          {% assign niveaux_sorted = niveaux_list | sort: "ordre" %}
+          {% for niveau in niveaux_sorted %}
             <td>
-              {{ cat.prix }} €
-              {% include plume.html code=cat.code class="plume" %}
+              {{ niveau.tarif }} €
+              <img
+                class="plume"
+                src="{{ site.baseurl }}/assets/data/{{ niveau.logo }}"
+                alt="{{ niveau.titre }}"
+                title="{{ niveau.titre }}">
             </td>
           {% endfor %}
         </tbody>
       </table>
       <ul id="description">
-        {% for cat in site.data.categories %}
-          <li>{% include plume.html code=cat.code %} {{ cat.titre }} : {{ cat.description }}</li>
+        {% assign niveaux_list = "" | split: "" %}
+        {% for item in site.data.niveaux %}
+          {% assign niveau = item[1] %}
+          {% assign niveaux_list = niveaux_list | push: niveau %}
+        {% endfor %}
+        {% assign niveaux_sorted = niveaux_list | sort: "ordre" %}
+        {% for niveau in niveaux_sorted %}
+          <li>
+            <img
+              src="{{ site.baseurl }}/assets/data/{{ niveau.logo }}"
+              alt="{{ niveau.titre }}"
+              title="{{ niveau.titre }}">
+            {{ niveau.titre }} : {{ niveau.description }}<br/>
+          </li>
         {% endfor %}
       </ul>
       <ul>

@@ -203,6 +203,11 @@ export default defineConfig({
             type: "number",
           },
           {
+            label: "Ordre d'affichage",
+            name: "ordre",
+            type: "number",
+          },
+          {
             type: 'image',
             label: 'Logo',
             name: 'logo',

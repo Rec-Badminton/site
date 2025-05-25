@@ -120,20 +120,18 @@ menu:
     </table>
   </div>
   <div class="legend">
-    {% for cat in site.data.categories %}
-      {% case cat.code %}
-        {% when "MINIBAD" %}
-          {% include plume.html code=cat.code %} <b>{{ cat.titre }}</b> : {{ cat.description }}<br/>
-        {% when "JEUNE" %}
-          {% include plume.html code=cat.code %} <b>{{ cat.titre }}</b> : {{ cat.description }}<br/>
-        {% when "JEU_LIBRE" %}
-          {% include plume.html code=cat.code %} <b>{{ cat.titre }}</b><br/>
-        {% when "ENCADRE" %}
-          {% include plume.html code=cat.code %} <b>{{ cat.titre }}</b><br/>
-        {% when "DEMI" %}
-          {% include plume.html code=cat.code %} <b>{{ cat.titre }}</b><br/>
-        {% else %}
-      {% endcase %}
+    {% assign niveaux_list = "" | split: "" %}
+    {% for item in site.data.niveaux %}
+      {% assign niveau = item[1] %}
+      {% assign niveaux_list = niveaux_list | push: niveau %}
+    {% endfor %}
+    {% assign niveaux_sorted = niveaux_list | sort: "ordre" %}
+    {% for niveau in niveaux_sorted %}
+      <img
+        src="{{ site.baseurl }}/assets/data/{{ niveau.logo }}"
+        alt="{{ niveau.titre }}"
+        title="{{ niveau.titre }}">
+      <b>{{ niveau.titre }}</b> : {{ niveau.description }}<br/>
     {% endfor %}
     <br/>
     <p>Les entraînements adultes sont séparés par niveau :</p>
