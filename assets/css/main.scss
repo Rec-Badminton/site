@@ -2,9 +2,9 @@
 ---
 
 @charset "utf-8";
-@use "variables" as *;
-@use "base";
-@use "fonts";
+@import "variables";
+@import "base";
+@import "fonts";
 
 .bandeau {
     background-color: $brand-color;
