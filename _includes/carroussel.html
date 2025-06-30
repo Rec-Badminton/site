@@ -10,7 +10,7 @@
         {% assign i = 0 %}
         {% for photo in site.data.carrousel_photos %}
             <div class="carousel-item {% if i == 0 %}active{% endif %}">
-                <img class="d-block carousel-img" src="{{ photo.src }}" alt="{{ photo.alt }}">
+                <img class="d-block carousel-img" src="{{ site.baseurl }}{{ photo.src }}" alt="{{ photo.alt }}">
             </div>
             {% assign i = i | plus:1 %}
         {% endfor %}

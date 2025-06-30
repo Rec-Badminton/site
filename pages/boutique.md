@@ -25,7 +25,7 @@ menu:
 	
 	<h2 class="mt-2">NOTRE PARTENARIAT AVEC LARDESPORTS :</h2>
 
-	<a href="https://www.lardesports.com/" target="_blank" class="logo"><img src="/assets/img/lardesport/logo.png" alt="LardeSports"></a>
+	<a href="https://www.lardesports.com/" target="_blank" class="logo"><img src="{{site.baseurl}}/assets/img/lardesport/logo.png" alt="LardeSports"></a>
     <p><b>Larde Sports</b> est le spécialiste des sports de raquette en France. Avec un univers dédié pour le badminton, le tennis, le squash et le padel, vous trouverez une grande offre de matériels ! De plus, en tant que licencié partenaire, vous bénéficierez des avantages suivants : </p>
     <ul>
 	<li><b>Remise de 30 %</b> sur les " Prix Publics Conseillés " sur les marques RSL et FORZA</li>
@@ -39,13 +39,13 @@ menu:
 	   - achats sur les stands Larde Sports de Bretagne, Loire-Atlantique et Vendée<br/>
 	</i><br/>
 	<div class="d-flex">
-	<img src="/assets/img/lardesport/coordonnees.jpg" class="w-50" alt="Coordonnées LardeSports">
+	<img src="{{site.baseurl}}/assets/img/lardesport/coordonnees.jpg" class="w-50" alt="Coordonnées LardeSports">
 	<div class="p-3 mt-5">
 	N’hésitez pas à vous rendre à la boutique, située<br/> <a href="https://maps.app.goo.gl/CyRMHhmvnek1nYdZ8">4, rue des Potiers – 35230 NOYAL CHATILLON SUR SEICHE.</a><br/><br/> L'équipe Larde Sports saura vous conseiller au mieux selon vos besoins.
 	</div>
 	<br/>
 	</div><br/><br/>
 
-	<img src="/assets/img/lardesport/reduc.jpg" class="w-75 mx-auto d-block" alt="Réductions LardeSports"><br/>
-	<img src="/assets/img/lardesport/commande.jpg" class="w-75 mx-auto d-block" alt="Commande LardeSports">
+	<img src="{{site.baseurl}}/assets/img/lardesport/reduc.jpg" class="w-75 mx-auto d-block" alt="Réductions LardeSports"><br/>
+	<img src="{{site.baseurl}}/assets/img/lardesport/commande.jpg" class="w-75 mx-auto d-block" alt="Commande LardeSports">
 </section>
