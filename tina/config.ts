@@ -18,7 +18,7 @@ export default defineConfig({
   client: { skip: true },
   build: {
     outputFolder: "admin",
-    publicFolder: "assets",
+    publicFolder: "public",
     basePath: "Site"
   },
   media: {
