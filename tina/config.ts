@@ -19,12 +19,12 @@ export default defineConfig({
   build: {
     outputFolder: "admin",
     publicFolder: "/",
-    basePath: "Site"
+    basePath: "site"
   },
   media: {
     tina: {
       mediaRoot: "",
-      publicFolder: "assets/data",
+      publicFolder: "site/assets/data",
     },
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
