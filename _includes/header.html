@@ -15,13 +15,17 @@
 	      	{% assign i = 0 %}
           {% for item in site.data.menus.header %}
             {% if i == 3 %}
-              <a class="col d-none d-lg-block" href="/">
+              <a class="col d-none d-lg-block" href="{{site.baseurl}}">
                 <div class="logo-wrap">
                   <img class="nav-link bg-light" src="{{site.baseurl}}/assets/img/logo_recbadminton.png" alt="Logo"/>
                 </div>
               </a>
             {% endif %}
+            {% if item.title == "Compétition" %}
+              <a class="col text-center nav-link bg-light" href="{{ item.url }}"> {{ item.title | upcase }}</a>
+            {% else %}
               <a class="col text-center nav-link bg-light" href="{{site.baseurl}}{{ item.url }}"> {{ item.title | upcase }}</a>
+            {% endif %}
             {% assign i = i | plus:1 %}
           {% endfor %}
 	      </div>

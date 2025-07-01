@@ -11,7 +11,7 @@ export default defineConfig({
   branch,
 
   // Get this from tina.io
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
+  clientId: process.env.TINA_PUBLIC_CLIENT_ID,
   // Get this from tina.io
   token: process.env.TINA_TOKEN,
 
@@ -19,6 +19,7 @@ export default defineConfig({
   build: {
     outputFolder: "admin",
     publicFolder: "assets",
+    basePath: "Site"
   },
   media: {
     tina: {
