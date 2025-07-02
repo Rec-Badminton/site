@@ -16,18 +16,7 @@ menu:
   <div class="parent">
     <div class="div1">
       <h2>SÉANCE D'ESSAI</h2>
-      <p class="align">Tu hésites et préfères participer à un entrainement avant de t'inscrire ? Pas de problème ! Deux séances d'essais sont acceptées.</p>
-      <p>Lors de chaque séance, il est impératif de :</p>
-      <ul class="dash">
-        <li>Te présenter à un membre du bureau présent sur le créneau</li>
-        <li>Remplir le petit formulaire en flashant ou cliquant sur le QR Code ci-contre. Ce formulaire te permet d’être assuré pendant 24h pour la pratique du badminton</li>
-        <li>Prévenir en amont de ta venue en envoyant un mail au bureau du club: <a class="col-lg order-lg-1" href="mailto:{{ site.data.rec.email }}">{{site.data.rec.email}}</a>. Ils pourront également te guider pour trouver le créneau le plus adapté à tes envies.<br/>
-        Attention, les places et la disponibilité des créneaux peuvent très vite partir en début de saison !</li>
-        <li><b>Séances d'essai du 2 au 13 septembre. Ouverture des inscriptions le 14 septembre.</b> Seuls les dossiers complets seront acceptés. Places limitées, <b>pas de réservation d’inscription possible.</b></li>
-        {% assign reprise_files = site.static_files | where_exp:"file", "file.path contains '/assets/data/reprise/'" %}
-        {% assign reprise_file = reprise_files[0] %}
-        <li>Dates des reprises <a target="_blank" href="{{site.baseurl}}/assets/data/reprise/{{ reprise_file.name }}">à consulter ici</a></li>
-      </ul>
+      {{ site.data.content.trial | markdownify }}
     </div>
     <div class="div2">
       {% assign qrcode_files = site.static_files | where_exp:"file", "file.path contains '/assets/data/qrcode/'" %}

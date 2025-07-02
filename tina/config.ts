@@ -45,6 +45,11 @@ export default defineConfig({
             label: "Informations à afficher dans le bandeau",
             isBody: true,
           },
+          {
+            type: "rich-text",
+            name: "trial",
+            label: "Séance d'essai"
+          },
         ],
         ui: {
           allowedActions: {
