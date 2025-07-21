@@ -114,7 +114,7 @@ creneaux:
     description: >-
       Entrainement adultes compétiteurs confirmés (Minimum D8 - créneau partagé
       avec Vern)
-    isFull: true
+    isFull: false
   - jour: Vendredi
     start: 18h00
     end: 22h00
