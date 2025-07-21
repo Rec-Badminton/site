@@ -62,7 +62,7 @@ creneaux:
     niveaux:
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
     description: 'Jeu libre adultes loisirs '
-    isFull: true
+    isFull: false
   - jour: Mercredi
     start: 12h00
     end: 13h00
