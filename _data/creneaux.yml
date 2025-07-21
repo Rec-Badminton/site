@@ -71,7 +71,7 @@ creneaux:
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: Jeu libre adultes
-    isWaitingList: true
+    isWaitingList: false
   - jour: Mercredi
     start: 17h00
     end: 18h30
