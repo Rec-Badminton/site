@@ -9,7 +9,7 @@ creneaux:
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: Jeu libre pour tous
-    isWaitingList: true
+    isWaitingList: false
   - jour: Lundi
     start: 19h00
     end: 22h00
@@ -128,7 +128,6 @@ creneaux:
     description: ' Jeu libre pour tous '
     membersOnly: true
   - jour: Samedi
-    salle: ''
   - jour: Dimanche
     start: 14h00
     end: 17h00
