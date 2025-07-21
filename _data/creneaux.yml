@@ -102,7 +102,8 @@ creneaux:
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: 'Entrainement adultes compétiteurs élites (joueurs de niveau R et N) '
-    isFull: true
+    isFull: false
+    membersOnly: true
   - jour: Jeudi
     start: 20h00
     end: 23h00
