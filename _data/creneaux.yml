@@ -83,7 +83,7 @@ creneaux:
       - niveaux: _data/niveaux/Jeune.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: Entraînement jeunes (de 7 à 17 ans) et Adultes Débutants et Intermédiaires
-    isFull: true
+    isFull: false
   - jour: Mercredi
     start: 20h30
     end: 22h15
