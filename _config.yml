@@ -16,7 +16,7 @@ author: Rec Badminton
 keywords: Badminton, Rennes, Rec badminton, Sport, REC Beaulieu, Cesson-Sévigné, Villejean, Kennedy, Sainte Thérese, Sud Gare, Le Blosne, Volant, Raquette, Jeunes, Adultes, Seniors
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://recbadminton.fr" # the base hostname & protocol for your site
-baseurl: "/site"
+baseurl: "/"
 
 # Build settings
 markdown: kramdown
