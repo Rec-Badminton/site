@@ -137,7 +137,7 @@ menu:
     <p>Les entraînements adultes sont séparés par niveau :</p>
     <ul>
       <li>le <u>lundi</u> à 20h30 et le  <u>mercredi</u> à 17h00 pour les compétiteurs <b>débutants</b> (jusqu'au classement P)</li>
-      <li>le <u>mardi</u> et le <u>jeudi</u> pour les adultes compétiteurs classés et <b>confirmés</b> (à partir du classement D)</li>
+      <li>le <u>mardi</u> et le <u>jeudi</u> pour les adultes compétiteurs classés et <b>confirmés</b> (à partir du classement P10)</li>
     </ul>
   </div>
   <br/>
