@@ -46,7 +46,7 @@ creneaux:
     salle: _data/salles/Halle-de-la-Harpe.yml
     entraineurs:
       - entraineurs: _data/entraineurs/Loris.yml
-      - entraineurs: _data/entraineurs/François.yml
+      - entraineurs: _data/entraineurs/Carla.yml
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
       - niveaux: _data/niveaux/Demi-licence.yml
