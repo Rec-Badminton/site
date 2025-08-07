@@ -142,7 +142,6 @@ creneaux:
     end: 17h30
     salle: _data/salles/Gymnase-Montbarrot.yml
     niveaux:
-      - niveaux: _data/niveaux/Minibad.yml
       - niveaux: _data/niveaux/Jeune.yml
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
