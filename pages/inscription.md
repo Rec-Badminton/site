@@ -67,7 +67,7 @@ menu:
         <li>L'adhésion au club</li>
         <li>La licence fédérale incluant une assurance</li>
         <li>L'accès aux entrainements (hors vacances) et créneaux de jeu libre</li>
-        <li>L'équivalent de 6 tableaux de tournois offerts en passant par l'interface web du club</li>
+        <li>Un maximum de 3 tableaux de tournois offerts en passant par l'interface web du club</li>
         <li>L'accès aux événements organisés par le club</li>
         <li>L'accès à la boutique et aux tarifs avantageux chez nos partenaires</li>
       </ul>
