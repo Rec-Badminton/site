@@ -4,7 +4,6 @@ creneaux:
     end: 20h00
     salle: _data/salles/Halle-sportives-des-Gayeulles.yml
     niveaux:
-      - niveaux: _data/niveaux/Minibad.yml
       - niveaux: _data/niveaux/Jeune.yml
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
