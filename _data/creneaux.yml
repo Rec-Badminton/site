@@ -46,7 +46,7 @@ creneaux:
     end: 22h00
     salle: _data/salles/Halle-de-la-Harpe.yml
     entraineurs:
-      - entraineurs: _data/entraineurs/Loris-DUFAY.yml
+      - entraineurs: _data/entraineurs/Loris.yml
       - entraineurs: _data/entraineurs/François.yml
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
@@ -98,7 +98,7 @@ creneaux:
     end: 22h00
     salle: _data/salles/Gymnase-Montbarrot.yml
     entraineurs:
-      - entraineurs: _data/entraineurs/Loris-DUFAY.yml
+      - entraineurs: _data/entraineurs/Loris.yml
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: 'Entrainement adultes compétiteurs élites (joueurs de niveau R et N) '
