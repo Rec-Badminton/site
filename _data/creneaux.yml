@@ -121,7 +121,6 @@ creneaux:
     end: 22h00
     salle: _data/salles/Beaulieu-Salle-du-SIUAPS.yml
     niveaux:
-      - niveaux: _data/niveaux/Minibad.yml
       - niveaux: _data/niveaux/Jeune.yml
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
