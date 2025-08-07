@@ -47,7 +47,7 @@ creneaux:
     salle: _data/salles/Halle-de-la-Harpe.yml
     entraineurs:
       - entraineurs: _data/entraineurs/Loris-DUFAY.yml
-      - entraineurs: _data/entraineurs/Francois-ECOBICHON.yml
+      - entraineurs: _data/entraineurs/François.yml
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
       - niveaux: _data/niveaux/Demi-licence.yml
@@ -109,7 +109,7 @@ creneaux:
     end: 23h00
     salle: _data/salles/Salle-de-la-Seiche-Vern.yml
     entraineurs:
-      - entraineurs: _data/entraineurs/Francois-ECOBICHON.yml
+      - entraineurs: _data/entraineurs/François.yml
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: >-
