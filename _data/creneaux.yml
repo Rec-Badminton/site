@@ -76,7 +76,7 @@ creneaux:
     end: 18h30
     salle: _data/salles/Beaulieu-Salle-du-SIUAPS.yml
     entraineurs:
-      - entraineurs: _data/entraineurs/Wilfried-BOSTON.yml
+      - entraineurs: _data/entraineurs/Pierre.yml
     niveaux:
       - niveaux: _data/niveaux/Minibad.yml
       - niveaux: _data/niveaux/Jeune.yml
