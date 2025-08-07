@@ -135,8 +135,8 @@ creneaux:
     membersOnly: false
   - jour: Samedi
   - jour: Dimanche
-    start: 14h00
-    end: 17h00
+    start: 15h30
+    end: 17h30
     salle: _data/salles/Gymnase-Montbarrot.yml
     niveaux:
       - niveaux: _data/niveaux/Minibad.yml
