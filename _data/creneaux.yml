@@ -100,7 +100,9 @@ creneaux:
       - entraineurs: _data/entraineurs/Loris.yml
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
-    description: 'Entrainement adultes compétiteurs élites (joueurs de niveau R et N) '
+    description: >-
+      Entrainement adultes compétiteurs élites (joueurs R5 ou + ou faisant
+      partie d'une équipe R ou +) 
     isFull: false
     membersOnly: false
   - jour: Jeudi
