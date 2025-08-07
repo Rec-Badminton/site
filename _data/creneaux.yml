@@ -52,7 +52,7 @@ creneaux:
       - niveaux: _data/niveaux/Demi-licence.yml
     description: >-
       Entrainement adultes pour les compétiteurs confirmés (à partir du
-      classement D) 
+      classement P10) 
     isFull: false
   - jour: Mardi
     start: 20h30
