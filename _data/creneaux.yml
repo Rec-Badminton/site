@@ -1,9 +1,4 @@
 creneaux:
-  - jour: Vendredi
-    start: 20h00
-    end: 22h00
-    salle: _data/salles/Gymnase-Mendes.yml
-    membersOnly: false
   - jour: Lundi
     start: 18h00
     end: 20h00
@@ -133,6 +128,11 @@ creneaux:
       - niveaux: _data/niveaux/Demi-licence.yml
     description: ' Jeu libre pour tous '
     membersOnly: true
+  - jour: Vendredi
+    start: 20h00
+    end: 22h00
+    salle: _data/salles/Gymnase-Mendes.yml
+    membersOnly: false
   - jour: Samedi
   - jour: Dimanche
     start: 14h00
