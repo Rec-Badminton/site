@@ -125,7 +125,7 @@ creneaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
       - niveaux: _data/niveaux/Demi-licence.yml
     description: ' Jeu libre pour tous '
-    membersOnly: true
+    membersOnly: false
   - jour: Vendredi
     start: 20h00
     end: 22h00
