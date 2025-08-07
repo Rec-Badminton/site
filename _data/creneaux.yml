@@ -135,7 +135,8 @@ creneaux:
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
       - niveaux: _data/niveaux/Demi-licence.yml
-    membersOnly: false
+    description: Jeu libre pour tous & interclubs
+    membersOnly: true
   - jour: Samedi
   - jour: Dimanche
     start: 15h30
