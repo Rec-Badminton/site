@@ -134,9 +134,9 @@ creneaux:
     salle: _data/salles/Gymnase-Mendes.yml
     niveaux:
       - niveaux: _data/niveaux/Jeune.yml
-      - niveaux: _data/niveaux/Demi-licence.yml
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
+      - niveaux: _data/niveaux/Demi-licence.yml
     membersOnly: false
   - jour: Samedi
   - jour: Dimanche
