@@ -133,6 +133,9 @@ creneaux:
     end: 22h00
     salle: _data/salles/Gymnase-Mendes.yml
     niveaux:
+      - {}
+      - {}
+      - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
     membersOnly: false
   - jour: Samedi
