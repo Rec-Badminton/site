@@ -112,8 +112,8 @@ creneaux:
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: >-
-      Entrainement adultes compétiteurs confirmés (Minimum D8 - créneau partagé
-      avec Vern)
+      Entrainement adultes compétiteurs confirmés (Minimum D9, priorité équipes
+      D1 et D3 - créneau partagé avec Vern)
     isFull: false
   - jour: Vendredi
     start: 18h00
