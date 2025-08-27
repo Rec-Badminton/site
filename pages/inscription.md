@@ -13,6 +13,7 @@ menu:
 <div class="inscription">
   <h2>ENVIE DE NOUS REJOINDRE ?</h2>
   <p>Si tu veux rejoindre le REC, tu es au bon endroit ! Toutes les informations concernant les modalités d'inscription ainsi que les bons plans sont présentés ci-dessous. Que ce soit pour une nouvelle adhésion ou un renouvellement de licence, tu es le bienvenu au club du REC Badminton !</p>
+  <p> <strong>Commence par consulter notre livret d'accueil disponible juste ci-dessous !</strong></p>
   <div class="parent">
     <div class="div1">
       <h2>SÉANCE D'ESSAI</h2>
@@ -64,10 +65,10 @@ menu:
       <h2>LES TARIFS</h2>
       <p>La cotisation au REC Badminton comprend :</p>
       <ul class="dash">
-        <li>L'adhésion au club</li>
-        <li>La licence fédérale incluant une assurance</li>
-        <li>L'accès aux entrainements (hors vacances) et créneaux de jeu libre</li>
-        <li>Un maximum de 3 tableaux de tournois offerts en passant par l'interface web du club</li>
+        <li>L'adhésion au club ainsi qu'une licence fédérale (FFBAD) incluant une assurance</li>
+        <li><strong>L'accès à 2 créneaux par semaine</strong> (entrainements ou jeu libre) parmi les créneaux où les places sont limitées</li>
+        <li><strong>L'accès libre à des créneaux supplémentaires sur les créneaux dont les places ne sont pas limitées</strong></li>
+        <li>Un maximum de <strong>3 tableaux de tournois</strong> offerts en passant par l'interface web du club</li>
         <li>L'accès aux événements organisés par le club</li>
         <li>L'accès à la boutique et aux tarifs avantageux chez nos partenaires</li>
       </ul>
