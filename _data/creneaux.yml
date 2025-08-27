@@ -133,11 +133,10 @@ creneaux:
     end: 22h00
     salle: _data/salles/Gymnase-Mendes.yml
     niveaux:
-      - niveaux: _data/niveaux/Jeune.yml
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
       - niveaux: _data/niveaux/Demi-licence.yml
-    description: 'Rencontres interclubs et/ou jeu libre '
+    description: Rencontres interclubs et/ou jeu libre adultes
     membersOnly: false
   - jour: Samedi
   - jour: Dimanche
