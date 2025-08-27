@@ -60,11 +60,6 @@ menu:
       </div>
     </div>
 </div>
-  <div class="livret">
-    {% assign livret_files = site.static_files | where_exp:"file", "file.path contains '/assets/data/livret/'" %}
-    {% assign first_file = livret_files[0] %}
-    <a class="link-container" target="_blank" href="{{ site.baseurl }}/assets/data/livret/{{ first_file.name }}">A LIRE : LIVRET D'ACCUEIL</a>
-  </div>
   <div>
     <section>
       <h2>LES TARIFS</h2>
