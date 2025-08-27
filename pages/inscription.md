@@ -14,7 +14,7 @@ menu:
   <h2>ENVIE DE NOUS REJOINDRE ?</h2>
   <p>Si tu veux rejoindre le REC, tu es au bon endroit ! Toutes les informations concernant les modalités d'inscription ainsi que les bons plans sont présentés ci-dessous. Que ce soit pour une nouvelle adhésion ou un renouvellement de licence, tu es le bienvenu au club du REC Badminton !</p>
   <p> <strong>Commence par consulter notre livret d'accueil disponible juste ci-dessous !</strong></p>
-  <div class="parent">
+  <div class="parent"> 
     <div class="div1">
       <h2>SÉANCE D'ESSAI</h2>
       {{ site.data.content.trial | markdownify }}
@@ -27,7 +27,6 @@ menu:
 </a><br/>
     </div>
   </div>
-  <div>
   <br/>
   <div class="row">
     <div class="col-md-6">
@@ -55,6 +54,7 @@ menu:
         </div>
       </div>
     </div>
+</div>
   <div class="livret">
     {% assign livret_files = site.static_files | where_exp:"file", "file.path contains '/assets/data/livret/'" %}
     {% assign first_file = livret_files[0] %}
