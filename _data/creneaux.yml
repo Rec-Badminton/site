@@ -17,7 +17,7 @@ creneaux:
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: 'Jeu libre adultes (créneau partagé avec le RUC) '
-    isFull: false
+    isFull: true
     isWaitingList: false
   - jour: Lundi
     start: 20h00
