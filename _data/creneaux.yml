@@ -91,7 +91,7 @@ creneaux:
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: 'Jeu libre adultes loisirs et compétiteurs '
-    isFull: false
+    isFull: true
   - jour: Jeudi
     start: 20h00
     end: 22h00
