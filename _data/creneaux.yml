@@ -40,6 +40,7 @@ creneaux:
       Entrainement adultes pour les joueurs débutants et intermédiaires
       (jusqu'au classement P)
     isFull: true
+    isWaitingList: true
   - jour: Mardi
     start: 20h00
     end: 22h00
