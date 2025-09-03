@@ -39,7 +39,7 @@ creneaux:
     description: >-
       Entrainement adultes pour les joueurs débutants et intermédiaires
       (jusqu'au classement P)
-    isFull: false
+    isFull: true
   - jour: Mardi
     start: 20h00
     end: 22h00
