@@ -27,7 +27,7 @@ menu:
     <div class="div2">
       {% assign qrcode_files = site.static_files | where_exp:"file", "file.path contains '/assets/data/qrcode/'" %}
       {% assign qrcode_file = qrcode_files[0] %}
-      <a href="https://poona.ffbad.org/page.php?P=fo/menu/public/accueil/operation_promo_participant&k=NDAwOUAyMg==" target="_blank"><img class="d-block m-auto qrcode" src="{{site.baseurl}}/assets/data/qrcode/{{ qrcode_file.name }}" alt="qrcode">
+      <a href="https://poona.ffbad.org/page.php?P=fo/menu/public/accueil/operation_promo_participant&k=NTY4MkAyMw==" target="_blank"><img class="d-block m-auto qrcode" src="{{site.baseurl}}/assets/data/qrcode/{{ qrcode_file.name }}" alt="qrcode">
             <i>QR à compléter le jour même de la séance</i>
 </a><br/>
     </div>
