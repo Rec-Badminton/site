@@ -2,7 +2,7 @@ tournaments:
   title: "Les Tournois"
   text1: "Tu souhaites participer à un tournoi ? Le club prend en charge la participation à certains tournois de la région parmi une liste prédéfinie. Connecte-toi sur l’outil du club **Joutonbad** :"
   link1: "https://tournois.recbadminton.fr"
-  text2: "Le tournoi qui t’intéresse n’y figure pas, inscris-toi en autonomie sur <a href="https://badnet.fr/" target="_blank">badnet</a> ou via l’application <a href="https://ebad.fr/" target="_blank">Ebad</a>."
+  text2: "Le tournoi qui t’intéresse n’y figure pas, inscris-toi en autonomie sur badnet ou via l’application Ebad."
   button: "Accéder à Joutonbad"
   image: "/assets/data/photos/Liffre.jpg"
   caption: "Le REC en fête au tournoi par équipe de Liffré - mars 2024"
