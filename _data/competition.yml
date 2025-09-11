@@ -4,7 +4,7 @@ tournaments:
   link1: "https://tournois.recbadminton.fr"
   text2: "Le tournoi qui t’intéresse n’y figure pas, inscris-toi en autonomie sur [Badnet](https://badnet.fr) ou via l’application @Bad."
   button: "Accéder à Joutonbad"
-  image: "/assets/img/tournoi.jpg"
+  image: "/assets/data/photos/Liffre.jpg"
   caption: "Le REC en fête au tournoi par équipe de Liffré - mars 2024"
 
 interclubs:
