@@ -14,7 +14,7 @@ permalink: "/competition/"
       <div class="col-md-8">
         <p>{{ data.competition.tournaments.text1 }} <a href="{{ data.competition.tournaments.link1 }}" target="_blank">{{ data.competition.tournaments.link1 }}</a></p>
         <p>{{ data.competition.tournaments.text2 }}</p>
-        <a href="{{ data.competition.tournaments.link1 }}" target="_blank" class="btn btn-custom">{{ data.competition.tournaments.button }}</a>
+        <a class="link-container" target="_blank" href="{{ data.competition.tournaments.link1 }}">{{ data.competition.tournaments.button }}</a>
       </div>
       <div class="col-md-4 text-center">
         <img src="{{ data.competition.tournaments.image }}" alt="Photo tournoi" class="img-fluid rounded">
