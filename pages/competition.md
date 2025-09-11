@@ -17,6 +17,7 @@ permalink: "/competition/"
         <p>{{ site.data.competition.tournaments.text2 }}</p>
         <a class="link-container" target="_blank" href="{{ site.data.competition.tournaments.link1 }}">{{ site.data.competition.tournaments.button }}</a>
       </div>
+      <br/>
       <div class="col-md-4 text-center">
         <img src="{{ site.data.competition.tournaments.image }}" alt="Photo tournoi" class="img-fluid rounded">
         <small class="d-block mt-2">{{ site.data.competition.tournaments.caption }}</small>
