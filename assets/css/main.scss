@@ -385,7 +385,7 @@ footer {
             background-color: $brand-color;
             color: $background-color;
         }
-        tbody > tr:nth-child(odd) { background-color: var(--bs-table-active-bg); }
+        tbody > tr:nth-child(even) { background-color: var(--bs-table-active-bg); }
 
         border: 1px solid $text-color;
         vertical-align: middle;
