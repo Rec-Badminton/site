@@ -5,12 +5,10 @@ keyword: Rec Badminton Compétition Rennes
 description: Compétition Badminton
 author: Rec Badminton
 permalink: "/competition/"
-content:
 
 ---
 <section class="competition container my-5">
 
-    <!-- TOURNOIS -->
     <h2 class="section-title text-center">{{ data.competition.tournaments.title }}</h2>
     <div class="row align-items-center">
       <div class="col-md-8">
@@ -24,7 +22,6 @@ content:
       </div>
     </div>
 
-    <!-- INTERCLUBS -->
     <h2 class="section-title text-center">{{ data.competition.interclubs.title }}</h2>
     <p>{{ data.competition.interclubs.text1 }}</p>
     <p>{{ data.competition.interclubs.text2 }}</p>
