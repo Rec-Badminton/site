@@ -21,7 +21,7 @@ permalink: "/competition/"
         <small class="d-block mt-2">{{ site.data.competition.tournaments.caption }}</small>
       </div>
     </div>
-
+<br/><br/>
   <h2 class="section-title text-center">{{ site.data.competition.interclubs.title }}</h2>
   <p>{{ site.data.competition.interclubs.text1 }}</p>
   <p>{{ site.data.competition.interclubs.text2 }}</p>
@@ -32,13 +32,13 @@ permalink: "/competition/"
       <thead>
         <tr>
           {% for header in site.data.competition.table.headers %}
-            <th>{{ header }}</th>
+            <th scope="col" class="text-center">{{ header }}</th>
           {% endfor %}
         </tr>
       </thead>
       <tbody>
         {% for row in site.data.competition.table.rows %}
-          <tr>
+          <tr scope="row">
             <td>{{ row[0] }}</td>
             <td>{{ row[1] }}</td>
             <td>{{ row[2] }}</td>
