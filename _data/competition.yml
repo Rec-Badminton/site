@@ -1,0 +1,26 @@
+tournaments:
+  title: "Les Tournois"
+  text1: "Tu souhaites participer à un tournoi ? Le club prend en charge la participation à certains tournois de la région parmi une liste prédéfinie. Connecte-toi sur l’outil du club **Joutonbad** :"
+  link1: "https://tournois.recbadminton.fr"
+  text2: "Le tournoi qui t’intéresse n’y figure pas, inscris-toi en autonomie sur [Badnet](https://badnet.fr) ou via l’application @Bad."
+  button: "Accéder à Joutonbad"
+  image: "/assets/img/tournoi.jpg"
+  caption: "Le REC en fête au tournoi par équipe de Liffré - mars 2024"
+
+interclubs:
+  title: "Les Interclubs"
+  text1: "Tu souhaites faire partie d’une équipe d’interclubs ? Envoie-nous ton mail avec ton classement tes préférences de tableaux et ce que tu cherches en faisant parie d'une équipe. Nous avons un grand nombre de demandes, nous privilégions donc les joueurs licenciés au REC depuis au moins un an. De plus, il y a un nombre limité de mutés acceptables par rencontre d'IC"
+  text2: "Si le début d’année est passé, il y a de grande chance pour que les équipes soient déjà faites, mais retente l’année prochaine !"
+
+table:
+  headers: ["Équipes Saison Passée", "Classement", "Résultats de la Saison", "Équipes Saison à Venir"]
+  rows:
+    - [ "PN", "3ème de poule (2ème au playoffs)", "⇧", "N3" ]
+    - [ "R1", "1er de poule (5ème au playoffs)", "⇧", "PN" ]
+    - [ "R3", "1er de poule (1er au playoffs)", "⇧", "R2" ]
+    - [ "D1", "2ème de poule (4ème au playoffs)", "⇧", "D1-a" ]
+    - [ "D2", "3ème de poule", "=", "D1-b" ]
+    - [ "D4-a", "2ème de poule", "⇧", "D3-a" ]
+    - [ "D4-b", "3ème de poule", "⇧", "D3-b" ]
+    - [ "D5", "=", "=", "D5" ]
+    - [ "D1H", "7ème de poule", "=", "D1H" ]
