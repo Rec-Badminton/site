@@ -367,6 +367,33 @@ footer {
     }
 }
 
+.competition {
+      .link-container {
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: $background-color;
+        background-color: $brand-color;
+        font-weight: bold;
+        font-family: Bebas Neue;
+        font-size: 25px;
+      }
+
+  .table-bordered {
+        thead > tr {
+            background-color: $brand-color;
+            color: $background-color;
+        }
+        border: 1px solid $text-color;
+        vertical-align: middle;
+
+        img {
+            height: 25px;
+        }
+    }
+}
+
 .inscription {
 
     @media(min-width:992px) {
@@ -473,8 +500,8 @@ footer {
         margin-top: 5%;
     }
 
-    .livret, .competition {
-      .link-container, {
+    .livret {
+      .link-container {
         position: relative;
         display: inline-block;
         padding: 10px 20px;
