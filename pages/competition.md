@@ -8,7 +8,7 @@ permalink: "/competition/"
 content:
 
 ---
-<div class="container my-5">
+<section class="competition container my-5">
 
     <!-- TOURNOIS -->
     <h2 class="section-title text-center">{{ data.competition.tournaments.title }}</h2>
@@ -52,4 +52,4 @@ content:
       </table>
     </div>
 
-  </div>
+  </section>
