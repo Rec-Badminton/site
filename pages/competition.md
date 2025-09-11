@@ -10,6 +10,7 @@ permalink: "/competition/"
 <section class="competition container my-5">
 
   <h2 class="section-title text-center">{{ site.data.competition.tournaments.title }}</h2>
+  <br/>
     <div class="row align-items-center">
       <div class="col-md-8">
         <p>{{ site.data.competition.tournaments.text1 }} <a href="{{ site.data.competition.tournaments.link1 }}" target="_blank">{{ site.data.competition.tournaments.link1 }}</a></p>
