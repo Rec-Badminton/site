@@ -56,7 +56,7 @@ creneaux:
     description: >-
       Entrainement adultes pour les compétiteurs confirmés (à partir du
       classement P10) 
-    isFull: false
+    isFull: true
   - jour: Mardi
     start: 20h30
     end: 22h00
