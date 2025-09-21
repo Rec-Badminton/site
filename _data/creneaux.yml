@@ -10,7 +10,7 @@ creneaux:
     description: Jeu libre pour tous (jeunes accompagnés)
     isFull: true
     isWaitingList: false
-    membersOnly: true
+    membersOnly: false
   - jour: Lundi
     start: 19h00
     end: 22h00
