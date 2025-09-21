@@ -8,7 +8,9 @@ creneaux:
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: Jeu libre pour tous (jeunes accompagnés)
+    isFull: true
     isWaitingList: false
+    membersOnly: true
   - jour: Lundi
     start: 19h00
     end: 22h00
