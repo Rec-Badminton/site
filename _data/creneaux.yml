@@ -8,7 +8,7 @@ creneaux:
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: Jeu libre pour tous (jeunes accompagnés)
-    isFull: true
+    isFull: false
     isWaitingList: false
     membersOnly: false
   - jour: Lundi
@@ -38,9 +38,7 @@ creneaux:
       - entraineurs: _data/entraineurs/Tuong.yml
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
-    description: >-
-      Entrainement adultes pour les joueurs débutants et intermédiaires
-      (jusqu'au classement P)
+    description: Entrainement adultes pour les joueurs débutants et intermédiaires (jusqu'au classement P)
     isFull: true
     isWaitingList: true
   - jour: Mardi
@@ -53,9 +51,7 @@ creneaux:
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
       - niveaux: _data/niveaux/Demi-licence.yml
-    description: >-
-      Entrainement adultes pour les compétiteurs confirmés (à partir du
-      classement P10) 
+    description: 'Entrainement adultes pour les compétiteurs confirmés (à partir du classement P10) '
     isFull: false
   - jour: Mardi
     start: 20h30
@@ -104,9 +100,7 @@ creneaux:
       - entraineurs: _data/entraineurs/Loris.yml
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
-    description: >-
-      Entrainement adultes compétiteurs élites (joueurs R5 ou + ou faisant
-      partie d'une équipe R ou +) 
+    description: 'Entrainement adultes compétiteurs élites (joueurs R5 ou + ou faisant partie d''une équipe R ou +) '
     isFull: false
     membersOnly: false
   - jour: Jeudi
@@ -117,9 +111,7 @@ creneaux:
       - entraineurs: _data/entraineurs/Carla.yml
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
-    description: >-
-      Entrainement adultes compétiteurs confirmés (Minimum D9, priorité équipes
-      D1 et D3 - créneau partagé avec Vern)
+    description: 'Entrainement adultes compétiteurs confirmés (Minimum D9, priorité équipes D1 et D3 - créneau partagé avec Vern)'
     isFull: false
   - jour: Vendredi
     start: 18h00
