@@ -39,8 +39,8 @@ creneaux:
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: Entrainement adultes pour les joueurs débutants et intermédiaires (jusqu'au classement P)
-    isFull: true
-    isWaitingList: true
+    isFull: false
+    isWaitingList: false
   - jour: Mardi
     start: 20h00
     end: 22h00
