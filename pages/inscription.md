@@ -68,7 +68,6 @@ menu:
         <li>L'adhésion au club ainsi qu'une licence fédérale (FFBAD) incluant une assurance</li>
         <li><strong>L'accès à 2 créneaux par semaine</strong> (entrainements ou jeu libre) parmi les créneaux où les places sont limitées</li>
         <li><strong>L'accès libre à des créneaux supplémentaires sur les créneaux dont les places ne sont pas limitées</strong></li>
-        <li>Un maximum de <strong>3 tableaux de tournois</strong> offerts en passant par l'interface web du club</li>
         <li>L'accès aux événements organisés par le club</li>
         <li>L'accès à la boutique et aux tarifs avantageux chez nos partenaires</li>
       </ul>
@@ -120,7 +119,7 @@ menu:
         <li>Possibilité de payer par <b>Chèques Vacances ANCV</b> en choisissant “autres moyens de paiement“. </li>
         <li><b>Aucun remboursement</b> ne pourra être demandé après l’inscription validée par le club.</li>
       </ul>
-      <p>L'inscription comprend la possibilité de participer à <span class="brand-color"><b>2 créneaux maximum</b></span> durant la semaine à choisir lors de l'inscription en fonction des disponibilités. Avec un créneau supplémentaire de jeu libre pour tous le vendredi et/ou le dimanche.</p><br/>
+      <p>L'inscription comprend la possibilité de participer à <span class="brand-color"><b>2 créneaux maximum</b></span> durant la semaine à choisir lors de l'inscription en fonction des disponibilités, avec un créneau supplémentaire de jeu libre pour tous le vendredi et/ou le dimanche.</p><br/>
       <p>Attention ! Les entraînements compétiteurs du mardi et jeudi sont réservés aux licenciés ayant un niveau confirmé ou avancé. Les joueurs compétiteurs débutants seront orientés vers le cours du lundi à 20h30.</p>
     </section>
     <section>
