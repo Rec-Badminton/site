@@ -90,7 +90,7 @@ creneaux:
       - niveaux: _data/niveaux/Minibad.yml
       - niveaux: _data/niveaux/Jeune.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
-    description: Entraînement jeunes (de 7 à 17 ans) et Adultes Débutants et Intermédiaires
+    description: '!! A CONFIRMER !! Entraînement jeunes (de 7 à 17 ans) et Adultes Débutants et Intermédiaires'
     isFull: false
   - jour: Mercredi
     start: 20h30
