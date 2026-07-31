@@ -1,4 +1,10 @@
 creneaux:
+  - jour: Mercredi
+    start: 16h00
+    end: 18h00
+    salle: _data/salles/Salle-de-la-Binquenais.yml
+    entraineurs:
+      - entraineurs: _data/entraineurs/Oui-info--venir.yml
   - jour: Lundi
     start: 18h00
     end: 20h00
