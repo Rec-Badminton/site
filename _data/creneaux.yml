@@ -5,6 +5,8 @@ creneaux:
     salle: _data/salles/Salle-de-la-Binquenais.yml
     entraineurs:
       - entraineurs: _data/entraineurs/Oui-info--venir.yml
+    niveaux:
+      - niveaux: _data/niveaux/Jeune.yml
   - jour: Lundi
     start: 18h00
     end: 20h00
