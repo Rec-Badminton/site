@@ -16,8 +16,8 @@ menu:
   Une question ? Écris-nous et nous te répondrons au plus vite !
 
  <!-- Bloc WhatsApp -->
-  <div style="display:flex; align-items:center; justify-content:center; gap:30px; flex-wrap:wrap; margin:10px 0;">
-    <div style="flex:1; min-width:200px;">
+  <div style="display:flex; align-items:center; justify-content:center; gap:30px; flex-wrap:wrap; margin:3px 0;">
+    <div style="flex:1; min-width:130px;">
       <strong>Déjà inscrit au REC ?</strong><br/>
       Tu peux rejoindre le groupe WhatsApp du club en scannant le QR code ci-contre, puis poser ta question dans le canal <strong>"Contact Bureau"</strong>.
     </div>
@@ -30,7 +30,7 @@ menu:
     <img
       src="/assets/img/qr_code_WA_REC.png"
       alt="QR Code du groupe WhatsApp du REC Badminton"
-      style="max-width:180px; height:auto; cursor:pointer;"
+      style="max-width:130px; height:auto; cursor:pointer;"
     />
   </a>
 </div>
