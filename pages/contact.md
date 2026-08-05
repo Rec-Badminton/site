@@ -28,7 +28,7 @@ menu:
      rel="noopener noreferrer"
      title="Rejoindre le groupe WhatsApp du REC Badminton">
     <img
-      src="/assets/images/qrcode-whatsapp.png"
+      src="/assets/img/qr_code_WA_REC.png"
       alt="QR Code du groupe WhatsApp du REC Badminton"
       style="max-width:180px; height:auto; cursor:pointer;"
     />
