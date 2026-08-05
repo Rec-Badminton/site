@@ -19,7 +19,7 @@ menu:
   <div style="display:flex; align-items:center; justify-content:center; gap:30px; flex-wrap:wrap; margin:3px 0;">
     <div style="flex:1; min-width:130px;">
       <strong>Déjà inscrit au REC ?</strong><br/>
-      Tu peux rejoindre le groupe WhatsApp du club en scannant le QR code ci-contre, puis poser ta question dans le canal <strong>"Contact Bureau"</strong>.
+      Tu peux rejoindre le groupe WhatsApp du club en scannant le QR code ci-contre, puis pose ta question dans le canal <strong>"Contact Bureau"</strong>.
     </div>
 
 <div>
