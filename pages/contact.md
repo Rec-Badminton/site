@@ -13,11 +13,11 @@ menu:
 
 ---
 <section class="contact">
-  Une question ? Écris-nous et nous te répondrons au plus vite !<br/><br/>
+  Une question ? Écris-nous et nous te répondrons au plus vite !
 
  <!-- Bloc WhatsApp -->
-  <div style="display:flex; align-items:center; justify-content:center; gap:40px; flex-wrap:wrap; margin:30px 0;">
-    <div style="flex:1; min-width:250px;">
+  <div style="display:flex; align-items:center; justify-content:center; gap:30px; flex-wrap:wrap; margin:10px 0;">
+    <div style="flex:1; min-width:200px;">
       <strong>Déjà inscrit au REC ?</strong><br/>
       Tu peux rejoindre le groupe WhatsApp du club en scannant le QR code ci-contre, puis poser ta question dans le canal <strong>"Contact Bureau"</strong>.
     </div>
@@ -36,8 +36,6 @@ menu:
 </div>
 
 </div> <!-- Fin du bloc WhatsApp -->
-
-<br/><br/>
   
   <form
   action="https://formspree.io/f/mgejedpl"
