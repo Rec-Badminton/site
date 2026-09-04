@@ -130,7 +130,7 @@ creneaux:
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
       - niveaux: _data/niveaux/Adulte-encadr.yml
       - niveaux: _data/niveaux/Demi-licence.yml
-    description: Rencontres interclubs
+    description: Rencontres interclubs et/ou jeu libre adultes
     membersOnly: false
   - jour: Samedi
   - jour: Dimanche
