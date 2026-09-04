@@ -79,7 +79,7 @@ creneaux:
       - entraineurs: _data/entraineurs/Lo.yml
     niveaux:
       - niveaux: _data/niveaux/Jeune.yml
-    description: Entraînement jeunes (de 7 à 17 ans)
+    description: Entraînement jeunes (à partir de 7 ans) + adultes débutants
   - jour: Mercredi
     start: 20h30
     end: 22h15
