@@ -7,7 +7,7 @@ header:
   - title: Inscription
     url: /inscription
   - title: Compétition
-    url: https://tournois.recbadminton.fr/
+    url: /competition
   - title: Boutique
     url: /boutique
   - title: Contact
