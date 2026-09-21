@@ -59,6 +59,7 @@ creneaux:
     salle: _data/salles/La-Harpe-Gymnase-C.yml
     niveaux:
       - niveaux: _data/niveaux/Adulte-jeu-libre.yml
+      - niveaux: _data/niveaux/Adulte-encadr.yml
     description: 'Jeu libre adultes loisirs '
     isFull: false
   - jour: Mercredi
