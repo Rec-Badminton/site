@@ -151,6 +151,9 @@ function shortTeamName(fullName) {
 }
 
 function buildTeams(competition, standings, matches) {
+  // Venues without a postal code (e.g. "Salle non définie") carry no usable
+  // address, so they are dropped from display.
+  const venueWithAddress = (venue) => (/\d{5}/.test(venue) ? venue : "");
   return standings
     .filter((entry) => entry.is_rec)
     .map((entry) => {
@@ -164,11 +167,22 @@ function buildTeams(competition, standings, matches) {
         standings,
         matches: matches
           .filter((match) => match.home === fullName || match.away === fullName)
-          .map((match) => ({
-            ...match,
-            at_home: match.home === fullName,
-            opponent: match.home === fullName ? match.away : match.home,
-          })),
+          .map((match) => {
+            const isHome = match.home === fullName;
+            const rawVenue = match.venue || "";
+            // A reception counts as home at a Rennes gym or an unnamed hall
+            // ("Salle non définie", the club gym). Plateau rounds hosted
+            // elsewhere (a non-Rennes address or no venue at all) stay away even
+            // when the federation lists the team as the host.
+            const atHome =
+              isHome && (/non d[eé]fini/i.test(rawVenue) || /rennes/i.test(rawVenue));
+            return {
+              ...match,
+              at_home: atHome,
+              opponent: isHome ? match.away : match.home,
+              venue: venueWithAddress(rawVenue),
+            };
+          }),
       };
     });
 }
@@ -221,28 +235,34 @@ async function main() {
     teams.push(...buildTeams(competition, parseStandings(page), matches));
   }
 
-  const upcomingHome = teams
-    .flatMap((team) =>
-      team.matches
-        .filter((match) => match.at_home && match.date >= todayStamp)
-        .map((match) => ({
-          journee: match.journee,
-          date: match.date,
-          time: match.time,
-          competition: match.competition,
-          team: team.name,
-          opponent: match.opponent,
-          venue: match.venue,
-          url: match.url,
-        })),
-    )
+  // Next upcoming match of each team, home or away.
+  const nextMatches = teams
+    .map((team) => {
+      const upcoming = team.matches
+        .filter((match) => match.date >= todayStamp)
+        .sort((a, b) => `${a.date}${a.time}`.localeCompare(`${b.date}${b.time}`));
+      const match = upcoming[0];
+      if (!match) return null;
+      return {
+        team: team.name,
+        competition: team.competition,
+        journee: match.journee,
+        date: match.date,
+        time: match.time,
+        opponent: match.opponent,
+        at_home: match.at_home,
+        venue: match.venue,
+        url: match.url,
+      };
+    })
+    .filter(Boolean)
     .sort((a, b) => `${a.date}${a.time}`.localeCompare(`${b.date}${b.time}`));
 
   const payload = {
     generated_at: today.toISOString(),
     source_url: INSTANCE_URL,
     teams,
-    home_matches: upcomingHome,
+    next_matches: nextMatches,
   };
 
   await writeFile(
@@ -252,7 +272,7 @@ async function main() {
   );
 
   console.log(
-    `${competitions.length} competitions, ${teams.length} teams, ${upcomingHome.length} upcoming home fixtures -> ${OUTPUT}`,
+    `${competitions.length} competitions, ${teams.length} teams, ${nextMatches.length} next matches -> ${OUTPUT}`,
   );
 }
 

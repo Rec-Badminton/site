@@ -280,6 +280,15 @@ nav {
             width: 100%;
         }
 
+        // Hidden until JS has composed the slides, so the single fallback
+        // image never flashes before the responsive layout is built. JS sets
+        // an inline opacity of 1 once ready (a <noscript> rule in the carousel
+        // include keeps it visible without JS).
+        .carousel-inner {
+            opacity: 0;
+            transition: opacity 0.15s ease-in;
+        }
+
         // Several photos per slide, each cell matching its photo's aspect
         // ratio (height + width set from JS) so nothing is cropped. Rows
         // shorter than the carousel are centered. Counts are computed

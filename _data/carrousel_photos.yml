@@ -1,49 +1,97 @@
 ---
 - src: /assets/data/photos/2026-1.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-2.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-3.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-4.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-5.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-6.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-7.jpg
   alt: Rec Badminton 2026
+  w: 1796
+  h: 1200
 - src: /assets/data/photos/2026-8.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-9.jpg
   alt: Rec Badminton 2026
+  w: 1796
+  h: 1200
 - src: /assets/data/photos/2026-10.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-11.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-12.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-13.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-14.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-15.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-16.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-17.jpg
   alt: Rec Badminton 2026
+  w: 802
+  h: 1200
 - src: /assets/data/photos/2026-18.jpg
   alt: Rec Badminton 2026
+  w: 1599
+  h: 1200
 - src: /assets/data/photos/1.jpg
   alt: Photo 1
+  w: 1024
+  h: 707
 - src: /assets/data/photos/2.jpg
   alt: Photo 2
+  w: 1600
+  h: 1200
 - src: /assets/data/photos/3.jpg
   alt: Photo 3
+  w: 960
+  h: 621
 - src: /assets/data/photos/4.jpg
   alt: Photo 4
+  w: 4624
+  h: 2248
 - src: /assets/data/photos/5.jpg
   alt: Photo 5
+  w: 960
+  h: 527
 - src: /assets/data/photos/6.jpg
   alt: Photo 6
+  w: 934
+  h: 622

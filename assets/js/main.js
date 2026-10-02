@@ -90,11 +90,24 @@ function buildResponsiveCarousel() {
     const inner = root.querySelector(".carousel-inner");
     const indicators = root.querySelector(".carousel-indicators");
     if (!root._photos) {
-        root._photos = Array.from(inner.querySelectorAll("img")).map((img) => ({
-            src: img.getAttribute("src"),
-            alt: img.getAttribute("alt"),
-            ratio: img.naturalWidth && img.naturalHeight ? img.naturalWidth / img.naturalHeight : 1,
-        }));
+        root._photos = Array.from(inner.querySelectorAll("img")).map((img) => {
+            const w = Number(img.getAttribute("width"));
+            const h = Number(img.getAttribute("height"));
+            return {
+                src: img.getAttribute("src"),
+                alt: img.getAttribute("alt"),
+                w,
+                h,
+                // Read from the width/height attributes so the layout can be
+                // built before the images have loaded (avoids a flash).
+                ratio:
+                    w && h
+                        ? w / h
+                        : img.naturalWidth && img.naturalHeight
+                          ? img.naturalWidth / img.naturalHeight
+                          : 1,
+            };
+        });
     }
     const photos = root._photos;
     if (!photos.length) return;
@@ -156,6 +169,10 @@ function buildResponsiveCarousel() {
             img.className = "carousel-img";
             img.src = photo.src;
             img.alt = photo.alt;
+            if (photo.w && photo.h) {
+                img.width = photo.w;
+                img.height = photo.h;
+            }
             if (fill) {
                 img.style.flexGrow = String(photo.ratio);
             } else {
@@ -175,9 +192,23 @@ function buildResponsiveCarousel() {
         }
     });
     window.bootstrap.Carousel.getOrCreateInstance(root);
+    inner.style.opacity = "1";
 }
 
-window.addEventListener("load", buildResponsiveCarousel);
+// Build as soon as the DOM is parsed (main.js is deferred, Bootstrap is already
+// loaded, and photo ratios come from the markup) so the final layout shows
+// without flashing the single fallback image first.
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", buildResponsiveCarousel);
+} else {
+    buildResponsiveCarousel();
+}
+// Safety net: never leave the carousel hidden if the build failed.
+window.addEventListener("load", () => {
+    buildResponsiveCarousel();
+    const inner = document.querySelector("#carouselRec .carousel-inner");
+    if (inner) inner.style.opacity = "1";
+});
 let carouselResizeTimer;
 window.addEventListener("resize", () => {
     clearTimeout(carouselResizeTimer);

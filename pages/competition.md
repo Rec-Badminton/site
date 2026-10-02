@@ -35,9 +35,11 @@ permalink: "/competition/"
   <h2 id="interclubs" class="section-title text-center">{{ site.data.competition.interclubs.title }}</h2>
   <p>{{ site.data.competition.interclubs.text1 }}</p>
   <p>{{ site.data.competition.interclubs.text2 }}</p>
-  <p>{{ site.data.competition.interclubs.text3 }} <a href="{{ site.data.competition.interclubs.link1 }}" target="_blank" rel="noopener noreferrer">{{ site.data.competition.interclubs.link1 }}</a></p>
+  <p class="text-center my-4">
+    <a class="link-container" target="_blank" rel="noopener noreferrer" href="{{ site.data.competition.interclubs.link1 }}">{{ site.data.competition.interclubs.button }}</a>
+  </p>
 
-  {% assign upcoming = site.data.interclubs.home_matches | slice: 0, 5 %}
+  {% assign upcoming = site.data.interclubs.next_matches %}
   {% if upcoming.size > 0 %}
     <h3 id="prochaines-rencontres" class="text-center mt-5">Nos prochaines rencontres</h3>
     <div class="table-responsive">
@@ -54,17 +56,17 @@ permalink: "/competition/"
           {% for match in upcoming %}
             <tr scope="row">
               <td class="text-center text-nowrap">
-                <a href="{{ match.url }}" target="_blank" rel="noopener noreferrer">{{ match.date | date: "%d/%m" }} à {{ match.time }}</a>
+                <a href="{{ match.url }}" target="_blank" rel="noopener noreferrer">{{ match.date | date: "%d/%m" }}{% if match.time != "" %} à {{ match.time }}{% endif %}</a>
               </td>
               <td class="text-center text-nowrap">{{ match.team }}<small class="d-block">{{ match.competition }}</small></td>
               <td>{{ match.opponent }}</td>
-              <td>{{ match.venue }}</td>
+              <td class="text-center">{% if match.at_home %}Domicile{% else %}Extérieur{% endif %}{% if match.venue != "" %}<small class="d-block">{{ match.venue }}</small>{% endif %}</td>
             </tr>
           {% endfor %}
         </tbody>
       </table>
     </div>
-    <p class="text-center"><small>Rencontres où le REC reçoit. Données FFBaD mises à jour le {{ site.data.interclubs.generated_at | date: "%d/%m/%Y" }}.</small></p>
+    <p class="text-center"><small>Prochaine rencontre de chaque équipe. Données FFBaD mises à jour le {{ site.data.interclubs.generated_at | date: "%d/%m/%Y" }}.</small></p>
   {% endif %}
 
   {% assign teams = site.data.interclubs.teams %}
@@ -142,7 +144,7 @@ permalink: "/competition/"
                       {% if match.time != "" %}<small class="d-block">{{ match.time }}</small>{% endif %}
                     </td>
                     <td>{{ match.opponent }}</td>
-                    <td class="text-center">{% if match.at_home %}Domicile{% else %}Extérieur{% endif %}<small class="d-block">{{ match.venue }}</small></td>
+                    <td class="text-center">{% if match.at_home %}Domicile{% else %}Extérieur{% endif %}{% if match.venue != "" %}<small class="d-block">{{ match.venue }}</small>{% endif %}</td>
                     <td class="text-center text-nowrap">{% if match.played %}{{ match.score }}{% else %}&mdash;{% endif %}</td>
                   </tr>
                 {% endfor %}
@@ -153,10 +155,6 @@ permalink: "/competition/"
       {% endfor %}
     </div>
   {% endif %}
-
-  <p class="text-center my-4">
-    <a class="link-container" target="_blank" rel="noopener noreferrer" href="{{ site.data.competition.interclubs.link1 }}">{{ site.data.competition.interclubs.button }}</a>
-  </p>
 
   <h3 id="bilan" class="text-center mt-5">{{ site.data.competition.table.title }}</h3>
   <div class="table-responsive">
