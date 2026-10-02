@@ -1,6 +1,9 @@
 _site
+_site_dev
 .sass-cache
 .jekyll-metadata
+.jekyll-cache
+vendor/
 public/
 Gemfile.lock
 .ruby-version

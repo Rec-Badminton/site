@@ -6,6 +6,10 @@ on:
   push:
     branches: ["WIP-TINA"]
 
+  # Refreshes the scraped interclubs fixtures after each match weekend
+  schedule:
+    - cron: "0 5 * * 1"
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -45,6 +49,11 @@ jobs:
 
       - name: Install Node dependencies
         run: npm ci
+
+      # Non blocking: on failure the committed _data/interclubs.yml is used.
+      - name: Refresh interclubs fixtures
+        continue-on-error: true
+        run: node scripts/fetch-interclubs.mjs
 
       - name: Build TinaCMS
         env:

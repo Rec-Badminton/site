@@ -264,19 +264,39 @@ nav {
     @media(min-width:992px) {
         .main-carousel {
             height: 500px;
-            margin-top: 65px;
+            // Clear the fixed bandeau + navbar so they don't cover the photo tops.
+            margin-top: calc(#{$height-navbar} + 2.5rem);
         }
     }
     @media(max-width:992px) {
         .main-carousel {
             height: 250px;
-            margin-top: 8.5rem;
+            margin-top: calc(#{$height-navbar} + 5.5rem);
         }
     }
 
     .main-carousel {
         img {
             width: 100%;
+        }
+
+        // Several photos per slide, each cell matching its photo's aspect
+        // ratio (height + width set from JS) so nothing is cropped. Rows
+        // shorter than the carousel are centered. Counts are computed
+        // responsively in assets/js/main.js; the flex row is an inner wrapper
+        // so Bootstrap keeps hiding inactive slides.
+        .carousel-row {
+            display: flex;
+            gap: 3px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .carousel-img {
+            flex: 1 1 0;
+            min-width: 0;
+            height: 100%;
+            object-fit: cover;
         }
     }
 .carousel-inner {
@@ -368,6 +388,38 @@ footer {
 }
 
 .competition {
+      // The bandeau, the navbar and the club logo overhanging it are all
+      // fixed-top, so an anchor target has to be pushed below all three.
+      h2[id],
+      h3[id] {
+        scroll-margin-top: 220px;
+
+        @media (max-width: 992px) {
+            // The logo no longer overhangs, but the bandeau wraps to 5.5rem.
+            scroll-margin-top: 190px;
+        }
+    }
+
+      .page-summary {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 25px;
+
+        a {
+            color: $text-color;
+            font-family: Bebas Neue;
+            font-size: 22px;
+            text-decoration: none;
+            border-bottom: 3px solid $brand-color;
+
+            &:hover,
+            &:focus {
+                color: $brand-color;
+            }
+        }
+    }
+
       .link-container {
         position: relative;
         display: inline-block;
@@ -393,6 +445,24 @@ footer {
         img {
             height: 25px;
         }
+    }
+
+  .nav-tabs .nav-link {
+        color: $text-color;
+        font-family: Bebas Neue;
+        font-size: 22px;
+
+        &.active {
+            color: $background-color;
+            background-color: $brand-color;
+            border-color: $brand-color;
+        }
+    }
+
+  .table-bordered tbody > tr.is-rec,
+  .table-bordered tbody > tr.is-rec:nth-child(even) {
+        background-color: rgba($brand-color, 0.18);
+        font-weight: bold;
     }
 }
 

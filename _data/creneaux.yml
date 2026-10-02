@@ -9,7 +9,7 @@ creneaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: Jeu libre pour tous (jeunes accompagnés)
     isFull: false
-    isWaitingList: false
+    isWaitingList: true
     membersOnly: false
   - jour: Lundi
     start: 19h00
@@ -20,7 +20,7 @@ creneaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: 'Jeu libre adultes (créneau partagé avec le RUC) '
     isFull: false
-    isWaitingList: false
+    isWaitingList: true
   - jour: Lundi
     start: 20h00
     end: 22h00
@@ -39,7 +39,7 @@ creneaux:
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: Entrainement adultes pour les joueurs débutants et intermédiaires (jusqu'au classement P)
-    isFull: false
+    isFull: true
     isWaitingList: false
   - jour: Mardi
     start: 20h00
@@ -53,6 +53,7 @@ creneaux:
       - niveaux: _data/niveaux/Demi-licence.yml
     description: 'Entrainement adultes pour les compétiteurs confirmés (à partir du classement P10) '
     isFull: false
+    isWaitingList: true
   - jour: Mardi
     start: 20h30
     end: 22h00
@@ -62,6 +63,7 @@ creneaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: 'Jeu libre adultes loisirs '
     isFull: false
+    isWaitingList: true
   - jour: Mercredi
     start: 12h00
     end: 13h00
@@ -91,6 +93,7 @@ creneaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: 'Jeu libre adultes loisirs et compétiteurs '
     isFull: false
+    isWaitingList: true
   - jour: Jeudi
     start: 20h00
     end: 22h00
@@ -100,7 +103,7 @@ creneaux:
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: 'Entrainement adultes compétiteurs élites (joueurs R5 ou + ou faisant partie d''une équipe R ou +) '
-    isFull: false
+    isFull: true
     membersOnly: false
   - jour: Jeudi
     start: 20h00
@@ -111,7 +114,7 @@ creneaux:
     niveaux:
       - niveaux: _data/niveaux/Adulte-encadr.yml
     description: 'Entrainement adultes compétiteurs confirmés (Minimum D9, priorité équipes D1 et D3 - créneau partagé avec Vern)'
-    isFull: false
+    isFull: true
   - jour: Vendredi
     start: 18h00
     end: 22h00

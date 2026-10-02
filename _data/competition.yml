@@ -1,6 +1,9 @@
 tournaments:
   title: "Les Tournois"
-  text1: "Tu souhaites participer à un tournoi ? Inscris toi librement via l'application e-bad ! Si tu as des questions, n'hésites pas à rejoindre le groupe WhatsApp du club, depuis la page Contact."
+  text1: "Tu souhaites participer à un tournoi ? Retrouve toutes les compétitions et inscris-toi librement sur BadNet :"
+  link1: "https://badnet.fr/accueil"
+  text2: "Depuis ton téléphone, l'application e-bad te permet de faire la même chose et de suivre tes inscriptions. Si tu as des questions, n'hésite pas à rejoindre le groupe WhatsApp du club, depuis la page Contact."
+  button: "VOIR LES TOURNOIS"
   image: "/assets/data/photos/Liffre.jpg"
   caption: "Le REC en fête au tournoi par équipe de Liffré - mars 2024"
 
@@ -8,8 +11,12 @@ interclubs:
   title: "Les Interclubs"
   text1: "Tu souhaites faire partie d’une équipe d’interclubs ? Envoie-nous ton mail avec ton classement tes préférences de tableaux et ce que tu cherches en faisant parie d'une équipe. Nous avons un grand nombre de demandes, nous privilégions donc les joueurs licenciés au REC depuis au moins un an. De plus, il y a un nombre limité de mutés acceptables par rencontre d'IC"
   text2: "Si le début d’année est passé, il y a de grande chance pour que les équipes soient déjà faites, mais retente l’année prochaine !"
+  text3: "Retrouve les classements, le calendrier et les résultats de toutes nos équipes sur le site de la FFBaD :"
+  link1: "https://icbad.ffbad.org/instance/REC35"
+  button: "NOS INTERCLUBS EN DIRECT"
 
 table:
+  title: "Bilan de la saison 2025/2026"
   headers: ["Équipes Saison Passée", "Classement", "Résultats de la Saison", "Équipes Saison à Venir"]
   rows:
     - [ "N3", "4ème de poule", "=", "N3" ]

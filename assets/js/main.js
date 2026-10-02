@@ -81,3 +81,105 @@ const cookieConsentAndPwa = () => {
 }
 
 window.onload = cookieConsentAndPwa;
+
+// Rebuild the home carousel so each slide holds as many photos as fit the
+// viewport (server-side markup renders one photo per slide as a no-JS fallback).
+function buildResponsiveCarousel() {
+    const root = document.getElementById("carouselRec");
+    if (!root || !window.bootstrap) return;
+    const inner = root.querySelector(".carousel-inner");
+    const indicators = root.querySelector(".carousel-indicators");
+    if (!root._photos) {
+        root._photos = Array.from(inner.querySelectorAll("img")).map((img) => ({
+            src: img.getAttribute("src"),
+            alt: img.getAttribute("alt"),
+            ratio: img.naturalWidth && img.naturalHeight ? img.naturalWidth / img.naturalHeight : 1,
+        }));
+    }
+    const photos = root._photos;
+    if (!photos.length) return;
+
+    // Pack photos into a slide until their aspect ratios fill the row width.
+    // At each boundary, keep or drop the last photo depending on which brings
+    // the row closer to filling the full width, to minimise both the leftover
+    // white space and the cropping once the row is stretched to full height.
+    const width = inner.clientWidth || root.clientWidth || window.innerWidth;
+    const height = root.clientHeight || 500;
+    const gap = 3;
+    const targetAspect = Math.max(1, width / height);
+    const slides = [];
+    let i = 0;
+    while (i < photos.length) {
+        const group = [];
+        let sum = 0;
+        while (i < photos.length && sum < targetAspect) {
+            group.push(photos[i]);
+            sum += photos[i].ratio;
+            i += 1;
+        }
+        if (group.length > 1) {
+            const last = group[group.length - 1].ratio;
+            if (Math.abs(sum - last - targetAspect) < Math.abs(sum - targetAspect)) {
+                group.pop();
+                i -= 1;
+            }
+        }
+        slides.push(group);
+    }
+
+    const signature = slides.map((s) => s.length).join(",");
+    if (root.dataset.signature === signature) return;
+    root.dataset.signature = signature;
+
+    window.bootstrap.Carousel.getInstance(root)?.dispose();
+    inner.innerHTML = "";
+    if (indicators) indicators.innerHTML = "";
+
+    slides.forEach((group, index) => {
+        const sumRatios = group.reduce((acc, photo) => acc + photo.ratio, 0);
+        // Stretching the row to fill the full box scales every cell by this
+        // factor; the resulting crop stays small when the packed ratios are
+        // close to the box ratio. Fill when the crop is modest, otherwise
+        // center at full height (small side margin) to avoid cutting subjects.
+        const scale = targetAspect / sumRatios;
+        const cropFraction = scale >= 1 ? 1 - 1 / scale : 1 - scale;
+        const fill = cropFraction <= 0.15;
+
+        const item = document.createElement("div");
+        item.className = "carousel-item" + (index === 0 ? " active" : "");
+        const row = document.createElement("div");
+        row.className = "carousel-row";
+        row.style.height = `${height}px`;
+        if (!fill) row.style.justifyContent = "center";
+        group.forEach((photo) => {
+            const img = document.createElement("img");
+            img.className = "carousel-img";
+            img.src = photo.src;
+            img.alt = photo.alt;
+            if (fill) {
+                img.style.flexGrow = String(photo.ratio);
+            } else {
+                img.style.flex = "0 0 auto";
+                img.style.width = `${height * photo.ratio}px`;
+            }
+            row.appendChild(img);
+        });
+        item.appendChild(row);
+        inner.appendChild(item);
+        if (indicators) {
+            const li = document.createElement("li");
+            li.setAttribute("data-bs-target", "#carouselRec");
+            li.setAttribute("data-bs-slide-to", String(index));
+            if (index === 0) li.className = "active";
+            indicators.appendChild(li);
+        }
+    });
+    window.bootstrap.Carousel.getOrCreateInstance(root);
+}
+
+window.addEventListener("load", buildResponsiveCarousel);
+let carouselResizeTimer;
+window.addEventListener("resize", () => {
+    clearTimeout(carouselResizeTimer);
+    carouselResizeTimer = setTimeout(buildResponsiveCarousel, 200);
+});

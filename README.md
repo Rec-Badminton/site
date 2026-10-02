@@ -6,7 +6,30 @@ Rec Badminton Website [Jekyll]
 
 
 
-## Using Jekyll locally
+## Running the site locally with Docker
+
+The site runs inside a Docker container, so **no local Ruby installation is
+required** — only Docker.
+
+```bash
+make serve     # http://localhost:4001
+```
+
+Other available targets:
+
+| Command        | Effect                                     |
+| -------------- | ------------------------------------------ |
+| `make help`    | List the available targets                 |
+| `make install` | Install the gems into `./vendor/bundle`    |
+| `make build`   | Build the site into `./_site`              |
+| `make clean`   | Remove the generated site and the caches   |
+
+The port can be overridden: `make serve PORT=4002`.
+
+[_config.dev.yml](_config.dev.yml) neutralizes the production `baseurl` (an
+absolute URL) so that links and assets resolve correctly when serving locally.
+
+## Using Jekyll locally (without Docker)
 
 To work locally with this project, you'll have to follow the steps below:
 

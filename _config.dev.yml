@@ -1,0 +1,4 @@
+# Local development overrides, used by `make serve`.
+# The production baseurl is an absolute URL, unusable locally.
+url: "http://localhost:4001"
+baseurl: ""
