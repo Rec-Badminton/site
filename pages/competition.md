@@ -66,7 +66,7 @@ permalink: "/competition/"
         </tbody>
       </table>
     </div>
-    <p class="text-center"><small>Prochaine rencontre de chaque équipe. Données FFBaD mises à jour le {{ site.data.interclubs.generated_at | date: "%d/%m/%Y" }}.</small></p>
+    <p class="text-center"><small>Données FFBaD mises à jour le {{ site.data.interclubs.generated_at | date: "%d/%m/%Y" }}.</small></p>
   {% endif %}
 
   {% assign teams = site.data.interclubs.teams %}
