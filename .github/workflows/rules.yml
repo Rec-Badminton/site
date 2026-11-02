@@ -1,0 +1,32 @@
+name: Rules
+
+# Security rules are versioned with the code: main deploys them whenever they change.
+on:
+  push:
+    branches: [main]
+    paths: [firestore.rules, storage.rules, firebase.json, .firebaserc]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: firebase-rules
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v7
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v3
+        with:
+          credentials_json: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+
+      - name: Deploy Firestore and Storage rules
+        run: npx --yes firebase-tools@15 deploy --only firestore:rules,storage --non-interactive

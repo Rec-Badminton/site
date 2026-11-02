@@ -1,0 +1,10 @@
+{
+  "extends": "@mxreakit/configs/tsconfig/react.json",
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "strict": true,
+    "paths": { "@/*": ["./src/*"] }
+  },
+  "include": ["src", "vite.config.js"]
+}

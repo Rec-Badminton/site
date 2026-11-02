@@ -1,0 +1,1272 @@
+{
+  "settings": {
+    "email": "recbad35@gmail.com",
+    "season": "2026-2027",
+    "booklet": "backup:files/rec-badminton-welcome-booklet-26-27.pdf",
+    "links": {
+      "instagram": "https://www.instagram.com/recbadminton/",
+      "facebook": "https://www.facebook.com/recbadminton35/",
+      "whatsapp": "https://chat.whatsapp.com/JsHjLGqTTFf2lbITJEciJb",
+      "membership": "https://adherer.ffbad.club/rec35",
+      "myFfbad": "http://www.myffbad.fr",
+      "waitingList": "https://docs.google.com/forms/d/e/1FAIpQLSfQZqe5BmIvFmeaHPnWWoX7N80DlTHqvg9YXBc_Yr0YzamNbg/viewform",
+      "trialForm": "https://poona.ffbad.org//page.php?P=fo/menu/public/accueil/operation_promo_participant&k=Nzk2OUAyNA==",
+      "badnet": "https://badnet.fr/accueil",
+      "interclubs": "https://icbad.ffbad.org/instance/REC35",
+      "contactForm": "https://formspree.io/f/mgejedpl",
+      "calendar": "https://calendar.google.com/calendar/embed?height=440&wkst=2&ctz=Europe%2FParis&showPrint=0&showCalendars=0&showTz=0&mode=WEEK&showTitle=0&showTabs=0&src=MG11ajhyZXZvb2lxODRzb2p1djNiZzI1ZG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZWU0ZTE2M2NmMDRkMjEzZDg5MDFkYTY0MDk1Nzc1MDdkMjQ3MGQzYjU1YjM2MjJiMmU0N2VkY2U3NmI1ZDNkOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23d50000&color=%23616161"
+    },
+    "curatorFeeds": {
+      "instagram": "2a3714c5-f36d-4f57-8eff-d9407604112a",
+      "facebook": "f9d49709-380e-42ce-8e6d-d2c140637fdb"
+    },
+    "qrCodes": {
+      "trial": "backup:images/qr-trial.png",
+      "whatsapp": "backup:images/qr-whatsapp.png"
+    }
+  },
+  "banner": {
+    "enabled": true,
+    "label": {
+      "fr": "Nouveau",
+      "en": "New"
+    },
+    "message": {
+      "fr": "Créneau jeune encadré le mercredi de 16h à 18h",
+      "en": "Coached youth session on Wednesdays, 4pm – 6pm"
+    },
+    "link": ""
+  },
+  "memberships": {
+    "items": [
+      {
+        "id": "yellow",
+        "label": {
+          "fr": "Minibad",
+          "en": "Minibad"
+        },
+        "description": {
+          "fr": "jeunes nés en 2019 et après",
+          "en": "children born in 2019 or later"
+        },
+        "priceNote": {
+          "fr": "jeunes nés en 2019 et après",
+          "en": "children born in 2019 or later"
+        },
+        "price": 70,
+        "color": "#ffcc00",
+        "tint": "#fbe9bf",
+        "ink": "#6e4700",
+        "youth": true
+      },
+      {
+        "id": "green",
+        "label": {
+          "fr": "Jeune",
+          "en": "Youth"
+        },
+        "description": {
+          "fr": "jeunes nés entre 2018 et 2009",
+          "en": "young players born between 2009 and 2018"
+        },
+        "priceNote": {
+          "fr": "jeunes nés entre 2018 et 2009",
+          "en": "young players born between 2009 and 2018"
+        },
+        "price": 70,
+        "color": "#339900",
+        "tint": "#e3f2e7",
+        "ink": "#1d6b37",
+        "youth": true
+      },
+      {
+        "id": "blue",
+        "label": {
+          "fr": "Adulte jeu libre",
+          "en": "Adult open play"
+        },
+        "description": {
+          "fr": "accès à au moins 1 créneau de jeu libre",
+          "en": "access to at least 1 open play session"
+        },
+        "priceNote": {
+          "fr": "accès à au moins 1 créneau de jeu libre",
+          "en": "access to at least 1 open play session"
+        },
+        "price": 140,
+        "color": "#0099ff",
+        "tint": "#e5eef9",
+        "ink": "#1b5596",
+        "youth": false
+      },
+      {
+        "id": "red",
+        "label": {
+          "fr": "Adulte encadré",
+          "en": "Adult coached"
+        },
+        "description": {
+          "fr": "accès à au moins 1 créneau encadré par un entraîneur",
+          "en": "access to at least 1 coached session"
+        },
+        "priceNote": {
+          "fr": "accès à au moins 1 créneau encadré par un entraîneur",
+          "en": "access to at least 1 coached session"
+        },
+        "price": 160,
+        "color": "#e1271a",
+        "tint": "#fbe5e2",
+        "ink": "#a3231b",
+        "youth": false
+      },
+      {
+        "id": "purple",
+        "label": {
+          "fr": "Demi-licence",
+          "en": "Half licence"
+        },
+        "description": {
+          "fr": "accès à l'entraînement du mardi à la Harpe et à 1 créneau de jeu libre",
+          "en": "access to the Tuesday coaching at La Harpe and 1 open play session"
+        },
+        "priceNote": {
+          "fr": "accès à l'entraînement du mardi à la Harpe",
+          "en": "access to the Tuesday coaching at La Harpe"
+        },
+        "price": 160,
+        "color": "#7f1eab",
+        "tint": "#efe7f8",
+        "ink": "#5f3891",
+        "youth": false
+      }
+    ]
+  },
+  "schedule": {
+    "activities": [
+      {
+        "id": "openPlayAll",
+        "label": {
+          "fr": "Jeu libre pour tous",
+          "en": "Open play for everyone"
+        }
+      },
+      {
+        "id": "openPlayFamily",
+        "label": {
+          "fr": "Jeu libre pour tous (jeunes accompagnés)",
+          "en": "Open play for everyone (youth with an adult)"
+        }
+      },
+      {
+        "id": "adultOpenPlay",
+        "label": {
+          "fr": "Jeu libre adultes",
+          "en": "Adult open play"
+        }
+      },
+      {
+        "id": "adultOpenPlayLeisure",
+        "label": {
+          "fr": "Jeu libre adultes loisirs",
+          "en": "Adult leisure open play"
+        }
+      },
+      {
+        "id": "adultOpenPlayMixed",
+        "label": {
+          "fr": "Jeu libre adultes loisirs et compétiteurs",
+          "en": "Adult open play, leisure and competitive"
+        }
+      },
+      {
+        "id": "adultOpenPlayRuc",
+        "label": {
+          "fr": "Jeu libre adultes (créneau partagé avec le RUC)",
+          "en": "Adult open play (shared with the RUC)"
+        }
+      },
+      {
+        "id": "interclubsOrOpenPlay",
+        "label": {
+          "fr": "Rencontres interclubs et/ou jeu libre adultes",
+          "en": "Interclub matches and/or adult open play"
+        }
+      },
+      {
+        "id": "youthCoaching",
+        "label": {
+          "fr": "Entraînement jeunes (à partir de 7 ans) + adultes débutants",
+          "en": "Youth coaching (from age 7) + adult beginners"
+        }
+      },
+      {
+        "id": "adultCoachingIntermediate",
+        "label": {
+          "fr": "Entrainement adultes pour les joueurs débutants et intermédiaires (jusqu'au classement P)",
+          "en": "Adult coaching for beginner and intermediate players (up to P ranking)"
+        }
+      },
+      {
+        "id": "adultCoachingConfirmed",
+        "label": {
+          "fr": "Entrainement adultes pour les compétiteurs confirmés (à partir du classement P10)",
+          "en": "Adult coaching for experienced competitors (from P10 ranking)"
+        }
+      },
+      {
+        "id": "adultCoachingElite",
+        "label": {
+          "fr": "Entrainement adultes compétiteurs élites (joueurs R5 ou + ou faisant partie d'une équipe R ou +)",
+          "en": "Elite adult coaching (R5 players or above, or in an R team or above)"
+        }
+      },
+      {
+        "id": "adultCoachingVern",
+        "label": {
+          "fr": "Entrainement adultes compétiteurs confirmés (Minimum D9, priorité équipes D1 et D3 - créneau partagé avec Vern)",
+          "en": "Experienced adult coaching (D9 minimum, D1 and D3 teams first – shared with Vern)"
+        }
+      }
+    ],
+    "slots": [
+      {
+        "day": "monday",
+        "start": "18:00",
+        "end": "20:00",
+        "venue": "gayeulles",
+        "place": "Halle sportives des Gayeulles",
+        "coach": "",
+        "memberships": [
+          "green",
+          "blue",
+          "red"
+        ],
+        "activity": "openPlayFamily",
+        "status": "waitlist",
+        "isNew": false
+      },
+      {
+        "day": "monday",
+        "start": "19:00",
+        "end": "22:00",
+        "venue": "beaulieu",
+        "place": "Beaulieu Salle du SIUAPS",
+        "coach": "",
+        "memberships": [
+          "blue",
+          "red"
+        ],
+        "activity": "adultOpenPlayRuc",
+        "status": "waitlist",
+        "isNew": false
+      },
+      {
+        "day": "monday",
+        "start": "20:00",
+        "end": "22:00",
+        "venue": "binquenais",
+        "place": "Salle de la Binquenais",
+        "coach": "",
+        "memberships": [
+          "blue",
+          "red"
+        ],
+        "activity": "interclubsOrOpenPlay",
+        "status": "",
+        "isNew": false
+      },
+      {
+        "day": "monday",
+        "start": "20:30",
+        "end": "22:00",
+        "venue": "harpe",
+        "place": "La Harpe Gymnase C",
+        "coach": "Tuong",
+        "memberships": [
+          "red"
+        ],
+        "activity": "adultCoachingIntermediate",
+        "status": "full",
+        "isNew": false
+      },
+      {
+        "day": "tuesday",
+        "start": "20:00",
+        "end": "22:00",
+        "venue": "harpe",
+        "place": "Halle de la Harpe",
+        "coach": "Loris & Carla",
+        "memberships": [
+          "red",
+          "purple"
+        ],
+        "activity": "adultCoachingConfirmed",
+        "status": "waitlist",
+        "isNew": false
+      },
+      {
+        "day": "tuesday",
+        "start": "20:30",
+        "end": "22:00",
+        "venue": "harpe",
+        "place": "La Harpe Gymnase C",
+        "coach": "",
+        "memberships": [
+          "blue",
+          "red"
+        ],
+        "activity": "adultOpenPlayLeisure",
+        "status": "waitlist",
+        "isNew": false
+      },
+      {
+        "day": "wednesday",
+        "start": "12:00",
+        "end": "13:00",
+        "venue": "jean-prouff",
+        "place": "Gymnase Jean-Prouff",
+        "coach": "",
+        "memberships": [
+          "blue",
+          "red"
+        ],
+        "activity": "adultOpenPlay",
+        "status": "",
+        "isNew": false
+      },
+      {
+        "day": "wednesday",
+        "start": "16:00",
+        "end": "18:00",
+        "venue": "binquenais",
+        "place": "Salle de la Binquenais",
+        "coach": "Léo",
+        "memberships": [
+          "green",
+          "red"
+        ],
+        "activity": "youthCoaching",
+        "status": "",
+        "isNew": true
+      },
+      {
+        "day": "wednesday",
+        "start": "20:30",
+        "end": "22:15",
+        "venue": "jean-prouff",
+        "place": "Gymnase Jean-Prouff",
+        "coach": "",
+        "memberships": [
+          "blue",
+          "red"
+        ],
+        "activity": "adultOpenPlayMixed",
+        "status": "waitlist",
+        "isNew": false
+      },
+      {
+        "day": "thursday",
+        "start": "20:00",
+        "end": "22:00",
+        "venue": "montbarrot",
+        "place": "Gymnase Montbarrot",
+        "coach": "Loris",
+        "memberships": [
+          "red"
+        ],
+        "activity": "adultCoachingElite",
+        "status": "full",
+        "isNew": false
+      },
+      {
+        "day": "thursday",
+        "start": "20:00",
+        "end": "23:00",
+        "venue": "seiche",
+        "place": "Salle de la Seiche (Vern)",
+        "coach": "Carla",
+        "memberships": [
+          "red"
+        ],
+        "activity": "adultCoachingVern",
+        "status": "full",
+        "isNew": false
+      },
+      {
+        "day": "friday",
+        "start": "18:00",
+        "end": "22:00",
+        "venue": "beaulieu",
+        "place": "Beaulieu Salle du SIUAPS",
+        "coach": "",
+        "memberships": [
+          "green",
+          "blue",
+          "red",
+          "purple"
+        ],
+        "activity": "openPlayAll",
+        "status": "",
+        "isNew": false
+      },
+      {
+        "day": "friday",
+        "start": "20:00",
+        "end": "22:00",
+        "venue": "mendes",
+        "place": "Gymnase Mendes",
+        "coach": "",
+        "memberships": [
+          "blue",
+          "red",
+          "purple"
+        ],
+        "activity": "interclubsOrOpenPlay",
+        "status": "",
+        "isNew": false
+      },
+      {
+        "day": "sunday",
+        "start": "14:00",
+        "end": "17:00",
+        "venue": "montbarrot",
+        "place": "Gymnase Montbarrot",
+        "coach": "",
+        "memberships": [
+          "green",
+          "blue",
+          "red",
+          "purple"
+        ],
+        "activity": "openPlayAll",
+        "status": "",
+        "isNew": false
+      }
+    ]
+  },
+  "venues": {
+    "items": [
+      {
+        "id": "gayeulles",
+        "name": "Halle sportive des Gayeulles",
+        "area": "8 avenue des Gayeulles, Rennes",
+        "lat": 48.1333732,
+        "lng": -1.6502658
+      },
+      {
+        "id": "beaulieu",
+        "name": "Gymnase de Beaulieu (SIUAPS)",
+        "area": "Campus de Beaulieu, Rennes",
+        "lat": 48.1191941,
+        "lng": -1.6446471
+      },
+      {
+        "id": "harpe",
+        "name": "Complexe sportif de la Harpe",
+        "area": "Avenue Charles et Raymonde Tillon, Rennes",
+        "lat": 48.1274832,
+        "lng": -1.7050844
+      },
+      {
+        "id": "montbarrot",
+        "name": "Gymnase Montbarrot",
+        "area": "14 rue de Gascogne, Rennes",
+        "lat": 48.1227867,
+        "lng": -1.716898
+      },
+      {
+        "id": "mendes",
+        "name": "Gymnase Pierre Mendès-France",
+        "area": "Rennes",
+        "lat": 48.135258,
+        "lng": -1.6810347
+      },
+      {
+        "id": "jean-prouff",
+        "name": "Gymnase Jean-Prouff",
+        "area": "5 place Paul Ricœur, Rennes",
+        "lat": 48.1070333,
+        "lng": -1.6760979
+      },
+      {
+        "id": "binquenais",
+        "name": "Gymnase de la Binquenais",
+        "area": "Rennes",
+        "lat": 48.0896856,
+        "lng": -1.6618968
+      },
+      {
+        "id": "seiche",
+        "name": "Salle de la Seiche",
+        "area": "Vern-sur-Seiche",
+        "lat": 48.0426232,
+        "lng": -1.6082712
+      }
+    ]
+  },
+  "shop": {
+    "categories": [
+      {
+        "id": "clothing",
+        "label": {
+          "fr": "Textile",
+          "en": "Clothing"
+        }
+      },
+      {
+        "id": "shuttlecocks",
+        "label": {
+          "fr": "Volants",
+          "en": "Shuttlecocks"
+        }
+      },
+      {
+        "id": "stringing",
+        "label": {
+          "fr": "Cordage",
+          "en": "Stringing"
+        }
+      }
+    ],
+    "club": {
+      "url": "https://www.helloasso.com/associations/rennes-etudiants-club-badminton/boutiques/boutique-2rec",
+      "products": [
+        {
+          "id": "shirtVictorRed",
+          "name": {
+            "fr": "Maillot Victor Red 2025-2027",
+            "en": "Victor Red shirt 2025-2027"
+          },
+          "details": {
+            "fr": "Maillot officiel pour les saisons 2025 à 2027.\nDu XS au XXXL, taille junior possible sur demande.",
+            "en": "Official shirt for the 2025 to 2027 seasons.\nXS to XXXL, junior sizes on request."
+          },
+          "price": 25,
+          "image": "backup:images/shop/shirt-victor-red.png",
+          "category": "clothing",
+          "badge": {
+            "fr": "2 max. par personne",
+            "en": "Max 2 per person"
+          }
+        },
+        {
+          "id": "shuttlesBabolatHybrid",
+          "name": {
+            "fr": "Babolat Hybrid",
+            "en": "Babolat Hybrid"
+          },
+          "details": {
+            "fr": "Boîte de 12 volants.\nPlus résistant qu'un volant classique, idéal pour l'entraînement.",
+            "en": "Box of 12 shuttlecocks.\nTougher than a standard shuttlecock, ideal for training."
+          },
+          "price": 16,
+          "image": "backup:images/shop/shuttles-babolat-hybrid.png",
+          "category": "shuttlecocks",
+          "badge": {
+            "fr": "",
+            "en": ""
+          }
+        },
+        {
+          "id": "shuttlesVictorNcsMax",
+          "name": {
+            "fr": "Victor NCS Max",
+            "en": "Victor NCS Max"
+          },
+          "details": {
+            "fr": "Tube de 12 volants synthétiques.\nHomologation FFBaD Élite.\nRetrait à planifier avec le club après la commande.",
+            "en": "Tube of 12 synthetic shuttlecocks.\nFFBaD Elite approved.\nArrange pick-up with the club after ordering."
+          },
+          "price": 20,
+          "image": "backup:images/shop/shuttles-victor-ncs-max.jpg",
+          "category": "shuttlecocks",
+          "badge": {
+            "fr": "",
+            "en": ""
+          }
+        },
+        {
+          "id": "shuttlesYonexAs20",
+          "name": {
+            "fr": "Yonex Aerosensa 20",
+            "en": "Yonex Aerosensa 20"
+          },
+          "details": {
+            "fr": "Tube de 12 volants en plume d'oie.\nHomologation FFBaD Élite, idéal pour la compétition.\nRetrait à planifier avec le club après la commande.",
+            "en": "Tube of 12 goose feather shuttlecocks.\nFFBaD Elite approved, ideal for competition.\nArrange pick-up with the club after ordering."
+          },
+          "price": 35,
+          "image": "backup:images/shop/shuttles-yonex-as20.png",
+          "category": "shuttlecocks",
+          "badge": {
+            "fr": "",
+            "en": ""
+          }
+        },
+        {
+          "id": "shuttlesRsl3",
+          "name": {
+            "fr": "RSL Tourney No. 3",
+            "en": "RSL Tourney No. 3"
+          },
+          "details": {
+            "fr": "Tube de 12 volants.\nHomologué pour la compétition.\nRetrait à planifier avec le club après la commande.",
+            "en": "Tube of 12 shuttlecocks.\nApproved for competition.\nArrange pick-up with the club after ordering."
+          },
+          "price": 25,
+          "image": "backup:images/shop/shuttles-rsl3.png",
+          "category": "shuttlecocks",
+          "badge": {
+            "fr": "",
+            "en": ""
+          }
+        },
+        {
+          "id": "shirtJomaN3",
+          "name": {
+            "fr": "Maillot Joma remplacement N3",
+            "en": "Joma N3 spare shirt"
+          },
+          "details": {
+            "fr": "Réservé aux joueurs de l'équipe N3 ayant besoin d'un second maillot aux couleurs différentes.",
+            "en": "For N3 team players who need a second shirt in different colours."
+          },
+          "price": 15,
+          "image": "backup:images/shop/shirt-joma-n3.png",
+          "category": "clothing",
+          "badge": {
+            "fr": "2 max. par personne",
+            "en": "Max 2 per person"
+          }
+        },
+        {
+          "id": "shirtVictor2425",
+          "name": {
+            "fr": "Maillot Victor 2024-2025",
+            "en": "Victor shirt 2024-2025"
+          },
+          "details": {
+            "fr": "Maillot de la saison passée.\nHomme : S.\nStock limité : vérifie les tailles restantes avec le club avant de commander.",
+            "en": "Last season's shirt.\nMen: S.\nLimited stock: check the remaining sizes with the club before ordering."
+          },
+          "price": 15,
+          "image": "backup:images/shop/shirt-victor-24-25.jpg",
+          "category": "clothing",
+          "badge": {
+            "fr": "Fin de série",
+            "en": "Last items"
+          }
+        },
+        {
+          "id": "shirtForza2324",
+          "name": {
+            "fr": "Maillot Forza 2023-2024",
+            "en": "Forza shirt 2023-2024"
+          },
+          "details": {
+            "fr": "Maillot de la saison 2023-2024.\nFemme : S. Homme : S et XXXL.\nStock limité : vérifie les tailles restantes avec le club avant de commander.",
+            "en": "Shirt from the 2023-2024 season.\nWomen: S. Men: S and XXXL.\nLimited stock: check the remaining sizes with the club before ordering."
+          },
+          "price": 15,
+          "image": "backup:images/shop/shirt-forza-23-24.png",
+          "category": "clothing",
+          "badge": {
+            "fr": "Fin de série",
+            "en": "Last items"
+          }
+        },
+        {
+          "id": "hoodieBlack",
+          "name": {
+            "fr": "Sweat noir",
+            "en": "Black hoodie"
+          },
+          "details": {
+            "fr": "Marque Kariban.\nHomme : M et L.\nStock limité : vérifie les tailles restantes avec le club avant de commander.",
+            "en": "Kariban brand.\nMen: M and L.\nLimited stock: check the remaining sizes with the club before ordering."
+          },
+          "price": 29,
+          "image": "backup:images/shop/hoodie-black.png",
+          "category": "clothing",
+          "badge": {
+            "fr": "",
+            "en": ""
+          }
+        },
+        {
+          "id": "hoodieRed",
+          "name": {
+            "fr": "Sweat rouge",
+            "en": "Red hoodie"
+          },
+          "details": {
+            "fr": "Marque Kariban.\nFemme : XS, S et L. Homme : S.\nStock limité : vérifie les tailles restantes avec le club avant de commander.",
+            "en": "Kariban brand.\nWomen: XS, S and L. Men: S.\nLimited stock: check the remaining sizes with the club before ordering."
+          },
+          "price": 29,
+          "image": "backup:images/shop/hoodie-red.png",
+          "category": "clothing",
+          "badge": {
+            "fr": "",
+            "en": ""
+          }
+        }
+      ]
+    },
+    "stringing": {
+      "url": "https://www.helloasso.com/associations/rennes-etudiants-club-badminton/boutiques/la-boutique-du-cordage-du-rec",
+      "products": [
+        {
+          "id": "stringingDefault",
+          "name": {
+            "fr": "Cordage BG65 ambre",
+            "en": "BG65 amber stringing"
+          },
+          "details": {
+            "fr": "Garniture par défaut, BG65 couleur ambre (blanc cassé).\nPosé par Larde Sports.",
+            "en": "Default string, BG65 in amber (off-white).\nStrung by Larde Sports."
+          },
+          "price": 15,
+          "image": "backup:images/shop/stringing-default.png",
+          "category": "stringing",
+          "badge": {
+            "fr": "",
+            "en": ""
+          }
+        },
+        {
+          "id": "stringingCustom",
+          "name": {
+            "fr": "Cordage au choix",
+            "en": "String of your choice"
+          },
+          "details": {
+            "fr": "Garniture de ton choix, autre que celle par défaut.\nPosé par Larde Sports.",
+            "en": "String of your choice, other than the default one.\nStrung by Larde Sports."
+          },
+          "price": 17,
+          "image": "backup:images/shop/stringing-custom.png",
+          "category": "stringing",
+          "badge": {
+            "fr": "",
+            "en": ""
+          }
+        }
+      ]
+    }
+  },
+  "partners": {
+    "items": [
+      {
+        "name": "FFBaD",
+        "url": "https://www.ffbad.org/",
+        "logo": "backup:images/partners/ffbad.svg"
+      },
+      {
+        "name": "Ligue de Bretagne",
+        "url": "https://www.bretagnebadminton.com/",
+        "logo": "backup:images/partners/ligue-bretagne.webp"
+      },
+      {
+        "name": "Codep 35",
+        "url": "https://badminton35.fr/",
+        "logo": "backup:images/partners/codep35.webp"
+      },
+      {
+        "name": "Ville de Rennes",
+        "url": "https://metropole.rennes.fr/",
+        "logo": "backup:images/partners/ville-rennes.svg"
+      },
+      {
+        "name": "Office des Sports",
+        "url": "https://www.officeaffetvilaine.fr/",
+        "logo": "backup:images/partners/office-des-sports.png"
+      },
+      {
+        "name": "Région Bretagne",
+        "url": "https://www.bretagne.bzh/",
+        "logo": "backup:images/partners/region-bretagne.svg"
+      },
+      {
+        "name": "Ille-et-Vilaine",
+        "url": "https://www.ille-et-vilaine.fr/",
+        "logo": "backup:images/partners/ille-et-vilaine.svg"
+      }
+    ],
+    "store": {
+      "website": "https://www.lardesports.com/",
+      "mapUrl": "https://maps.app.goo.gl/CyRMHhmvnek1nYdZ8",
+      "address": "4 rue des Potiers, 35230 Noyal-Châtillon-sur-Seiche",
+      "phone": "02 99 03 90 78",
+      "email": "magasinrennes@lardesports.com",
+      "logo": "backup:images/partners/larde-sports.png",
+      "discounts": [
+        {
+          "value": {
+            "fr": "−30 %",
+            "en": "−30 %"
+          },
+          "title": {
+            "fr": "RSL et Forza",
+            "en": "RSL and Forza"
+          },
+          "text": {
+            "fr": "Sur le prix public conseillé.",
+            "en": "On the recommended retail price."
+          }
+        },
+        {
+          "value": {
+            "fr": "−20 %",
+            "en": "−20 %"
+          },
+          "title": {
+            "fr": "Toutes les autres marques",
+            "en": "All other brands"
+          },
+          "text": {
+            "fr": "Raquettes, textiles, chaussures et bagagerie, sur le prix public conseillé.",
+            "en": "Rackets, clothing, shoes and bags, on the recommended retail price."
+          }
+        },
+        {
+          "value": {
+            "fr": "Remise",
+            "en": "Discount"
+          },
+          "title": {
+            "fr": "Poses et cordages",
+            "en": "Stringing"
+          },
+          "text": {
+            "fr": "Tarif préférentiel adhérent sur le recordage.",
+            "en": "Member price on restringing."
+          }
+        }
+      ]
+    }
+  },
+  "photos": {
+    "carousel": [
+      {
+        "src": "backup:images/photos/match-women-doubles-rally.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Double dames du REC en plein échange",
+          "en": "REC women's doubles pair mid-rally"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-men-jump-smash.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Joueur du REC en smash sauté",
+          "en": "REC player hitting a jump smash"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-mixed-doubles-huddle.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Paire de double mixte qui se concerte entre deux points",
+          "en": "Mixed doubles pair talking between points"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-women-overhead.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Joueuse du REC en frappe haute",
+          "en": "REC player playing an overhead shot"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-coach-handshake.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Poignée de main entre un joueur du REC et le coach",
+          "en": "REC player shaking hands with the coach"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-men-doubles-receive.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Double hommes du REC en position de défense",
+          "en": "REC men's doubles pair in defence"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-men-doubles-thumbs-up.jpg",
+        "width": 1796,
+        "height": 1200,
+        "alt": {
+          "fr": "Deux joueurs du REC tout sourire après leur match",
+          "en": "Two REC players all smiles after their match"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-men-doubles-handshake.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Poignée de main entre partenaires de double",
+          "en": "Doubles partners shaking hands"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-men-doubles-net.jpg",
+        "width": 1796,
+        "height": 1200,
+        "alt": {
+          "fr": "Double hommes du REC au filet",
+          "en": "REC men's doubles pair at the net"
+        }
+      },
+      {
+        "src": "backup:images/photos/team-lineup-applause.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "L'équipe du REC alignée applaudit avant la rencontre",
+          "en": "The REC team lined up and applauding before the match"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-men-forehand-lunge.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Joueur du REC en fente coup droit",
+          "en": "REC player lunging for a forehand"
+        }
+      },
+      {
+        "src": "backup:images/photos/team-bench-cheering.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Le banc du REC encourage l'équipe",
+          "en": "The REC bench cheering on the team"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-women-doubles-lift.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Joueuse du REC en relance basse",
+          "en": "REC player lifting the shuttle"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-women-doubles-break.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Double dames du REC entre deux points",
+          "en": "REC women's doubles pair between points"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-women-doubles-ready.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Double dames du REC prête à recevoir",
+          "en": "REC women's doubles pair ready to receive"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-men-smash-black-white.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Smash d'un joueur du REC, en noir et blanc",
+          "en": "REC player smashing, in black and white"
+        }
+      },
+      {
+        "src": "backup:images/photos/team-walkout.jpg",
+        "width": 802,
+        "height": 1200,
+        "alt": {
+          "fr": "Entrée de l'équipe du REC sur le terrain",
+          "en": "The REC team walking onto the court"
+        }
+      },
+      {
+        "src": "backup:images/photos/club-group-christmas.jpg",
+        "width": 1599,
+        "height": 1200,
+        "alt": {
+          "fr": "Photo de groupe du club à Noël",
+          "en": "Club group photo at Christmas"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-woman-closeup.jpg",
+        "width": 1024,
+        "height": 707,
+        "alt": {
+          "fr": "Joueuse du REC au filet, vue de dos",
+          "en": "REC player at the net, seen from behind"
+        }
+      },
+      {
+        "src": "backup:images/photos/club-group-cheering.jpg",
+        "width": 1600,
+        "height": 1200,
+        "alt": {
+          "fr": "Les membres du club, bras levés, pour la photo de groupe",
+          "en": "Club members raising their arms for the group photo"
+        }
+      },
+      {
+        "src": "backup:images/photos/match-crowded-hall.jpg",
+        "width": 960,
+        "height": 621,
+        "alt": {
+          "fr": "Joueur du REC dans une salle comble",
+          "en": "REC player in a packed hall"
+        }
+      },
+      {
+        "src": "backup:images/photos/club-shuttlecock-heart.jpg",
+        "width": 2057,
+        "height": 1000,
+        "alt": {
+          "fr": "Membres du club assis autour d'un cœur de volants",
+          "en": "Club members sitting around a heart made of shuttlecocks"
+        }
+      },
+      {
+        "src": "backup:images/photos/club-training-session.jpg",
+        "width": 960,
+        "height": 527,
+        "alt": {
+          "fr": "Séance de jeu libre au club",
+          "en": "Open play session at the club"
+        }
+      },
+      {
+        "src": "backup:images/photos/club-mascot.jpg",
+        "width": 934,
+        "height": 622,
+        "alt": {
+          "fr": "La mascotte du club devant un stand",
+          "en": "The club mascot in front of a stand"
+        }
+      }
+    ],
+    "tournament": {
+      "src": "backup:images/photos/tournament-liffre-group.jpg",
+      "width": 1538,
+      "height": 2048,
+      "alt": {
+        "fr": "Le REC au tournoi par équipes de Liffré",
+        "en": "REC at the Liffré team tournament"
+      }
+    },
+    "heroes": {
+      "home": "backup:images/photos/match-men-doubles-thumbs-up.jpg",
+      "sessions": "backup:images/photos/match-men-doubles-net.jpg",
+      "registration": "backup:images/photos/club-group-christmas.jpg",
+      "competition": "backup:images/photos/club-group-cheering.jpg",
+      "shop": "backup:images/photos/match-woman-closeup.jpg",
+      "contact": "backup:images/photos/club-training-session.jpg",
+      "policy": "backup:images/photos/match-men-jump-smash.jpg",
+      "notFound": "backup:images/photos/match-mixed-doubles-huddle.jpg"
+    }
+  },
+  "competition": {
+    "previousSeason": "2025/2026",
+    "seasonResults": [
+      {
+        "previousTeam": "N3",
+        "groupRank": 4,
+        "trend": "same",
+        "nextTeam": "N3"
+      },
+      {
+        "previousTeam": "PN",
+        "groupRank": 8,
+        "playoffRank": 1,
+        "trend": "same",
+        "nextTeam": "PN"
+      },
+      {
+        "previousTeam": "R2",
+        "groupRank": 6,
+        "trend": "same",
+        "nextTeam": "R2"
+      },
+      {
+        "previousTeam": "D1A",
+        "groupRank": 1,
+        "trend": "up",
+        "nextTeam": "PR"
+      },
+      {
+        "previousTeam": "D1B",
+        "groupRank": 7,
+        "trend": "same",
+        "nextTeam": "D1"
+      },
+      {
+        "previousTeam": "D3A",
+        "groupRank": 1,
+        "trend": "up",
+        "nextTeam": "D2"
+      },
+      {
+        "previousTeam": "D3B",
+        "groupRank": 4,
+        "trend": "up",
+        "nextTeam": "D3"
+      },
+      {
+        "previousTeam": "D4",
+        "groupRank": 3,
+        "trend": "same",
+        "nextTeam": "D4"
+      },
+      {
+        "previousTeam": "D5",
+        "groupRank": 4,
+        "trend": "same",
+        "nextTeam": "D5"
+      },
+      {
+        "previousTeam": "D1H",
+        "groupRank": 11,
+        "trend": "down",
+        "nextTeam": "D2H"
+      },
+      {
+        "previousTeam": "D3H",
+        "groupRank": 7,
+        "trend": "same",
+        "nextTeam": "D3H"
+      }
+    ]
+  },
+  "pages": {
+    "registrationNotice": {
+      "enabled": true,
+      "text": {
+        "fr": "<0>Les inscriptions adultes sont closes.</0> Inscris-toi sur la <1>liste d'attente</1> pour être contacté si des places se libèrent. Des inscriptions jeunes sont encore possibles !",
+        "en": "<0>Adult registrations are closed.</0> Join the <1>waiting list</1> to be contacted when spots open up. Youth registrations are still open!"
+      }
+    },
+    "trialRules": [
+      {
+        "text": {
+          "fr": "<0>Préviens-nous par mail</0> plusieurs jours avant ta venue : les places sont limitées, même pour les essais. Nous pourrons aussi te guider vers le créneau le plus adapté à tes envies.",
+          "en": "<0>Email us</0> a few days before you come: spots are limited, even for trials. We can also point you to the session that suits you best."
+        }
+      },
+      {
+        "text": {
+          "fr": "<0>Présente-toi au début du créneau</0> à un membre du bureau.",
+          "en": "<0>Introduce yourself at the start</0> to a board member."
+        }
+      },
+      {
+        "text": {
+          "fr": "<0>Remplis le formulaire le jour même</0> de ta séance, en flashant ou cliquant sur le QR code : il t'assure pendant 24h pour la pratique du badminton.",
+          "en": "<0>Fill in the form on the day</0> of your session by scanning or clicking the QR code: it insures you for 24 hours of badminton."
+        }
+      }
+    ],
+    "included": [
+      {
+        "text": {
+          "fr": "L'adhésion au club et une licence fédérale (FFBaD) incluant une assurance",
+          "en": "Club membership and an FFBaD licence including insurance"
+        }
+      },
+      {
+        "text": {
+          "fr": "<0>L'accès à 2 créneaux par semaine</0> (entraînements ou jeu libre) parmi les créneaux à places limitées",
+          "en": "<0>Access to 2 sessions a week</0> (coaching or open play) among the sessions with limited spots"
+        }
+      },
+      {
+        "text": {
+          "fr": "<0>L'accès libre aux créneaux supplémentaires</0> dont les places ne sont pas limitées",
+          "en": "<0>Free access to extra sessions</0> without limited spots"
+        }
+      },
+      {
+        "text": {
+          "fr": "L'accès aux événements organisés par le club",
+          "en": "Access to the events organised by the club"
+        }
+      },
+      {
+        "text": {
+          "fr": "L'accès à la boutique et aux tarifs avantageux chez nos partenaires",
+          "en": "Access to the shop and to discounts from our partners"
+        }
+      }
+    ],
+    "discounts": [
+      {
+        "text": {
+          "fr": "<0>−15 € pour les étudiants</0>, justificatif à joindre lors de l'inscription en ligne",
+          "en": "<0>€15 off for students</0>, with proof attached when signing up online"
+        }
+      },
+      {
+        "text": {
+          "fr": "<0>Réduction Pass'Sport</0> sur présentation d'un justificatif lors de l'inscription en ligne",
+          "en": "<0>Pass'Sport discount</0> with proof when signing up online"
+        }
+      },
+      {
+        "text": {
+          "fr": "Paiement possible en <0>chèques vacances ANCV</0> via « autres moyens de paiement »",
+          "en": "Payment by <0>ANCV holiday vouchers</0> via « other payment methods »"
+        }
+      },
+      {
+        "text": {
+          "fr": "<0>Aucun remboursement</0> ne pourra être demandé après l'inscription validée par le club",
+          "en": "<0>No refund</0> once the club has validated your registration"
+        }
+      }
+    ],
+    "levels": [
+      {
+        "title": {
+          "fr": "Lundi 20h30",
+          "en": "Monday 8:30pm"
+        },
+        "text": {
+          "fr": "Compétiteurs débutants, jusqu'au classement P.",
+          "en": "Beginner competitors, up to P ranking."
+        }
+      },
+      {
+        "title": {
+          "fr": "Mardi et jeudi",
+          "en": "Tuesday and Thursday"
+        },
+        "text": {
+          "fr": "Adultes compétiteurs classés et confirmés, à partir du classement P10.",
+          "en": "Ranked and experienced adult competitors, from P10 ranking."
+        }
+      }
+    ]
+  },
+  "texts": {
+    "overrides": []
+  }
+}

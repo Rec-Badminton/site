@@ -1,0 +1,7 @@
+[
+  {
+    "origin": ["https://recbadminton.fr", "https://rec.maxenceguidez.com", "http://localhost"],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+  }
+]

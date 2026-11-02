@@ -1,0 +1,33 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    function isAdmin() {
+      return request.auth != null
+        && firestore.exists(/databases/(default)/documents/admins/$(request.auth.uid));
+    }
+
+    function isUnder(megabytes) {
+      return request.resource.size < megabytes * 1024 * 1024;
+    }
+
+    // anyone can download a file, only admins can list them
+    match /images/{path=**} {
+      allow get: if true;
+      allow list: if isAdmin();
+      allow create, update: if isAdmin()
+        && request.resource.contentType.matches('image/.*')
+        && isUnder(10);
+      allow delete: if isAdmin();
+    }
+
+    match /files/{path=**} {
+      allow get: if true;
+      allow list: if isAdmin();
+      allow create, update: if isAdmin()
+        && request.resource.contentType == 'application/pdf'
+        && isUnder(20);
+      allow delete: if isAdmin();
+    }
+  }
+}

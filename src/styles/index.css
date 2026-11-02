@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;1,800&family=Barlow:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+/*
+==========================================================================
+   Settings - Theme variables
+==========================================================================
+*/
+@theme {
+  --font-sans: 'Barlow', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Barlow Condensed', 'Barlow', ui-sans-serif, sans-serif;
+
+  --color-brand: #da3124;
+  --color-brand-dark: #b3261e;
+  --color-brand-light: #ff6b5e;
+  --color-brand-tint: #fbe5e2;
+  --color-ink: #1f2421;
+  --color-ink-deep: #141816;
+  --color-ink-soft: #2a302c;
+  --color-ink-line: #3a403c;
+  --color-sand: #f4f2ee;
+  --color-line: #ece8e2;
+  --color-muted: #545a56;
+  --color-muted-light: #bdb8b0;
+  --color-warning: #6e4700;
+  --color-warning-tint: #fbe9bf;
+
+  --animate-marquee: marquee 90s linear infinite;
+  --animate-flash: flash 2.4s ease-out;
+  --animate-slide-up: slide-up 0.45s cubic-bezier(0.2, 0.8, 0.2, 1);
+  --animate-dialog-in: dialog-in 0.25s ease-out;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(1.5rem);
+  }
+}
+
+@keyframes dialog-in {
+  from {
+    opacity: 0;
+    transform: translateY(1rem) scale(0.98);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* the strip holds two copies of the photos, so half its width loops seamlessly */
+/* blinks twice, then fades back to the element's own style; off frames show --flash-rest */
+@keyframes flash {
+  0%,
+  30%,
+  60% {
+    background-color: var(--color-brand-tint);
+    box-shadow: inset 4px 0 0 var(--color-brand);
+  }
+  15%,
+  45% {
+    background-color: var(--flash-rest, transparent);
+    box-shadow: inset 4px 0 0 transparent;
+  }
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/*
+==========================================================================
+   Base
+==========================================================================
+*/
+@layer base {
+  html {
+    @apply scroll-smooth;
+    scrollbar-color: var(--color-brand) var(--color-ink-deep);
+  }
+
+  /* inner scroll areas (tables, photo strip) get a lighter track */
+  html * {
+    scrollbar-color: var(--color-brand) var(--color-line);
+    scrollbar-width: thin;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-line);
+  }
+
+  html::-webkit-scrollbar-track {
+    background: var(--color-ink-deep);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-brand);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-brand-dark);
+  }
+
+  body {
+    @apply bg-white font-sans text-[17px] leading-relaxed text-ink antialiased;
+  }
+
+  :root {
+    --header-height: 4.5rem;
+    --section-pad-y: 5rem;
+
+    @variant md {
+      --section-pad-y: 6rem;
+    }
+
+    @variant lg {
+      --header-height: 5.25rem;
+    }
+  }
+
+  /* anchors land just below the sticky header */
+  :where(h2[id], h3[id], li[id]) {
+    scroll-margin-top: calc(var(--header-height) + 1.5rem);
+  }
+
+  /* sections: skip their own top padding so the title lands there too */
+  :where(section[id]) {
+    scroll-margin-top: calc(var(--header-height) + 1.5rem - var(--section-pad-y));
+  }
+
+  /* the back office spans the full viewport width (w-screen): a scrollbar showing up overlaps its
+     empty right padding instead of narrowing the layout, so pages never shift sideways */
+  html:has([data-admin]) {
+    overflow-x: hidden;
+  }
+
+  /* no page scroll behind an open modal */
+  html:has(dialog[open]) {
+    overflow: hidden;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    dialog[open]::backdrop {
+      animation: fade-in 0.25s ease-out;
+    }
+  }
+
+  button:not(:disabled) {
+    cursor: pointer;
+  }
+
+  /* avoid a lone word or punctuation on the last line */
+  :where(h1, h2, h3) {
+    text-wrap: balance;
+  }
+
+  :where(p, li, dd, figcaption) {
+    text-wrap: pretty;
+  }
+}
+
+/*
+==========================================================================
+   Third-party widgets
+==========================================================================
+*/
+/* doubled class beats leaflet.css, which loads later with the map chunk */
+.leaflet-container.leaflet-container {
+  font-family: var(--font-sans);
+}
+
+.leaflet-container .leaflet-tooltip {
+  @apply rounded-none border-0 bg-ink px-3 py-1.5 font-display text-base font-bold tracking-wide text-white uppercase shadow-[0_4px_12px_rgba(20,24,22,0.3)];
+}
+
+.leaflet-container .leaflet-tooltip-top::before {
+  border-top-color: var(--color-ink);
+}
+
+.leaflet-container .leaflet-control-attribution {
+  @apply bg-white/85 px-2 text-xs text-muted;
+}
+
+.leaflet-container .leaflet-control-attribution a {
+  @apply text-ink underline;
+}
+
+/*
+==========================================================================
+   Utilities
+==========================================================================
+*/
+
+/* Layout */
+@utility container-site {
+  @apply mx-auto w-full max-w-[1280px] px-6;
+}
+
+@utility section-pad {
+  padding-block: var(--section-pad-y);
+}
+
+/* Typography */
+@utility display-title {
+  @apply font-display font-extrabold uppercase italic leading-[0.95];
+}
+
+@utility section-title {
+  @apply display-title text-5xl md:text-6xl;
+}
+
+@utility eyebrow {
+  @apply font-display text-lg font-bold tracking-wider uppercase;
+}
+
+@utility link {
+  @apply font-semibold text-brand-dark underline decoration-2 underline-offset-2 transition-colors hover:text-ink;
+}
+
+/* Buttons */
+@utility btn {
+  @apply inline-flex min-h-12 items-center justify-center gap-2 px-7 py-3 text-center font-display text-xl font-extrabold tracking-wide uppercase no-underline transition-colors;
+}
+
+@utility btn-primary {
+  @apply bg-brand text-white hover:bg-brand-dark;
+}
+
+@utility btn-dark {
+  @apply bg-ink text-white hover:bg-ink-deep;
+}
+
+@utility btn-light {
+  @apply bg-white text-ink hover:bg-sand;
+}
+
+@utility btn-outline-light {
+  @apply border-2 border-white text-white hover:bg-white hover:text-ink;
+}
+
+@utility btn-outline-dark {
+  @apply border-2 border-ink text-ink hover:bg-ink hover:text-white;
+}
+
+/* Back office forms */
+@utility field-input {
+  @apply block w-full border-2 border-line bg-white px-3 py-2 text-ink transition-colors placeholder:text-muted focus:border-brand focus:outline-none;
+}
+
+@utility field-label {
+  @apply mb-1.5 block font-display text-lg leading-tight font-bold tracking-wide uppercase;
+}
+
+/* Small uppercase label */
+@utility badge {
+  @apply inline-block px-2 py-0.5 font-display text-[15px] leading-snug font-extrabold tracking-wide uppercase;
+}

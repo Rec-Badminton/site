@@ -1,0 +1,37 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAdmin() {
+      return request.auth != null
+        && exists(/databases/$(database)/documents/admins/$(request.auth.uid));
+    }
+
+    // Admins are managed from the Firebase console only.
+    match /admins/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if false;
+    }
+
+    // Site content, read by every visitor and edited from the back office.
+    match /content/{docId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Data synced from external sources by the Cloud Functions (Admin SDK): read-only here.
+    match /synced/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Revisions of the whole site: recorded on each save, never edited afterwards.
+    match /revisions/{revisionId} {
+      allow read, create, delete: if isAdmin();
+
+      match /snapshot/{docId} {
+        allow read, create, delete: if isAdmin();
+      }
+    }
+  }
+}
